@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/*Custom tailwind variables*/
+@theme {
+  --breakpoint-xxs: 24rem; /*384px*/
+  --breakpoint-xs: 30rem; /*480px*/
+
+  --text-color: #145189;
+  --text-light: #145189CC; /*80% opacity*/
+  --text-highlight: ;
+
+  --white: #f3f3f3;
+
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--text-color);
+}
