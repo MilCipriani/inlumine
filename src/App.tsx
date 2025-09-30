@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Menu from './components/Menu'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import FounderQuote from './components/FounderQuote'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <Hero />
       <Features />
+      <FounderQuote />
 
 
     </div>

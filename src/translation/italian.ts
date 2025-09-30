@@ -20,6 +20,10 @@ export default {
       feature2: 'Trasformazione del sé',
       feature3: 'Evoluzione e consapevolezza'
 
+    },
+    founderQuote: {
+      h2: "Se sentiamo di riconoscere la divinità in tutti gli esseri viventi che incontriamo, abbiamo trovato la luce e la vera sapienza, perchè l'amore è un albero e noi siamo il suo unico seme!",
+      p: 'Monica Giglio, Fondatrice'
     }
     
   }

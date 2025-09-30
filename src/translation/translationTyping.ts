@@ -21,6 +21,10 @@ export interface TranslationStructure {
       feature3: string
     }
   }
+  founderQuote: {
+    h2: string
+    p: string
+  }
 }
 
 export type SupportedLanguages = 'es' | 'it';
@@ -35,7 +39,11 @@ export type TranslationKey =
 
   | 'sections.hero.h1'
   | 'sections.hero.h3'
+
   | 'sections.features.h2'
   | 'sections.features.feature1'
   | 'sections.features.feature2'
   | 'sections.features.feature3'
+
+  | 'sections.founderQuote.h2'
+  | 'sections.founderQuote.p'

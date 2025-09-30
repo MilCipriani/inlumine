@@ -159,7 +159,17 @@ h3 {
   };
   h3 {
     font-size: 1.5rem;
-  }
+  };
+    .scene {
+      width: 360px;
+      height: 300px;
+      perspective: 1000px;
+    };
+    .carousel__cell {
+      width: 340px;
+      left: 10px;
+      height: 300px;
+    }
 }
 
 /* ≥ 768px (48rem) */

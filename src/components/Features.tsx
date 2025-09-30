@@ -24,12 +24,12 @@ const carousel: KeenSliderPlugin = (slider) => {
   slider.on("detailsChanged", rotate)
 }
 
-//Hook to check if screen is <640px (sm tailwind breakpoint)
+//Hook to check if screen is <768px (md tailwind breakpoint)
 function useIsMobile(): boolean {
   const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 640px)')
+    const mediaQuery = window.matchMedia('(max-width: 768px)')
     
     //Set initial value
     setIsMobile(mediaQuery.matches)
@@ -74,20 +74,20 @@ export default function Features() {
       )}
 
       {!isMobile && (
-        <div className="w-full flex items-center justify-center gap-6">
-          <figure className="relative w-[25vw] aspect-[4/3] rounded-3xl">
+        <div className="w-full flex items-center justify-between">
+          <figure className="relative w-[32%] aspect-[4/3] rounded-3xl">
             <img src={bookImg} className='w-full h-full object-cover rounded-3xl'/>
-            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-2 rounded-3xl">{t('sections.features.feature1')}</figcaption>
+            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-center text-xl lg:text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-4 rounded-3xl">{t('sections.features.feature1')}</figcaption>
           </figure>
 
-          <figure className="relative w-[25vw] aspect-[4/3] rounded-3xl">
+          <figure className="relative w-[32%] aspect-[4/3] rounded-3xl">
             <img src={seagullImg} className='w-full h-full object-cover rounded-3xl'/>
-            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-2 rounded-3xl">{t('sections.features.feature2')}</figcaption>
+            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-center text-xl lg:text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-4 rounded-3xl">{t('sections.features.feature2')}</figcaption>
           </figure>
 
-          <figure className="relative w-[25vw] aspect-[4/3] rounded-3xl">
+          <figure className="relative w-[32%] aspect-[4/3] rounded-3xl">
             <img src={meditationImg} className='w-full h-full object-cover rounded-3xl'/>
-            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-2 rounded-3xl">{t('sections.features.feature3')}</figcaption>
+            <figcaption className="absolute bottom-0 left-0 w-full h-full flex items-end justify-center text-center text-xl lg:text-2xl text-[var(--white)] bg-[linear-gradient(to_top,_rgba(0,0,0,0.7)_15%,_rgba(0,0,0,0)_60%)] p-4 rounded-3xl">{t('sections.features.feature3')}</figcaption>
           </figure>
 
           
@@ -99,5 +99,3 @@ export default function Features() {
 
   );
 }
-
-/*TODO: fix responsiveness - make const z listen to mobile hook and use carousel on md too*/
