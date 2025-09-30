@@ -33,7 +33,7 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
         <a onClick={handleLinkClick} >In Lumine</a>
 
         <nav>
-          <ul className="flex flex-col items-center gap-4 uppercase text-base">
+          <ul className="flex flex-col items-center gap-4 text-base">
             <li className="transform transition-transform duration-300 hover:scale-110">
               <a 
                 onClick={handleLinkClick}
@@ -75,6 +75,14 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
               </a>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110" onClick={handleLinkClick}><span>LanguageToggle here</span></li>
+            <li className="transform transition-transform duration-300 hover:scale-110 button-phone">
+              <a 
+                onClick={handleLinkClick}
+                className="hover:opacity-70 transition-opacity"
+              >
+                {t('nav.button.contacts')}
+              </a>
+            </li>
             <li className='mt-16 transform transition-transform duration-300 normal-case'>© In Lumine</li>
           </ul>
         </nav>

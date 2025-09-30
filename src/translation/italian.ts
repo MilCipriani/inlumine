@@ -6,11 +6,21 @@ export default {
     courses: "Corsi",
     services: "Servizi",
     button: {
-      contacts: "Contatti"
+      contacts: "Contattaci"
     }
   },
   sections: {
-    about: "Chi siamo"
+    hero: {
+      h1: 'Benvenuti nel centro di formazione\nIn Lumine',
+      h3: 'In Lumine nasce dalla volontà di partecipazione alla consapevolezza universale.\nUn cammino di luce dove ogni persona libera da giudizio può incontrare una parte di sé attraverso un percorso di consapevolezza e spiritualità.'
+    },
+    features: {
+      h2: 'Qui troverete',
+      feature1: 'Formazione',
+      feature2: 'Trasformazione del sé',
+      feature3: 'Evoluzione e consapevolezza'
+
+    }
     
   }
 }
