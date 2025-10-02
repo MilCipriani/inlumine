@@ -62,10 +62,10 @@ export default function Features() {
       <h2 className='whitespace-pre-line text-center'>{t('sections.features.h2')}</h2>
 
       {isMobile && (
-        <div className="wrapper">
-          <div className="scene">
+        <div className="features-wrapper">
+          <div className="features-scene">
             <div className="carousel keen-slider" ref={sliderRef}>
-              <div className="carousel__cell number-slide1 "><p className='text-center p-4 '>{t('sections.features.feature1')}</p></div>
+              <div className="carousel__cell number-slide1"><p className='text-center p-4 '>{t('sections.features.feature1')}</p></div>
               <div className="carousel__cell number-slide2"><p className='text-center p-4 '>{t('sections.features.feature2')}</p></div>
               <div className="carousel__cell number-slide3"><p className='text-center p-4 '>{t('sections.features.feature3')}</p></div>
             </div>

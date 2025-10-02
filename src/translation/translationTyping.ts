@@ -25,6 +25,16 @@ export interface TranslationStructure {
     h2: string
     p: string
   }
+  history: {
+    h2: string
+    2004: string
+    2014: string
+    2018: string
+    2023: string
+  }
+  team: {
+    h2: string
+  }
 }
 
 export type SupportedLanguages = 'es' | 'it';
@@ -47,3 +57,11 @@ export type TranslationKey =
 
   | 'sections.founderQuote.h2'
   | 'sections.founderQuote.p'
+
+  | 'sections.history.h2'
+  | 'sections.history.2004'
+  | 'sections.history.2014'
+  | 'sections.history.2018'
+  | 'sections.history.2023'
+
+  | 'sections.team.h2'

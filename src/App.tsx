@@ -5,6 +5,8 @@ import Menu from './components/Menu'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import FounderQuote from './components/FounderQuote'
+import History from './components/History'
+import Team from './components/Team'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <Hero />
       <Features />
       <FounderQuote />
+      <History />
+      <Team />
 
 
     </div>
