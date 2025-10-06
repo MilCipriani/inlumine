@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './index.css'
-import Navbar from './components/Navbar'
-import Menu from './components/Menu'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import FounderQuote from './components/FounderQuote'
-import History from './components/History'
-import Team from './components/Team'
+import Navbar from './sections/Navbar'
+import Menu from './sections/Menu'
+import Hero from './sections/Hero'
+import Features from './sections/Features'
+import FounderQuote from './sections/FounderQuote'
+import History from './sections/History'
+import Team from './sections/Team'
+import Courses from './sections/Courses'
+import Services from './sections/Services'
+import Ad from './sections/Ad'
+import Contacts from './sections/Contacts'
 
 function App() {
 
@@ -21,6 +25,10 @@ function App() {
       <FounderQuote />
       <History />
       <Team />
+      <Courses />
+      <Services />
+      <Ad />
+      <Contacts />
 
 
     </div>

@@ -1,0 +1,20 @@
+import type { TeamCardData } from "../data/TeamCardData"
+import { useLanguage } from '../translation/index'
+
+interface TeamCardProps {
+  card: TeamCardData
+}
+
+export default function TeamCard({ card }:TeamCardProps) {
+  const { t } = useLanguage()
+
+  return (
+    <div className="flex flex-col bg-white rounded-3xl h-full">
+      <div className="bg-cover bg-no-repeat rounded-3xl aspect-square" style={{ backgroundImage: `url(${card.img})` }}></div>
+      <div className="flex flex-col p-4 gap-4">
+        <h3>{t(card.h3)}</h3>
+        <p className="text-[var(--text-light)]">{t(card.p)}</p>
+      </div>
+    </div>
+  );
+}
