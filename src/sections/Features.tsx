@@ -58,7 +58,7 @@ export default function Features() {
   [carousel]
   )
   return (
-    <section className="w-full flex flex-col items-center justify-center gap-8 mt-16 lg:mt-24">
+    <section className="w-full flex flex-col items-center justify-center gap-8 mt-28 lg:mt-37">
       <h2 className='whitespace-pre-line text-center'>{t('sections.features.h2')}</h2>
 
       {isMobile && (

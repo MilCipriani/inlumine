@@ -11,7 +11,7 @@ export default function History() {
 
   const { t } = useLanguage()
   return (
-    <section className="mt-16 lg:mt-24 flex flex-col md:flex-row gap-8 md:gap-32 md:items-center">
+    <section id='history' className="scroll-mt-28 lg:scroll-mt-37 mt-28 lg:mt-37 flex flex-col md:flex-row gap-8 md:gap-32 md:items-center">
         <div className='flex flex-col gap-12 min-h-[23rem]'>
           <h2 className='mb-4 md:mb-8 text-center'>{t('sections.history.h2')}</h2>
 

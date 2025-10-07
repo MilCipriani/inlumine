@@ -15,15 +15,15 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
       {/*The logo dictates the height of the whole Nav (plus padding)*/}
       <Logo className='w-16 h-16 lg:w-25 lg:h-25'/>
       <ul className='hidden md-plus:flex gap-8 text-base items-center'>
-        <li><a >{t('nav.about')}</a></li>
-        <li><a >{t('nav.history')}</a></li>
-        <li><a >{t('nav.team')}</a></li>
-        <li><a >{t('nav.courses')}</a></li>
-        <li><a >{t('nav.services')}</a></li>
+        <li><a href='#about'>{t('nav.about')}</a></li>
+        <li><a href='#history'>{t('nav.history')}</a></li>
+        <li><a href='#team'>{t('nav.team')}</a></li>
+        <li><a href='#courses'>{t('nav.courses')}</a></li>
+        <li><a href='#services'>{t('nav.services')}</a></li>
         <li className='w-6 h-2.5 flex justify-center items-center'><img src={SpFlag}></img></li>
         {/*Img is temporary, will be replaced with a toggle element for the language system */}
       </ul>
-      <a className='button hidden md-plus:block'>{t('nav.button.contacts')}</a>
+      <a className='button hidden md-plus:block' href='#contacts'>{t('nav.button.contacts')}</a>
       <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="md-plus:hidden trasp"

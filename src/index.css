@@ -10,7 +10,6 @@
   --breakpoint-1000: 62.5rem;
   --breakpoint-1200: 75rem;
 
-
   --blue-highlight: #16CBEB;
 
   --text-color: #145189;
@@ -60,8 +59,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
-  color: var(--text-light);
+  font-size: 1.3rem;
 }
 
 .button {
@@ -288,6 +286,9 @@ h3 {
 
 /* ≥ 912px (57rem) - md-plus */
 @media (min-width: 57rem) {
+  body, html {
+    scroll-behavior: smooth;
+  }
 }
 
 /* ≥ 1024px (64rem) */

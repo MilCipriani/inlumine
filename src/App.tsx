@@ -29,8 +29,6 @@ function App() {
       <Services />
       <Ad />
       <Contacts />
-
-
     </div>
   )
 }

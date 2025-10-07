@@ -5,7 +5,7 @@ import featherImage from '../assets/feather.webp';
 export default function Hero() {
   const { t } = useLanguage()
   return (
-    <section className="w-full flex flex-col items-center justify-center gap-8 mt-8 lg:mt-16">
+    <section id='about' className="w-full flex flex-col items-center justify-center gap-8 scroll-mt-28 lg:scroll-mt-37 mt-8 lg:mt-16">
       <h1 className='whitespace-pre-line text-center'>{t('sections.hero.h1')}</h1>
       <h3 className='whitespace-pre-line text-center'>{t('sections.hero.h3')}</h3>
       <figure className='w-full'>
