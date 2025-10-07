@@ -104,6 +104,13 @@ export default {
     },
     ad: {
       h2: 'Se vuoi conoscere da vicino i membri del nostro team trovi qui le loro iniziative',
+        cards: {
+          card1: {
+            date: '17-19-20 Ott',
+            h2: 'Incontro in studio',
+            p: "Descrizione dell'incontro qui con dettagli, contatti ecc",
+          }
+        }
     },
     contacts: {
       h2: 'Il tuo viaggio è già iniziato.\nProseguiamo insieme!',

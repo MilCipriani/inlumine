@@ -105,6 +105,13 @@ export interface TranslationStructure {
   }
   ad: {
     h2: string
+    cards: {
+      card1: {
+        date: string
+        h2: string
+        p: string
+      }
+    }
   }
   contacts: {
     h2: string
@@ -179,6 +186,11 @@ export type TranslationKey =
   | 'sections.services.albero'
   | 'sections.services.riflex'
 
-  | 'sections.ad.h2'
+  | 'sections.ad.h2' 
+  | 'sections.ad.cards.card1.h2'
+  | 'sections.ad.cards.card1.p'
+  | 'sections.ad.cards.card1.date'
+
+
 
   | 'sections.contacts.h2'
