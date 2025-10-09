@@ -59,7 +59,7 @@ export default function Features() {
   )
   return (
     <section className="w-full flex flex-col items-center justify-center gap-8 mt-28 lg:mt-37">
-      <h2 className='whitespace-pre-line text-center'>{t('sections.features.h2')}</h2>
+      <h2 className='whitespace-pre-line text-center mb-16'>{t('sections.features.h2')}</h2>
 
       {isMobile && (
         <div className="features-wrapper">

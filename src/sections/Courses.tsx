@@ -10,6 +10,7 @@ export default function Courses() {
   const { t } = useLanguage()
   const [currentSlide, setCurrentSlide] = useState(0)
   const [loaded, setLoaded] = useState(false)
+  const [showDots, setShowDots] = useState(false)
  
   const slideCount = cardsData.length
 
@@ -35,15 +36,17 @@ export default function Courses() {
     },
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel)
+      setShowDots(slider.track.details.maxIdx > 0)
     },
-    created() {
+    created(slider) {
       setLoaded(true)
+      setShowDots(slider.track.details.maxIdx > 0)
     },
   }
 )
   return (
     <section id='courses' className="scroll-mt-28 lg:scroll-mt-37 mt-28 lg:mt-37 flex flex-col gap-8">
-        <h2 className='text-center'>{t('sections.courses.h2')}</h2>
+        <h2 className='text-center mb-16'>{t('sections.courses.h2')}</h2>
 
         <div ref={sliderRef} className="keen-slider">
           {cardsData.map((card: CourseCardData) => (<div key={card.id} className="keen-slider__slide">
@@ -54,9 +57,9 @@ export default function Courses() {
         
 
         {/*Navigation dots*/}
-          {slideCount > 3 && loaded && instanceRef.current && (
+          {showDots && loaded && instanceRef.current && (
             <div className="dots">
-              {[...Array(instanceRef.current.track.details.slides.length).keys()].map((idx) => {
+              {[...Array(instanceRef.current.track.details.maxIdx + 1).keys()].map((idx) => {
                   return (
                   <button
                     key={idx}

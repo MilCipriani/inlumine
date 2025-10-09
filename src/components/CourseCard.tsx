@@ -12,7 +12,7 @@ export default function CourseCard({ card }:CourseCardProps) {
 
 
   return (
-    <div className="flex flex-col justify-start items-start p-8 gap-8 rounded-3xl bg-white aspect-square xs:aspect-[1/0.6] md:aspect-square 944:aspect-[1/0.8] 1000:aspect-[1/1.5] lg:aspect-[1/1.5] 1200:aspect-square">
+    <div className="flex flex-col justify-start items-start p-8 gap-8 rounded-3xl bg-white h-full">
       <div className="w-full flex items-center justify-end gap-2">
         <p>{t(card.date)}</p>
         <Calendar />

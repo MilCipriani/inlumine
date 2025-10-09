@@ -71,6 +71,10 @@ export interface TranslationStructure {
         name: string
         details: string
       }
+      card9: {
+        name: string
+        details: string
+      }
     }
   }
   courses: {
@@ -164,7 +168,8 @@ export type TranslationKey =
   | 'sections.team.cards.card7.details'
   | 'sections.team.cards.card8.name'
   | 'sections.team.cards.card8.details'
-
+  | 'sections.team.cards.card9.name'
+  | 'sections.team.cards.card9.details'
 
   | 'sections.courses.moreInfo'
   | 'sections.courses.h2'

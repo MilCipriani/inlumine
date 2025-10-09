@@ -70,6 +70,10 @@ export default {
           name: 'Daniele Bianchini',
           details: 'Preparatore Fisico e dottore in scienze motorie e sportive. Preparatore Fisico Nazionale presso la FIP, dal 2017 si occupa del Wellness per finalità non agonistiche, con sedute e percorsi One to One.',
         },
+        card9: {
+          name: 'Maurizio Cusani',
+          details: "Oculista milanese, ha pubblicato saggi su psicosomatica, simbologia ed enneagramma, discipline che insegna all'Istituto Riza. Studioso di sufismo, è stato allievo di Laleh Bakhtiar e Gabriele Mandel. Nel 2009 ha pubblicato con Nuova Ipsa 'Abitare con l’Enneagramma', insieme a Z. Youssef.",
+        }
       },
     },
     courses: {

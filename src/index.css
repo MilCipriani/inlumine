@@ -6,10 +6,6 @@
   --breakpoint-xs: 30rem; /*480px*/
   --breakpoint-md-plus: 57rem; /*912px*/
 
-  --breakpoint-944: 59rem;
-  --breakpoint-1000: 62.5rem;
-  --breakpoint-1200: 75rem;
-
   --blue-highlight: #16CBEB;
 
   --text-color: #145189;
@@ -232,16 +228,6 @@ h3 {
   margin: 0 5px;
   padding: 5px;
   cursor: pointer;
-}
-
-.dot:focus {
-  outline: none;
-  background: var(--blue-highlight);
-}
-
-.dot:hover {
-  outline: none;
-  background: var(--blue-highlight);
 }
 
 .dot.active {

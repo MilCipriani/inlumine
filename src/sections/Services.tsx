@@ -10,7 +10,7 @@ export default function Services() {
   const { t } = useLanguage()
   return (
     <section id='services' className="scroll-mt-28 lg:scroll-mt-37 mt-28 lg:mt-37 flex flex-col gap-8">
-      <h2 className='text-center'>{t('sections.services.h2')}</h2>
+      <h2 className='text-center mb-16'>{t('sections.services.h2')}</h2>
       <div className='w-full flex flex-col md:flex-row justify-start items-center gap-8'>
         <div className='w-[80%] md:w-[30%] ml-[-20%] md:m-0 h-80 rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4' style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 40%), url(${soul})` }}><p>{t('sections.services.soul')}</p></div>
         <div className='w-[80%] md:w-[30%] h-80 rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4' style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${essenza})`}}><p>{t('sections.services.essenza')}</p></div>
