@@ -119,6 +119,34 @@ export interface TranslationStructure {
   }
   contacts: {
     h2: string
+    form: {
+      title: string
+      name: {
+        inputName: string
+        placeholder: string
+        warning: string
+      }
+      surname: {
+        inputName: string
+        placeholder: string
+        warning: string
+      }
+      mail: {
+        inputName: string
+        placeholder: string
+        warning: string
+      }
+      phone: {
+        inputName: string
+        placeholder: string
+      }
+      message: {
+        inputName: string
+        placeholder: string
+        warning: string
+      }
+      submit: string
+    }
   }
 }
 
@@ -199,3 +227,19 @@ export type TranslationKey =
 
 
   | 'sections.contacts.h2'
+  | 'sections.contacts.form.title'
+  | 'sections.contacts.form.name.inputName'
+  | 'sections.contacts.form.name.placeholder'
+  | 'sections.contacts.form.name.warning'
+  | 'sections.contacts.form.surname.inputName'
+  | 'sections.contacts.form.surname.placeholder'
+  | 'sections.contacts.form.surname.warning'
+  | 'sections.contacts.form.mail.inputName'
+  | 'sections.contacts.form.mail.placeholder'
+  | 'sections.contacts.form.mail.warning'
+  | 'sections.contacts.form.phone.inputName'
+  | 'sections.contacts.form.phone.placeholder'
+  | 'sections.contacts.form.message.inputName'
+  | 'sections.contacts.form.message.placeholder'
+  | 'sections.contacts.form.message.warning'
+  | 'sections.contacts.form.submit'

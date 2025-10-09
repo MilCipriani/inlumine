@@ -6,6 +6,8 @@
   --breakpoint-xs: 30rem; /*480px*/
   --breakpoint-md-plus: 57rem; /*912px*/
 
+  --feather-blue: #0F86C6;
+
   --blue-highlight: #16CBEB;
 
   --text-color: #145189;
@@ -264,6 +266,26 @@ h3 {
       left: 10px;
       height: 300px;
     }
+}
+
+/*Contact form ------------------------------------------------*/
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
 }
 
 /* ≥ 768px (48rem) */
