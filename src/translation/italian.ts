@@ -144,8 +144,14 @@ export default {
           placeholder: 'Facci sapere cosa cerchi',
           warning: 'Aggiungi un breve messaggio!'
         },
+        loading: 'Un momento ...',
+        submitted: 'Il tuo messaggio è stato inviato!',
+        failed: 'Qualcosa è andato storto!',
         submit: 'Invia',
-      }
+      },
+      callToAction1: 'O se preferisci, contattaci alla mail',
+      callToAction2: 'Seguici sui socials',
+      allRightsReserved: '© 2025 In Lumine | P.IVA | Tutti i diritti riservati.',
     }
     
   }

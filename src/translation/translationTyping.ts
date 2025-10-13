@@ -145,8 +145,14 @@ export interface TranslationStructure {
         placeholder: string
         warning: string
       }
+      loading: string
+      submitted: string
+      failed: string
       submit: string
     }
+    callToAction1: string
+    callToAction2: string
+    allRightsReserved: string
   }
 }
 
@@ -242,4 +248,10 @@ export type TranslationKey =
   | 'sections.contacts.form.message.inputName'
   | 'sections.contacts.form.message.placeholder'
   | 'sections.contacts.form.message.warning'
+  | 'sections.contacts.form.loading'
+  | 'sections.contacts.form.submitted'
+  | 'sections.contacts.form.failed'
   | 'sections.contacts.form.submit'
+  | 'sections.contacts.callToAction1'
+  | 'sections.contacts.callToAction2'
+  | 'sections.contacts.allRightsReserved'
