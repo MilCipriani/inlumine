@@ -46,7 +46,7 @@ export default function Courses() {
 )
   return (
     <section id='courses' className="scroll-mt-28 lg:scroll-mt-37 mt-28 lg:mt-37 flex flex-col gap-8">
-        <h2 className='text-center mb-16'>{t('sections.courses.h2')}</h2>
+        <h2 className='text-center mb-8 sm:mb-16'>{t('sections.courses.h2')}</h2>
 
         <div ref={sliderRef} className="keen-slider">
           {cardsData.map((card: CourseCardData) => (<div key={card.id} className="keen-slider__slide">

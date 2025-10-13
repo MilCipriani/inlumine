@@ -118,6 +118,40 @@ export default {
     },
     contacts: {
       h2: 'Il tuo viaggio è già iniziato.\nProseguiamo insieme!',
+      form: {
+        title: 'Mandaci una richiesta o lasciaci un tuo contatto',
+        name: {
+          inputName: 'Nome',
+          placeholder: 'Mario',
+          warning: 'Inserisci il tuo Nome!'
+        },
+        surname: {
+          inputName: 'Cognome',
+          placeholder: 'Rossi',
+          warning: 'Inserisci il tuo Cognome!'
+        },
+        mail: {
+          inputName: 'E-mail',
+          placeholder: 'mariorossi@mail.com',
+          warning: 'Non dimenticare la tua mail!'
+        },
+        phone: {
+          inputName: 'Telefono',
+          placeholder: '+39 (123) 456-7890    (opzionale)'
+        },
+        message: {
+          inputName: 'Il tuo messaggio',
+          placeholder: 'Facci sapere cosa cerchi',
+          warning: 'Aggiungi un breve messaggio!'
+        },
+        loading: 'Un momento ...',
+        submitted: 'Il tuo messaggio è stato inviato!',
+        failed: 'Qualcosa è andato storto!',
+        submit: 'Invia',
+      },
+      callToAction1: 'O se preferisci, contattaci alla mail',
+      callToAction2: 'Seguici sui socials',
+      allRightsReserved: '© 2025 In Lumine | P.IVA | Tutti i diritti riservati.',
     }
     
   }
