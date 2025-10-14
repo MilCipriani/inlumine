@@ -61,7 +61,7 @@ export default function Contacts() {
 
         if (response.status === 200) {
           setResult(t('sections.contacts.form.submitted'))
-          setResultClass('text-[var(--text-highlight)]')
+          setResultClass('text-white check')
           form.reset() //browser method that clears all the fields
           //I won't add 'was-validated' here to keep the form clean after reset
 
@@ -72,12 +72,12 @@ export default function Contacts() {
         } else {
           console.log(response)
           setResult(t('sections.contacts.form.failed'))
-          setResultClass('text-red-500')
+          setResultClass('text-white ex')
         }
       } catch (error) {
         console.log(error)
         setResult(t('sections.contacts.form.failed'))
-        setResultClass('text-red-500')
+        setResultClass('text-white ex')
       }
     }
 
@@ -205,10 +205,10 @@ export default function Contacts() {
             </button>
             {result && (
               <p className={`mt-8 mb-4 text-base text-center ${resultClass}`} id="result">
-                {resultClass === 'text-[var(--text-highlight)]' && (
+                {resultClass === 'text-white check' && (
                   <CheckMark className="inline-block aspect-square mr-2" />
                 )}
-                {resultClass === 'text-red-500' && (
+                {resultClass === 'text-white ex' && (
                   <ExMark className="inline-block aspect-square mr-2" />
                 )}
                 {result}

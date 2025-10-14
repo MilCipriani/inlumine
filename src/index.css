@@ -213,7 +213,7 @@ h3 {
   );
 }
 
-/*Carousel dots*/
+/*Carousel dots -------------------------------------*/
 
 .dots {
   display: flex;
@@ -266,6 +266,28 @@ h3 {
       left: 10px;
       height: 300px;
     }
+}
+
+/*Animation for the services cards ----------------------------*/
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-out forwards;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-hidden {
+  opacity: 0;
+  transform: translateX(40px);
 }
 
 /*Contact form ------------------------------------------------*/
