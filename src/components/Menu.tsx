@@ -1,5 +1,5 @@
 import { useLanguage } from '../translation/index'
-
+import { HashLink } from 'react-router-hash-link'
 //import LanguageToggle from './LanguageToggle'
 
 import X from '../assets/X.svg?react'
@@ -10,11 +10,8 @@ interface FullScreenMenuProps {
 }
 
 export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreenMenuProps) {
-  const handleLinkClick = (id: string) => {
+  const handleLinkClick = () => {
     setIsMenuOpen(false);
-    document.getElementById(id)?.scrollIntoView({ 
-      block: 'start'
-    });
   }
 
   const { t } = useLanguage()
@@ -33,64 +30,64 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
           <X aria-hidden className="size-5"/>
         </button>
 
-        <a >In Lumine</a>
+        <HashLink to="/#about" onClick={handleLinkClick}>In Lumine</HashLink>
 
         <nav>
           <ul className="flex flex-col items-center gap-4 text-base">
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
-                href="#about" 
-                onClick={() => handleLinkClick('about')}
+              <HashLink 
+                to="/#about" 
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.about')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a  
-                onClick={() => handleLinkClick('history')}
-                href='#history'
+              <HashLink  
+                to="/#history"
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.history')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
-                onClick={() => handleLinkClick('team')}
-                href='#team'
+              <HashLink 
+                to="/#team"
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.team')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
-                onClick={() => handleLinkClick('courses')}
-                href='#courses'
+              <HashLink 
+                to="/#courses"
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.courses')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
-                onClick={() => handleLinkClick('services')}
-                href='#services'
+              <HashLink 
+                to="/#services"
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.services')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110" onClick={() => setIsMenuOpen(false)}><span>LanguageToggle here</span></li>
             <li className="transform transition-transform duration-300 hover:scale-110 button-phone">
-              <a 
-                onClick={() => handleLinkClick('contacts')}
-                href='#contacts'
+              <HashLink 
+                to="/#contacts"
+                onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.button.contacts')}
-              </a>
+              </HashLink>
             </li>
             <li className='mt-16 transform transition-transform duration-300 normal-case'>© In Lumine</li>
           </ul>

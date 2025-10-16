@@ -83,18 +83,27 @@ export interface TranslationStructure {
     cards: {
       card1: {
         date: string
+        duartion: string
         h3: string
         p: string
+        subtitle: string
+        description: string
       }
       card2: {
         date: string
+        duartion: string
         h3: string
         p: string
+        subtitle: string
+        description: string
       }
       card3: {
         date: string
+        duartion: string
         h3: string
         p: string
+        subtitle: string
+        description: string
       }
     }
   }
@@ -207,15 +216,24 @@ export type TranslationKey =
 
   | 'sections.courses.moreInfo'
   | 'sections.courses.h2'
-  | 'sections.courses.cards.card1.date' 
+  | 'sections.courses.cards.card1.date'
+  | 'sections.courses.cards.card1.duration' 
   | 'sections.courses.cards.card1.h3'
   | 'sections.courses.cards.card1.p'
-  | 'sections.courses.cards.card2.date' 
+  | 'sections.courses.cards.card1.subtitle'
+  | 'sections.courses.cards.card1.description'
+  | 'sections.courses.cards.card2.date'
+  | 'sections.courses.cards.card2.duration' 
   | 'sections.courses.cards.card2.h3'
   | 'sections.courses.cards.card2.p'
-  | 'sections.courses.cards.card3.date' 
+  | 'sections.courses.cards.card2.subtitle'
+  | 'sections.courses.cards.card2.description'
+  | 'sections.courses.cards.card3.date'
+  | 'sections.courses.cards.card3.duration'
   | 'sections.courses.cards.card3.h3'
   | 'sections.courses.cards.card3.p'
+  | 'sections.courses.cards.card3.subtitle'
+  | 'sections.courses.cards.card3.description'
 
   | 'sections.services.h2'
   | 'sections.services.soul'

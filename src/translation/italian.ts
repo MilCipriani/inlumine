@@ -71,7 +71,7 @@ export default {
           details: 'Preparatore Fisico e dottore in scienze motorie e sportive. Preparatore Fisico Nazionale presso la FIP, dal 2017 si occupa del Wellness per finalità non agonistiche, con sedute e percorsi One to One.',
         },
         card9: {
-          name: 'Maurizio Cusani',
+          name: 'Dott. Maurizio Cusani',
           details: "Oculista milanese, ha pubblicato saggi su psicosomatica, simbologia ed enneagramma, discipline che insegna all'Istituto Riza. Studioso di sufismo, è stato allievo di Laleh Bakhtiar e Gabriele Mandel. Nel 2009 ha pubblicato con Nuova Ipsa 'Abitare con l’Enneagramma', insieme a Z. Youssef.",
         }
       },
@@ -82,18 +82,27 @@ export default {
       cards: {
         card1: {
           date: '17-18 Ott',
+          duration: '2 incontri',
           h3: 'Corso di riflessologia plantare organica',
-          p: 'In questo corso imparerai come praticare la riflessologia plantare organica in piena autonomia con la massima efficacia. Questo tipo di riflessologia lavora direttamente sugli apparati e non sui meridiani.',
+          p: 'Impara come praticare la riflessologia plantare organica in piena autonomia con la massima efficacia. Questo tipo di riflessologia lavora direttamente sugli apparati e non sui meridiani.',
+          subtitle: 'Il piede è la base del nostro incedere nel mondo e racchiude, in miniatura, l’intero organismo umano.',
+          description: 'La riflessologia plantare è una tecnica naturale che utilizza la stimolazione di aree specifiche della pianta del piede per favorire il riequilibrio energetico e funzionale del corpo.\n\nOgni zona riflessa corrisponde a un organo, una struttura nervosa, un’articolazione o una ghiandola: attraverso una pressione mirata è possibile stimolare i processi di autoregolazione e benessere dell’organismo.\n\n\n\nIn questo corso imparerai la riflessologia plantare organica, un approccio che lavora per apparati anziché per meridiani, offrendo così una visione chiara e strutturata dei collegamenti tra piede e corpo. Attraverso lezioni teoriche e pratiche, apprenderai protocolli specifici per riequilibrare diversi disagi corporei e acquisirai la capacità di eseguire un trattamento completo in piena autonomia e con la massima efficacia.\n\nQuesto corso è pensato per chi desidera arricchire le proprie competenze nel campo del benessere e per chi vuole scoprire come, partendo dai piedi, si possa riportare armonia a tutto il corpo.',
         },
         card2: {
           date: '19 Ott',
-          h3: 'Corso di tecnica metamorfica',
+          duration: '4 ore',
+          h3: 'Corso di Tecnica Metamorfica',
           p: 'Si complementa perfettamente con le terapie di medicina classica sia con i trattamenti di medicina olistica.',
+          subtitle: 'Un tocco gentile e delicato che libera le energie trattenute e ti conduce con leggerezza verso la tua metamorfosi.',
+          description: 'La Tecnica Metamorfica è un approccio delicato ma profondamente trasformativo, pensato per chi percepisce blocchi interiori difficili da comprendere e desidera ritrovare fluidità, leggerezza e libertà.\n\nSi basa su un tocco leggero e consapevole che agisce su punti specifici di piedi, mani e testa, seguendo un percorso che richiama le esperienze vissute dal concepimento alla nascita.\nQuesti punti corrispondono ai riflessi della spina dorsale, dove si imprimono le nostre prime esperienze emotive e si formano molti dei nostri schemi interiori.\n\nAttraverso sfioramenti lenti e delicati, si libera l’energia vitale bloccata durante la gestazione, permettendo all’intelligenza innata del corpo di guidare il processo di trasformazione.\n\nÈ una tecnica dolce ma potente, che non agisce sui sintomi ma sulle radici, accompagnando la persona verso un naturale riequilibrio a livello fisico, emotivo ed energetico.\nLa forza della trasformazione nasce dall’interno: la persona ricevente attiva spontaneamente la propria capacità di rigenerarsi, lasciando che l’energia trovi la direzione giusta.\nQuesto rende la Tecnica Metamorfica uno strumento semplice, accessibile e adatto a tutti — adulti e bambini — e facilmente integrabile con qualsiasi percorso terapeutico, sia di medicina tradizionale che complementare.\n\nChiunque può impararla: chi è in cammino verso la crescita personale, chi desidera portare più armonia e serenità in famiglia, chi lavora nella relazione d’aiuto, operatori del benessere e professionisti sanitari.\n\nÈ un invito a entrare in contatto con la forza originaria della vita e permettere alla trasformazione di accadere con naturalezza.',
         },
         card3: {
           date: '2026',
+          duration: '2 incontri',
           h3: 'Corso Volare Oltre',
           p: 'Due giorni di seminario intensivo nella profondità di te stesso per ri-conoscerti e trasformare il tuo vissuto in ali per volare oltre.',
+          subtitle: 'Un percorso per lasciar andare il peso delle ferite, dei vecchi ruoli e delle storie che ti trattengono, aprendoti alla tua vera direzione.',
+          description: 'Due giorni di seminario intensivo durante il quale costruiremo uno spazio di pace e accoglienza, dove poter intraprendere un vero viaggio interiore, ritrovare equilibrio e connetterti alla tua parte più autentica.\nL’esperienza ti aiuterà a potenziare il tuo benessere emozionale e a riscoprire la tua dimensione spirituale restando radicato nella realtà quotidiana.\n\n\n\nIl percorso alterna momenti individuali e di gruppo per esplorare condizionamenti inconsci, ferite emotive e legami profondi con la propria storia.\nAttraverso tecniche transpersonali, esercizi simbolici e pratiche corporee, potrai lasciare andare maschere e ruoli limitanti, riconoscendo chi sei davvero e quali risorse porti dentro di te. Vivere pienamente nel presente permette di percepire emozioni e momenti con maggiore intensità, di accogliere luci e ombre e di attingere ai propri strumenti interiori di guarigione e trasformazione.\n\nLa prima giornata è dedicata al lavoro sulle radici, sulle ferite e sui condizionamenti che chiedono di essere riconosciuti e liberati.\nLa seconda si concentra sulla parte animica e spirituale: con maggiore leggerezza e presenza, ci si apre ai propri doni interiori e alla voce dell’anima, imparando ad ascoltarla e sostenerla nel suo percorso.\n\nQuesto seminario è un invito a ritrovare la tua verità interiore, lasciare andare ciò che non serve più e vivere con maggiore presenza, autenticità e fiducia.',
         },
       }
     },

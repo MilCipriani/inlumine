@@ -1,35 +1,34 @@
-import { useState } from 'react'
 import './index.css'
-import Navbar from './sections/Navbar'
-import Menu from './sections/Menu'
-import Hero from './sections/Hero'
-import Features from './sections/Features'
-import FounderQuote from './sections/FounderQuote'
-import History from './sections/History'
-import Team from './sections/Team'
-import Courses from './sections/Courses'
-import Services from './sections/Services'
-import Ad from './sections/Ad'
-import Contacts from './sections/Contacts'
+import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Navbar from './components/Navbar'
+import Menu from './components/Menu'
+import HomePage from './routes/HomePage'
+import CoursePage from './routes/CoursePage'
 
 function App() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className='relative px-8 py-8 lg:px-16 xl:px-60'>
-      <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <Hero />
-      <Features />
-      <FounderQuote />
-      <History />
-      <Team />
-      <Courses />
-      <Services />
-      <Ad />
-      <Contacts />
-    </div>
+    <BrowserRouter>
+      <div className='relative px-8 py-8 lg:px-16 xl:px-60'>
+        <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+           
+          <Route path="/courses/:id" element={<CoursePage />} />
+          {/*
+          <Route path="/services/:id" element={<ServicePage />} />
+          <Route path="/team/:id" element={<TeamPage />} />
+          */}
+        </Routes>
+      </div>
+    </BrowserRouter>
+
   )
 }
 
