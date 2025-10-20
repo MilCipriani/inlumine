@@ -108,12 +108,36 @@ export default {
     },
     services: {
       h2: 'Ogni viaggiatore ha destinazioni diverse, ma alcuni principi sono indespensabili per farci da guida',
-      soul: 'Soul Coaching',
-      essenza: 'Luminosa Essenza',
-      vita: 'Luminosa Vita',
-      metamorfica: 'Tecnica Metamorfica',
-      albero: 'Epigenetica dell’Albero Genealogico',
-      riflex: 'Riflessologia Plantare Organica',
+      soul: {
+        h1: 'Soul Coaching',
+        subtitle: 'Un sostegno per fare chiarezza, ritrovare equilibrio e vivere con autenticità.',
+        description: "Questo percorso di accompagnamento ti offre l'opportunità di guardare te stesso e la tua vita con uno sguardo sincero e consapevole. Ti aiuta a riconoscere e affrontare le tue ombre, le paure e tutto ciò che ti impedisce di vivere in pienezza.\n\nAttraverso un lavoro profondo, potrai prendere coscienza del tuo lignaggio familiare e liberarti da schemi e condizionamenti che non ti appartengono più.\nÈ un invito a specchiarti con coraggio, per fare chiarezza nella confusione mentale ed emotiva e imparare ad ascoltare la voce autentica che proviene da dentro di te.\n\nQuesto processo ti guida alla scoperta del tuo scopo e ti sostiene nel modellare la tua vita affinché possa favorirlo. Rimuovere i “detriti” interiori significa riconnetterti con la saggezza e la luce della tua anima.\n\nNessuno può dirti chi sei: solo tu sei il vero maestro di te stesso.\nIo sono semplicemente uno strumento, una guida che illumina ciò che ancora non riesci a vedere chiaramente.\n\nQuando raggiungi la sorgente della tua essenza, la verità dell'anima emerge spontaneamente. La stanchezza profonda che spesso avvertiamo nasce dal non essere pienamente onesti con noi stessi. Essere autentici, invece, permette all'anima di fiorire.\n\nDire la verità a se stessi non è come dirla agli altri: significa aprire la porta della consapevolezza.\nDurante questo cammino scoprirai che eventi sincronici e coincidenze significative inizieranno a moltiplicarsi nella tua vita, accompagnandoti passo dopo passo nella tua evoluzione interiore.",
+      },
+      essenza: {
+        h1: 'Luminosa Essenza',
+        subtitle: 'Trasforma le tue emozioni con un approccio combinato di aromaterapia e soul coaching.',
+        description: 'Ti senti sopraffatto dalle emozioni o desideri approfondire la connessione con te stesso? Luminosa Essenza è un percorso pensato per chi vuole esplorare e trasformare la propria dimensione interiore attraverso un approccio sinergico che integra l’Aromaterapia del Terreno® e il Soul Coaching.\n\nDue strumenti per un unico cammino di consapevolezza.\n\nAromaterapia del Terreno®: un metodo che agisce in profondità sull’equilibrio psico-fisico ed emozionale. Gli oli essenziali vengono selezionati in modo personalizzato, sostenendo il rilascio di tensioni e favorendo il benessere globale.\n\nSoul Coaching: un percorso di ascolto profondo e consapevolezza per sciogliere blocchi emotivi, accogliere le proprie verità interiori e attivare un autentico processo di trasformazione.',
+      },
+      vita:  {
+        h1: 'Luminosa Vita',
+        subtitle: '',
+        description: '',
+      },
+      meta:  {
+        h1: 'Tecnica Metamorfica',
+        subtitle: 'Un’esperienza di riequilibrio profondo che favorisce il rilascio delle tensioni e il ritrovamento di sé.',
+        description: 'Il massaggio metamorfico è un trattamento delicato e profondo, pensato per chi percepisce blocchi interiori difficili da comprendere e desidera trasformarli in nuove possibilità di benessere. Si basa sulla Tecnica Metamorfica, un approccio dolce ma potente che agisce attraverso lievi sfioramenti di punti specifici su piedi, mani e testa. Questi punti corrispondono alla mappa riflessa della spina dorsale, dove sono impresse le memorie emotive e le esperienze sviluppate durante la fase prenatale.\n\nOgni tocco accompagna la persona in un viaggio simbolico che ripercorre le esperienze dal concepimento alla nascita, stimolando l’energia vitale e risvegliando la naturale capacità di autoguarigione del corpo.\nQuando queste energie si liberano, gli schemi limitanti si sciolgono e si attiva un processo di trasformazione profonda che può riflettersi su tutti gli aspetti della vita.\n\nIl massaggio metamorfico non è una terapia medica, ma uno strumento di crescita personale e riequilibrio energetico.\nÈ adatto a persone di ogni età, adulti e bambini, e può integrarsi con trattamenti tradizionali o complementari.\nPuò essere appreso da chiunque desideri favorire il proprio benessere o quello degli altri, da operatori e terapeuti a chi semplicemente ha a cuore la serenità personale e familiare.\n\nCon questa tecnica non si agisce sui sintomi, ma sull’essenza della persona, facilitando un cambiamento naturale, profondo e duraturo.',
+      },
+      albero:  {
+        h1: "Epigenetica dell'Albero Genealogico",
+        subtitle: 'Porta alla luce le radici della tua storia e riscrivi consapevolmente il tuo presente.',
+        description: 'Conoscere e comprendere il proprio albero genealogico significa accedere a strati profondi dell’inconscio, là dove si custodiscono programmi, patti, credenze e nodi ancestrali che spesso agiscono silenziosamente nella nostra vita. Attraverso lo studio dell’albero, è possibile portare alla luce questi legami invisibili e scioglierli, creando così lo spazio per riscrivere la propria storia e liberare il potenziale personale.\n\nIn molte famiglie, tramandare un nome è considerato un onore e una tradizione. Tuttavia, portare il nome di un antenato può significare, a livello inconscio, ereditare anche parte della sua storia, delle sue emozioni e dei suoi irrisolti. I nomi che riceviamo sono come “contratti” invisibili che ci legano al clan familiare, influenzando le nostre scelte e il nostro destino. Anche le date significative, le malattie, gli eventi traumatici e i segreti non detti possono avere un impatto profondo sul presente, condizionando inconsapevolmente la nostra vita.\n\nRiconoscere questi schemi e portarli alla coscienza è un atto di libertà. Attraverso un lavoro mirato sull’albero genealogico, è possibile comprendere e trasformare questi legami, liberando l’energia vitale e aprendo la strada a nuove possibilità. Se senti di ripetere storie che non ti appartengono, se avverti pesi invisibili o desideri comprendere meglio le radici della tua esperienza, questo percorso può aiutarti a ritrovare chiarezza, leggerezza e autonomia interiore.',
+      },
+      riflex:  {
+        h1: 'Riflessologia Plantare Organica',
+        subtitle: 'Il piede è la base del nostro incedere nel mondo e racchiude, in miniatura, l’intero organismo umano.',
+        description: 'Il piede è la base del nostro cammino nel mondo e racchiude, in miniatura, l’intero organismo umano. La riflessologia plantare è una tecnica naturale che agisce attraverso la stimolazione di aree specifiche della pianta del piede per favorire il riequilibrio energetico e funzionale di tutto il corpo. Ogni zona riflessa corrisponde a un organo, un’articolazione, una ghiandola o una struttura nervosa: attraverso una pressione mirata, è possibile attivare i naturali processi di autoregolazione e favorire uno stato di benessere globale.\n\nLa riflessologia plantare organica lavora per apparati, offrendo una visione chiara e strutturata dei collegamenti tra piede e corpo. Questo approccio permette di agire in modo mirato su specifici disagi, sostenendo il riequilibrio generale dell’organismo. Il trattamento favorisce una profonda sensazione di leggerezza, rilassamento e armonia, contribuendo a sciogliere tensioni, migliorare la circolazione e restituire energia vitale.\n\nÈ un’esperienza adatta a chi desidera prendersi cura di sé in modo naturale e non invasivo, ritrovando benessere e equilibrio a partire dai piedi.',
+      },
     },
     ad: {
       h2: 'Se vuoi conoscere da vicino i membri del nostro team trovi qui le loro iniziative',

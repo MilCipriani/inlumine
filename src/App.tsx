@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import Menu from './components/Menu'
 import HomePage from './routes/HomePage'
 import CoursePage from './routes/CoursePage'
+import ServicePage from './routes/ServicePage'
+import TeamPage from './routes/TeamPage'
 
 function App() {
 
@@ -21,10 +23,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
            
           <Route path="/courses/:id" element={<CoursePage />} />
-          {/*
           <Route path="/services/:id" element={<ServicePage />} />
           <Route path="/team/:id" element={<TeamPage />} />
-          */}
+
         </Routes>
       </div>
     </BrowserRouter>

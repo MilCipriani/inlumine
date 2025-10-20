@@ -109,12 +109,36 @@ export interface TranslationStructure {
   }
   services: {
     h2: string
-    soul: string
-    essenza: string
-    vita: string
-    metamorfica: string
-    albero: string
-    riflex: string
+    soul: {
+      h1: string
+      subtitle: string
+      description: string
+    }
+    essenza: {
+      h1: string
+      subtitle: string
+      description: string
+    }
+    vita: {
+      h1: string
+      subtitle: string
+      description: string
+    }
+    meta: {
+      h1: string
+      subtitle: string
+      description: string
+    }
+    albero: {
+      h1: string
+      subtitle: string
+      description: string
+    }
+    riflex: {
+      h1: string
+      subtitle: string
+      description: string
+    }
   }
   ad: {
     h2: string
@@ -236,12 +260,24 @@ export type TranslationKey =
   | 'sections.courses.cards.card3.description'
 
   | 'sections.services.h2'
-  | 'sections.services.soul'
-  | 'sections.services.essenza'
-  | 'sections.services.vita'
-  | 'sections.services.metamorfica'
-  | 'sections.services.albero'
-  | 'sections.services.riflex'
+  | 'sections.services.soul.h1'
+  | 'sections.services.soul.subtitle'
+  | 'sections.services.soul.description'
+  | 'sections.services.essenza.h1'
+  | 'sections.services.essenza.subtitle'
+  | 'sections.services.essenza.description'
+  | 'sections.services.vita.h1'
+  | 'sections.services.vita.subtitle'
+  | 'sections.services.vita.description'
+  | 'sections.services.meta.h1'
+  | 'sections.services.meta.subtitle'
+  | 'sections.services.meta.description'
+  | 'sections.services.albero.h1'
+  | 'sections.services.albero.subtitle'
+  | 'sections.services.albero.description'
+  | 'sections.services.riflex.h1'
+  | 'sections.services.riflex.subtitle'
+  | 'sections.services.riflex.description'
 
   | 'sections.ad.h2' 
   | 'sections.ad.cards.card1.h2'

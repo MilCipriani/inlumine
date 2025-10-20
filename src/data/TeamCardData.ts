@@ -11,69 +11,71 @@ import danielebianchini from '../assets/team/DanieleBianchini.jpeg'
 import mauriziocusani from '../assets/team/MaurizioCusani.jpg'
 
 export interface TeamCardData {
-  id: string;
-  img: string;
-  h3: TranslationKey;
-  p: TranslationKey;
+  id: string
+  img: string
+  h3: TranslationKey
+  p: TranslationKey
+  website?: string
 }
 
 export const cardsData: TeamCardData[] = [
   {
-    id: "0",
+    id: "giglio",
     img: monicagiglio,
     h3: "sections.team.cards.card0.name",
     p: "sections.team.cards.card0.details",
+    website: 'https://monicagiglio.es/'
   },
   {
-    id: "1",
+    id: "fignon",
     img: alessiafignon,
     h3: "sections.team.cards.card1.name",
     p: "sections.team.cards.card1.details",
   },
   {
-    id: "2",
+    id: "greco",
     img: monicagreco,
     h3: "sections.team.cards.card2.name",
     p: "sections.team.cards.card2.details",
   },
   {
-    id: "3",
+    id: "wulhfard",
     img: katyawulhfard,
     h3: "sections.team.cards.card3.name",
     p: "sections.team.cards.card3.details",
   },
   {
-    id: "4",
+    id: "lucci",
     img: gabriellalucci,
     h3: "sections.team.cards.card4.name",
     p: "sections.team.cards.card4.details",
   },
   {
-    id: "5",
+    id: "damaschi",
     img: gloriadamaschi,
     h3: "sections.team.cards.card5.name",
     p: "sections.team.cards.card5.details",
   },
   {
-    id: "6",
+    id: "casano",
     img: ileniacasano,
     h3: "sections.team.cards.card6.name",
     p: "sections.team.cards.card6.details",
   },
   {
-    id: "7",
+    id: "zocca",
     img: priscazocca,
     h3: "sections.team.cards.card7.name",
     p: "sections.team.cards.card7.details",
   },
   {
-    id: "8",
+    id: "bianchini",
     img: danielebianchini,
     h3: "sections.team.cards.card8.name",
     p: "sections.team.cards.card8.details",
   },
     {
-    id: "9",
+    id: "cusani",
     img: mauriziocusani,
     h3: "sections.team.cards.card9.name",
     p: "sections.team.cards.card9.details",
