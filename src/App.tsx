@@ -2,6 +2,7 @@ import './index.css'
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import ScrollToTop from './components/ScrollToTop'
 import Navbar from './components/Navbar'
 import Menu from './components/Menu'
 import HomePage from './routes/HomePage'
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className='relative px-8 py-8 lg:px-16 xl:px-60'>
         <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
