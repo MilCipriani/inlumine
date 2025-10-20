@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link'
 
 import Hamburger from '../assets/hamburger.svg?react'
 import Logo from '../assets/logo.svg?react'
-import SpFlag from '../assets/SpanishFlag.webp'
+import LanguageToggle from './LanguageToggle.tsx'
 
 interface NavbarProps {
   isMenuOpen: boolean
@@ -24,9 +24,8 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
         <li><HashLink smooth to="/#team">{t('nav.team')}</HashLink></li>
         <li><HashLink smooth to="/#courses">{t('nav.courses')}</HashLink></li>
         <li><HashLink smooth to="/#services">{t('nav.services')}</HashLink></li>
-        <li className='w-6 h-2.5 flex justify-center items-center'><img src={SpFlag}></img></li>
+        <li className='w-6 h-2.5 flex justify-center items-center'><LanguageToggle /></li>
       </ul>
-        {/*Img is temporary, will be replaced with a toggle element for the language system */}
 
       <HashLink smooth to="/#contacts" className='button hidden md-plus:block'>
         {t('nav.button.contacts')}
