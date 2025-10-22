@@ -5,6 +5,7 @@
   --breakpoint-xxs: 24rem; /*384px*/
   --breakpoint-xs: 30rem; /*480px*/
   --breakpoint-md-plus: 57rem; /*912px*/
+  --breakpoint-xl: 86rem; /*standard is 80*/
 
   --feather-blue: #0F86C6;
   --hover-blue: #f0faff;
@@ -27,7 +28,7 @@ body {
 
 /*Hide scrollbar for webkit browsers (Chrome, Safari, Edge)*/
 body::-webkit-scrollbar {
-  display: none;  /*Chrome, Safari, Edge*/
+  display: none;
 }
 
 :root {

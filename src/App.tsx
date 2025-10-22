@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop />
-      <div className='relative px-8 py-8 lg:px-16 xl:px-60'>
+      <div className='relative mt-16 lg:mt-25 px-8 py-8 lg:px-16 xl:px-70'>
         <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         

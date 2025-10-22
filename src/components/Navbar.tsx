@@ -13,7 +13,7 @@ interface NavbarProps {
 export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
   const { t } = useLanguage()
   return (
-    <nav className="w-screen sticky top-0 left-0 z-50 flex items-center justify-between py-4 -mx-8 px-8 lg:-mx-16 lg:px-16 xl:-mx-60 xl:px-60 bg-[var(--white)]">
+    <nav className="w-screen fixed top-0 left-0 z-50 flex items-center justify-between px-8 py-4 lg:px-16 xl:px-70 bg-[var(--white)]">
       {/*The logo dictates the height of the whole Nav (plus padding)*/}
       <HashLink smooth to="/#about">
         <Logo className='w-16 h-16 lg:w-25 lg:h-25'/>
