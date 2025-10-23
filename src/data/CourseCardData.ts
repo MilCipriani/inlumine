@@ -1,7 +1,7 @@
 import type { TranslationKey } from '../translation/translationTyping'
 import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
 import meta from '../assets/metamorfica.jpg'
-import vo from '../assets/luminosaVita.jpg'
+import vo from '../assets/volareOltre.jpg'
 
 export interface CourseCardData {
   id: string
