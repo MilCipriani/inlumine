@@ -64,10 +64,14 @@ h3 {
 
 .button {
   padding: 1.5rem 2rem;
-  background-color: var(--blue-highlight);
+  background-color: var(--feather-blue);
   border-radius: 1rem;
   text-transform: uppercase;
   color: var(--white);
+}
+
+.button:hover {
+  background-color: var(--blue-highlight);
 }
 
 .button-phone {

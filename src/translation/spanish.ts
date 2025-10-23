@@ -101,7 +101,7 @@ export default {
           duration: '2 encuentros',
           h3: 'Curso Volar Más Allá',
           p: 'Dos días de seminario intensivo en la profundidad de ti mismo para re-conocerte y transformar tu vivencia en alas para volar más allá.',
-          subtitle: 'Un recorrido para soltar el peso de las heridas, los viejos roles y las historias que te retienen, abriéndote a tu verdadera dirección.',
+          subtitle: 'Un recorrido para soltar el peso de las heridas, los viejos roles y las historias que te retienen, abriéndote al camino que realmente es tuyo.',
           description: 'Dos días de seminario intensivo durante los cuales construiremos un espacio de paz y acogida, donde poder emprender un verdadero viaje interior, recuperar equilibrio y conectarte con tu parte más auténtica.\nLa experiencia te ayudará a potenciar tu bienestar emocional y a redescubrir tu dimensión espiritual permaneciendo enraizado en la realidad cotidiana.\n\n\n\nEl recorrido alterna momentos individuales y grupales para explorar condicionamientos inconscientes, heridas emocionales y vínculos profundos con la propia historia.\nA través de técnicas transpersonales, ejercicios simbólicos y prácticas corporales, podrás soltar máscaras y roles limitantes, reconociendo quién eres realmente y qué recursos llevas dentro de ti. Vivir plenamente en el presente permite percibir emociones y momentos con mayor intensidad, acoger luces y sombras y acceder a las propias herramientas interiores de sanación y transformación.\n\nLa primera jornada está dedicada al trabajo sobre las raíces, las heridas y los condicionamientos que piden ser reconocidos y liberados.\nLa segunda se concentra en la parte anímica y espiritual: con mayor ligereza y presencia, uno se abre a los propios dones interiores y a la voz del alma, aprendiendo a escucharla y sostenerla en su recorrido.\n\nEste seminario es una invitación a recuperar tu verdad interior, soltar lo que ya no sirve y vivir con mayor presencia, autenticidad y confianza.',
         },
       }
@@ -184,7 +184,7 @@ export default {
       },
       callToAction1: 'O si lo prefieres, contáctanos al correo',
       callToAction2: 'Síguenos en las redes sociales',
-      allRightsReserved: '© 2025 In Lumine | P.IVA | Todos los derechos reservados.',
+      allRightsReserved: '© 2025 In Lumine | NIF Y3464812Z | Todos los derechos reservados.',
     }
     
   }

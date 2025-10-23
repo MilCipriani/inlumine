@@ -1,6 +1,6 @@
 import { useLanguage } from '../translation/index'
 import { HashLink } from 'react-router-hash-link'
-//import LanguageToggle from './LanguageToggle'
+import LanguageToggle from './LanguageToggle'
 
 import X from '../assets/X.svg?react'
 
@@ -18,12 +18,12 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
 
   return (
     <div
-        className={`h-[100dvh] fixed inset-0 bg-white z-[100] transition-all duration-800 ease-in-out flex items-center justify-center ${
+        className={`h-[100dvh] fixed inset-0 bg-[#f3ebdb] z-[100] transition-all duration-800 ease-in-out flex items-center justify-center ${
         isMenuOpen 
           ? 'opacity-100 visible' 
           : 'opacity-0 invisible'
     }`}>
-      <div className='w-full h-[100dvh] flex flex-col items-center justify-center gap-8 text-2xl font-serif px-12'>
+      <div className='w-full h-[100dvh] flex flex-col items-center justify-center gap-12 text-2xl font-serif px-12'>
         <button
           onClick={() => setIsMenuOpen(false)}
         >
@@ -79,8 +79,8 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
                 {t('nav.services')}
               </HashLink>
             </li>
-            <li className="transform transition-transform duration-300 hover:scale-110" onClick={() => setIsMenuOpen(false)}><span>LanguageToggle here</span></li>
-            <li className="transform transition-transform duration-300 hover:scale-110 button-phone">
+            <li className="transform transition-transform duration-300 hover:scale-110"><LanguageToggle /></li>
+            <li className="transform transition-transform duration-300 hover:scale-110 button-phone mt-12">
               <HashLink 
                 to="/#contacts"
                 onClick={handleLinkClick}
@@ -89,7 +89,7 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
                 {t('nav.button.contacts')}
               </HashLink>
             </li>
-            <li className='mt-16 transform transition-transform duration-300 normal-case'>© In Lumine</li>
+            <li className='mt-12 transform transition-transform duration-300 normal-case'>© In Lumine</li>
           </ul>
         </nav>
       </div>

@@ -20,11 +20,11 @@ export default function History() {
               <button
                 key={year}
                 onClick={() => setActiveYear(year)}
-                className={`px-4 py-2 cursor-pointer rounded-md transition-colors duration-300
+                className={`px-4 py-2 cursor-pointer rounded-lg transition-colors duration-300
                   ${
                     activeYear === year
-                      ? 'bg-[var(--blue-highlight)] text-white'
-                      : 'bg-gray-200 text-[var(--text-color)] hover:bg-gray-300'
+                      ? 'bg-[var(--feather-blue)] text-white'
+                      : 'bg-white text-[var(--text-color)] hover:bg-gray-200'
                   }`}
               >
                 {year}

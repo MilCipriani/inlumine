@@ -3,6 +3,7 @@ import { useLanguage } from '../translation'
 import { cardsData } from '../data/CourseCardData'
 import Calendar from '../assets/calendar.svg?react'
 import Timer from '../assets/timer.svg?react'
+import Price from '../assets/price.svg?react'
 
 
 
@@ -36,7 +37,10 @@ function CoursePage() {
           <Timer className='flex-none'/>
           <p className='text-center'>{t(course.duration)}</p>
         </div>
-        
+        <div className='flex xs:flex-col md:flex-row gap-2 items-center'>
+          <Price className='w-6 h-6 text-[var(--text-highlight)]'/>
+          <p className='text-center'>{course.price}</p>
+        </div>
         
       </div>
       

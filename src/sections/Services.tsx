@@ -8,6 +8,7 @@ import vita from '../assets/luminosaVita.jpg'
 import meta from '../assets/metamorfica.jpg'
 import albero from '../assets/albero.jpg'
 import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
+import SmallArrow from '../assets/smallArrow.svg?react'
 
 export default function Services() {
   const { t } = useLanguage()
@@ -29,10 +30,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] ml-[-20%] md:m-0 h-80'>
           <div
             ref={soulRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${soulVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${soulVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 40%), url(${soul})` }}
           >
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
             <p>{t('sections.services.soul.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
         
@@ -40,10 +43,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={essenzaRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${essenzaVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${essenzaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${essenza})` }}
           >
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
             <p>{t('sections.services.essenza.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
 
@@ -51,10 +56,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] ml-[20%] md:m-0 h-80'>
           <div
             ref={vitaRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${vitaVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${vitaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${vita})` }}
           >
-            {t('sections.services.vita.h1')}
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
+            <p>{t('sections.services.vita.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
       </div>
@@ -64,10 +71,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={metaRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${metaVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relativew-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${metaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${meta})` }}
           >
-            {t('sections.services.meta.h1')}
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-[var(--feather-blue)]"/>
+            <p>{t('sections.services.meta.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
 
@@ -75,10 +84,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] ml-[20%] md:ml-0 h-80'>
           <div
             ref={alberoRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${alberoVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${alberoVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${albero})` }}
           >
-            {t('sections.services.albero.h1')}
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
+            <p>{t('sections.services.albero.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
 
@@ -86,10 +97,12 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={riflexRef}
-            className={`w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${riflexVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${riflexVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${riflex})` }}
           >
-            {t('sections.services.riflex.h1')}
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
+            <p>{t('sections.services.riflex.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
         </Link>
       </div>

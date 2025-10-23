@@ -31,12 +31,14 @@ export const cardsData: TeamCardData[] = [
     img: alessiafignon,
     h3: "sections.team.cards.card1.name",
     p: "sections.team.cards.card1.details",
+    website: 'https://www.alessiafignon.it/',
   },
   {
     id: "greco",
     img: monicagreco,
     h3: "sections.team.cards.card2.name",
     p: "sections.team.cards.card2.details",
+    website: 'https://metatraining.it/',
   },
   {
     id: "wulhfard",
@@ -55,6 +57,7 @@ export const cardsData: TeamCardData[] = [
     img: gloriadamaschi,
     h3: "sections.team.cards.card5.name",
     p: "sections.team.cards.card5.details",
+    website: 'https://www.gloriadamaschi.it/'
   },
   {
     id: "casano",
@@ -73,6 +76,7 @@ export const cardsData: TeamCardData[] = [
     img: danielebianchini,
     h3: "sections.team.cards.card8.name",
     p: "sections.team.cards.card8.details",
+    website: 'https://www.instagram.com/danielebianchini_atwellness/'
   },
     {
     id: "cusani",

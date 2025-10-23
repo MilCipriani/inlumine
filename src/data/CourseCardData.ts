@@ -6,6 +6,7 @@ import vo from '../assets/luminosaVita.jpg'
 export interface CourseCardData {
   id: string
   date: TranslationKey
+  price: string
   duration: TranslationKey
   h3: TranslationKey
   p: TranslationKey
@@ -19,6 +20,7 @@ export const cardsData: CourseCardData[] = [
     //Riflex
     id: "1",
     date: "sections.courses.cards.card1.date",
+    price: "€ 500",
     duration: "sections.courses.cards.card1.duration",
     h3: "sections.courses.cards.card1.h3",
     p: "sections.courses.cards.card1.p",
@@ -30,6 +32,7 @@ export const cardsData: CourseCardData[] = [
     //Metamorfica
     id: "2",
     date: "sections.courses.cards.card2.date",
+    price: "€ 250",
     duration: "sections.courses.cards.card2.duration",
     h3: "sections.courses.cards.card2.h3",
     p: "sections.courses.cards.card2.p",
@@ -41,6 +44,7 @@ export const cardsData: CourseCardData[] = [
     //Volare Oltre
     id: "3",
     date: "sections.courses.cards.card3.date",
+    price: "€ 480",
     duration: "sections.courses.cards.card3.duration",
     h3: "sections.courses.cards.card3.h3",
     p: "sections.courses.cards.card3.p",
