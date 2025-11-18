@@ -23,7 +23,7 @@ export default function AdCard({ card }:AdCardProps) {
               <img
                 key={index}
                 src={imgSrc}
-                alt={`Profile ${index}`}
+                alt=''
                 className="aspect-square rounded-full object-cover flex-1 min-w-0 max-w-24 max-h-24"
               />
             ))}

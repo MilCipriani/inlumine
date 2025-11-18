@@ -22,14 +22,15 @@ export default function Services() {
   const { ref: riflexRef, isVisible: riflexVisible } = useInView({ threshold: 0.2 });
 
   return (
-    <section id='services' className="scroll-mt-28 lg:scroll-mt-37 mt-28 lg:mt-37 flex flex-col gap-8">
-      <h2 className='text-center mb-8 sm:mb-16'>{t('sections.services.h2')}</h2>
+    <section id='services' className="flex flex-col gap-8">
+      <h2 className='text-start mb-8 sm:mb-16'>{t('sections.services.h2')}</h2>
 
       <div className='w-full flex flex-col md:flex-row justify-start items-center gap-8'>
         <Link to={'/services/soul'}
         className='w-[80%] md:w-[30%] ml-[-20%] md:m-0 h-80'>
           <div
             ref={soulRef}
+            aria-label={t('sections.services.soul.alt')}
             className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${soulVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 40%), url(${soul})` }}
           >
@@ -43,6 +44,7 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={essenzaRef}
+            aria-label={t('sections.services.essenza.alt')}
             className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${essenzaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${essenza})` }}
           >
@@ -56,6 +58,7 @@ export default function Services() {
         className='w-[80%] md:w-[30%] ml-[20%] md:m-0 h-80'>
           <div
             ref={vitaRef}
+            aria-label={t('sections.services.vita.alt')}
             className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${vitaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${vita})` }}
           >
@@ -71,6 +74,7 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={metaRef}
+            aria-label={t('sections.services.meta.alt')}
             className={`relativew-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${metaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${meta})` }}
           >
@@ -84,6 +88,7 @@ export default function Services() {
         className='w-[80%] md:w-[30%] ml-[20%] md:ml-0 h-80'>
           <div
             ref={alberoRef}
+            aria-label={t('sections.services.albero.alt')}
             className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${alberoVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${albero})` }}
           >
@@ -97,6 +102,7 @@ export default function Services() {
         className='w-[80%] md:w-[30%] h-80'>
           <div
             ref={riflexRef}
+            aria-label={t('sections.services.riflex.alt')}
             className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${riflexVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${riflex})` }}
           >

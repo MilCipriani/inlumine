@@ -6,8 +6,11 @@ import ScrollToTop from './components/ScrollToTop'
 import Navbar from './components/Navbar'
 import Menu from './components/Menu'
 import HomePage from './routes/HomePage'
+import AboutPage from './routes/AboutPage'
 import CoursePage from './routes/CoursePage'
 import ServicePage from './routes/ServicePage'
+import Education from './routes/Education'
+import Transformation from './routes/Transformation'
 
 function App() {
 
@@ -22,14 +25,16 @@ function App() {
         
         <Routes>
           <Route path="/" element={<HomePage />} />
-           
+          <Route path="/about" element={<AboutPage />} />
+          <Route path='/education' element={<Education />} />
+          <Route path='/transformation' element={<Transformation />} />
+
           <Route path="/courses/:id" element={<CoursePage />} />
           <Route path="/services/:id" element={<ServicePage />} />
 
         </Routes>
       </div>
     </BrowserRouter>
-
   )
 }
 

@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { useLanguage } from '../translation'
 import { cardsData } from '../data/ServiceCardData'
+import type { TranslationKey } from '../translation/translationTyping'
 
 
 function ServicePage() {
@@ -17,7 +18,7 @@ function ServicePage() {
   return (
     <div className="flex flex-col sm:flex-row gap-8 mt-8 pb-16 sm:pb-32">
 
-      <img src={service.img} className='w-full sm:w-1/3 sm:aspect-[2/3] rounded-3xl object-cover'></img>
+      <img src={service.img} aria-label={t(`sections.services.${service.id}.alt` as TranslationKey)} className='w-full sm:w-1/3 sm:aspect-[2/3] rounded-3xl object-cover'></img>
 
       <div className='flex flex-col rounded-3xl gap-8 p-4 sm:p-8'>
         <h1>{t(service.h1)}</h1>
