@@ -3,6 +3,8 @@ export interface TranslationStructure {
     about: string
     faq: string
     courses: string
+    education: string
+    transformation: string
     calendar: string
     button: {
       contacts: string
@@ -14,11 +16,12 @@ export interface TranslationStructure {
   }
   sections: {
     hero: {
-      h3: string
+      h4: string
+      explore: string
+      paths: string
       alt: string
     },
     faq: {
-      h2: string
       questions: {
         question1: string
         question2: string
@@ -33,6 +36,8 @@ export interface TranslationStructure {
         answer4: string
         answer5: string
       }
+      contact: string
+      path: string
     }
     apenb: {
       h2: string
@@ -120,6 +125,9 @@ export interface TranslationStructure {
   courses: {
     h2:string
     moreInfo: string
+    aria: {
+      details: string
+    }
     cards: {
       //Education
       riflex: {
@@ -329,15 +337,18 @@ export type TranslationKey =
   | 'nav.about'
   | 'nav.faq'
   | 'nav.courses'
+  | 'nav.education'
+  | 'nav.transformation'
   | 'nav.calendar'
   | 'nav.button.contacts'
   | 'nav.aria.logo'
   | 'nav.aria.hamburger'
 
-  | 'sections.hero.h3'
+  | 'sections.hero.h4'
+  | 'sections.hero.explore'
+  | 'sections.hero.paths'
   | 'sections.hero.alt'
 
-  | 'sections.faq.h2'
   | 'sections.faq.questions.question1'
   | 'sections.faq.questions.question2'
   | 'sections.faq.questions.question3'
@@ -348,6 +359,8 @@ export type TranslationKey =
   | 'sections.faq.answers.answer3'
   | 'sections.faq.answers.answer4'
   | 'sections.faq.answers.answer5'
+  | 'sections.faq.contact'
+  | 'sections.faq.path'
 
   | 'sections.apenb.h2'
   | 'sections.apenb.p'
@@ -403,6 +416,7 @@ export type TranslationKey =
 
   | 'sections.courses.moreInfo'
   | 'sections.courses.h2'
+  | 'sections.courses.aria.details'
   //Educational
   | 'sections.courses.cards.riflex.date'
   | 'sections.courses.cards.riflex.duration' 

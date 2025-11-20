@@ -15,11 +15,11 @@ export default function FAQ() {
   const [open5, setOpen5] = useState(false)
   return (
     <section id='FAQ' className="scroll-mt-24 lg:scroll-mt-37 flex flex-col w-full gap-8 sm:gap-16 items-center justify-center mt-16 lg:mt-37 rounded-3x min-h-150">
-      <Qmarks className='sm:hidden block w-40 h-auto'/>
-      <h2 className=''>{t('sections.faq.h2')}</h2>
+      <Qmarks aria-hidden="true" focusable="false" className='sm:hidden block w-40 h-auto'/>
+      <h2>FAQ</h2>
 
       <div className='w-full flex flex-col sm:flex-row-reverse sm:justify-center sm:gap-32 sm:items-center'>
-        <Qmarks className='hidden sm:block w-80 h-auto'/>
+        <Qmarks aria-hidden="true" focusable="false" className='hidden sm:block w-80 h-auto'/>
 
         <div className='w-fit flex flex-col rounded-3xl'>
   
@@ -83,8 +83,8 @@ export default function FAQ() {
             <div className="p-4"><p>{t('sections.faq.answers.answer5')}</p></div>
           </div>
           <div className='w-full flex flex-col mt-16 sm:flex-row items-center justify-between sm:justify-center gap-4 sm:gap-8'>
-            <HashLink to='/#paths' className='button w-full sm:w-auto text-center'>SCEGLI IL TUO PERCORSO</HashLink>
-            <HashLink to='/#contacts' className='button-secondary text-center'>PRENOTA UNA CONSULENZA GRATUITA</HashLink>
+            <HashLink to='/#paths' className='button w-full sm:w-auto text-center'>{t('sections.faq.path')}</HashLink>
+            <HashLink to='/#contacts' className='button-secondary text-center'>{t('sections.faq.contact')}</HashLink>
           </div>
         </div>
         

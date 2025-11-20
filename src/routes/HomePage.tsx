@@ -9,8 +9,8 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <FAQ />
       <Paths />
+      <FAQ />
       {/*<CalendarWidget />
       <SocialProof />*/}
       <Contacts />

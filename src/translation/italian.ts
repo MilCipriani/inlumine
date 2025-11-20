@@ -3,6 +3,8 @@ export default {
     about: "Chi siamo",
     faq: "FAQ",
     courses: "Corsi",
+    education: 'Formazione',
+    transformation: 'Trasformazione del sé',
     calendar: 'Calendario',
     button: {
       contacts: "Contattaci"
@@ -14,11 +16,12 @@ export default {
   },
   sections: {
     hero: {
-      h3: 'Un cammino di luce dove ogni persona libera da giudizio può incontrare una parte di sé attraverso un percorso di consapevolezza e spiritualità.\nIl nostro centro nasce dalla volontà di partecipazione alla consapevolezza universale.',
+      h4: 'Il nostro centro nasce dalla volontà di partecipazione alla consapevolezza universale.\n\nUn cammino di luce dove ogni persona libera da giudizio può incontrare una parte di sé attraverso un percorso di consapevolezza e spiritualità.',
+      explore: 'Esplora',
+      paths: 'Scopri i percorsi',
       alt: 'Immagine di una piuma bianca che fluttua in cielo'
     },
     faq: {
-      h2: 'FAQ',
       questions: {
         question1: 'I corsi sono riconosciuti? Posso usarli professionalmente?',
         question2: 'In Lumine è solo per professionisti o anche per me che cerco crescita personale?',
@@ -28,11 +31,13 @@ export default {
       },
       answers: {
         answer1: "Assolutamente sì! Tutti i nostri corsi sono riconosciuti APENB e puoi utilizzarli per la tua crescita professionale. Alcuni corsi includono già la certificazione con rilascio di diploma ufficiale, mentre per gli altri rilasciamo un certificato di partecipazione. Stiamo lavorando per garantire il diploma per l'intera offerta formativa: il nostro impegno è darti sempre strumenti validi e spendibili anche nel mondo del lavoro.",
-        answer2: 'In Lumine è per te, qualunque sia il tuo punto di partenza! È vero, alcuni nostri corsi sono più tecnici e si rivolgono a professionisti del settore, ma molti altri sono aperti a chiunque desideri intraprendere un percorso di crescita. Il nostro obiettivo è aiutarti a trovare il percorso giusto: che tu voglia specializzarti professionalmente o esplorare nuove dimensioni di te stesso, ti accompagneremo verso i tuoi obiettivi.',
+        answer2: 'In Lumine è per te, qualunque sia il tuo punto di partenza! È vero, alcuni nostri corsi sono più tecnici e si rivolgono a professionisti del settore, ma molti altri sono aperti a chiunque desideri intraprendere un percorso di crescita. Il nostro obbiettivo è aiutarti a trovare il percorso giusto: che tu voglia specializzarti professionalmente o esplorare nuove dimensioni di te stesso, ti accompagneremo verso i tuoi obiettivi.',
         answer3: "Abbiamo progettato un'offerta flessibile per adattarsi alle tue esigenze: troverai videocorsi da seguire quando vuoi, corsi online interattivi e corsi in presenza per un'esperienza immersiva. Nella pagina di ogni corso troverai tutti i dettagli sulla modalità di svolgimento, durata, programma e molto altro.",
         answer4: "In Lumine non è un semplice centro dove ottieni un attestato. Qui vivi un'esperienza trasformativa. Crediamo nell'apprendimento esperienziale: non ci limitiamo a trasmettere nozioni, ti accompagniamo in un vero e proprio viaggio alla scoperta di te stesso e degli altri. Apriamo porte, esploriamo insieme nuovi orizzonti e ti guidiamo passo dopo passo verso la realizzazione concreta dei tuoi obiettivi. Il nostro scopo? Una trasformazione autentica.",
         answer5: 'Certo! Molti dei nostri corsi sono pensati proprio per chi parte da zero e vuole scoprire un nuovo mondo. Altri hanno un taglio più specialistico. La cosa migliore? Contattarci. Saremo felici di capire insieme a te qual è il percorso più adatto alle tue esigenze e ai tuoi obiettivi. Nessuno parte esperto: tutti iniziano da qualche parte, e noi siamo qui per guidarti.'
       },
+      contact: 'Prenota una consulenza gratuita',
+      path: 'Scegli il tuo percorso',
     },
     apenb: {
       h2: 'Evoluzione personale, competenza professionale certificata',
@@ -120,6 +125,9 @@ export default {
     courses: {
       h2: 'Corsi',
       moreInfo: 'Maggiori info',
+      aria: {
+        details: 'Dettagli del corso',
+      },
       cards: {
         
         //Educational -----------------------------------------------------------

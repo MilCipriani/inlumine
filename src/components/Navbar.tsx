@@ -38,10 +38,10 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
         <li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/about">{t('nav.about')}</HashLink></li>
         <li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/#FAQ">{t('nav.faq')}</HashLink></li>
         <li className='relative'>
-          <button onClick={() => setDropdownVisible(!dropdownVisibility)} className='cursor-pointer hover:text-[var(--text-highlight)]'>{t('nav.courses')}</button>
+          <button onClick={() => setDropdownVisible(true)} className='cursor-pointer hover:text-[var(--text-highlight)]'>{t('nav.courses')}</button>
           <div ref={dropdownRef} className={` flex flex-col p-4 gap-2 justify-center items-start bg-white rounded-3xl absolute top-8 left-0 transition-opacity duration-500 ease-in-out ${ dropdownVisibility ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
-            <HashLink smooth to="/education" className='hover:text-[var(--text-highlight)]'>{t('sections.features.feature1')}</HashLink>
-            <HashLink smooth to="/transformation" className='hover:text-[var(--text-highlight)]'>{t('sections.features.feature2')}</HashLink>
+            <HashLink smooth to="/education" className='hover:text-[var(--text-highlight)]'>{t('nav.education')}</HashLink>
+            <HashLink smooth to="/transformation" className='hover:text-[var(--text-highlight)]'>{t('nav.transformation')}</HashLink>
           </div>
         </li>
         {/*<li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/calendar">{t('nav.calendar')}</HashLink></li>*/}
