@@ -95,6 +95,7 @@ h4 {
 /*Contact-us*/
 .button-secondary:hover {
   color: var(--blue-highlight);
+  border: 1px solid var(--blue-highlight);
 }
 
 /*Features Slider ----------------------------------------*/

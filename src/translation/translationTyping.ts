@@ -160,6 +160,7 @@ export interface TranslationStructure {
       organi: {
         date: string
         duartion: string
+        price: string
         h3: string
         p: string
         subtitle: string
@@ -187,6 +188,7 @@ export interface TranslationStructure {
       ennea: {
         date: string
         duartion: string
+        price: string
         h3: string
         p: string
         subtitle: string
@@ -444,6 +446,7 @@ export type TranslationKey =
 
   | 'sections.courses.cards.organi.date'
   | 'sections.courses.cards.organi.duration'
+  | 'sections.courses.cards.organi.price'
   | 'sections.courses.cards.organi.h3'
   | 'sections.courses.cards.organi.p'
   | 'sections.courses.cards.organi.subtitle'
@@ -468,6 +471,7 @@ export type TranslationKey =
 
   | 'sections.courses.cards.ennea.date'
   | 'sections.courses.cards.ennea.duration'
+  | 'sections.courses.cards.ennea.price'
   | 'sections.courses.cards.ennea.h3'
   | 'sections.courses.cards.ennea.p'
   | 'sections.courses.cards.ennea.subtitle'

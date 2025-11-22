@@ -4,6 +4,7 @@ import Facebook from '../assets/facebook.svg?react'
 import Instagram from '../assets/instagram.svg?react'
 import ExMark from '../assets/exMark.svg?react'
 import CheckMark from '../assets/checkMark.svg?react'
+import Logo from '../assets/logo.svg?react'
 
 
 export default function Contacts() {
@@ -219,7 +220,9 @@ export default function Contacts() {
 
 
         
-        <div className='w-full flex flex-col gap-8 flex-1'>
+        <div className='w-full flex flex-col items-center gap-8 flex-1'>
+          <Logo className='w-25 h-25 border-4 border-white rounded-full'/>
+
           <div className='w-full'>
             <p className='text-center text-white mb-2'>{t('sections.contacts.callToAction1')}</p>
             <p className='text-[var(--text-highlight)] text-center text-[18px]'>naturopatagiglio@gmail.com</p>

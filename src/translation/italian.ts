@@ -143,7 +143,7 @@ export default {
         },
         meta: {
           date: '2026',
-          duration: '4 ore',
+          duration: '8 ore',
           h3: 'Corso di Tecnica Metamorfica',
           p: 'La Tecnica Metamorfica è un tocco dolce e consapevole che favorisce la trasformazione interiore liberando l’energia vitale e riportando equilibrio e leggerezza.',
           subtitle: 'Un tocco gentile e delicato che libera le energie trattenute e ti conduce con leggerezza verso la tua metamorfosi.',
@@ -151,7 +151,7 @@ export default {
           alt: 'Immagine di un bimbo avvolto dalle mani della madre a da ali di farfalla blu'
         },
         oli33: {
-          date: '2026',
+          date: 'Videocorso',
           duration: '15 incontri, 33 ore',
           h3: '33 Oli Essenziali',
           p: 'Scopri il linguaggio sottile degli oli essenziali e il loro potere di armonizzare corpo, mente e spirito.',
@@ -160,12 +160,13 @@ export default {
           alt: "Foto di un rapace che vola verso l'orizzonte"
         },
         organi: {
-          date: '2026',
-          duration: '15 incontri, 33 ore',
-          h3: 'Organi e le Malattie Psicosomatiche',
+          date: 'Videocorso',
+          duration: '14 moduli a scelta',
+          price: '€ 120 / modulo,\n € 1500 percorso completo',
+          h3: 'Linguaggio degli Organi in Psicosomatica',
           p: 'Il corpo parla attraverso le emozioni: impara a leggere i suoi segni per ritrovare armonia e consapevolezza.',
           subtitle: 'Ogni esperienza che viviamo lascia un’impronta profonda nel corpo e nella mente. La nostra storia personale, le emozioni, l’ambiente in cui viviamo e il bagaglio genetico che ereditiamo si intrecciano continuamente, dando forma al nostro stato di salute ed equilibrio interiore.',
-          description: 'In questo corso esploreremo come i vissuti emotivi e le memorie familiari possano influenzare l’origine e l’evoluzione dei disturbi fisici. Comprendere il significato profondo della malattia permette di trasformarla da ostacolo a opportunità: un linguaggio attraverso cui il corpo ci invita al cambiamento.\n\nIl programma si articola in moduli tematici, ognuno dedicato a un apparato o a un distretto corporeo:\n• Cuore\n• Polmoni e albero bronchiale\n• Occhi e orecchie\n• Stomaco\n• Intestino\n• Ghiandole endocrine\n• Reni\n• Vescica\n• Seno\n• Organi genitali\n• Colonna vertebrale\n• Fegato e cistifellea\n• Circolazione sanguigna\n• Piedi\n• Braccia\n• Pelle\n\nOgni modulo approfondisce la relazione tra organo e vissuto emozionale, fornendo chiavi di lettura simboliche e strumenti di comprensione per chi desidera integrare una visione psicosomatica nel proprio percorso personale o professionale.',
+          description: 'In questo corso esploreremo come i vissuti emotivi e le memorie familiari possano influenzare l’origine e l’evoluzione dei disturbi fisici. Comprendere il significato profondo della malattia permette di trasformarla da ostacolo a opportunità: un linguaggio attraverso cui il corpo ci invita al cambiamento.\n\nIl programma si articola in moduli tematici, ognuno dedicato a un apparato o a un distretto corporeo:\n• Cuore\n• Polmoni e albero bronchiale\n• Occhi e orecchie\n• Stomaco\n• Intestino\n• Ghiandole endocrine\n• Reni\n• Vescica\n• Seno\n• Organi genitali\n• Colonna vertebrale\n• Fegato e cistifellea\n• Circolazione sanguigna\n• Piedi\n• Braccia\n• Pelle\n\nOgni modulo, della durata di 4 ore, approfondisce la relazione tra organo e vissuto emozionale, fornendo chiavi di lettura simboliche e strumenti di comprensione per chi desidera integrare una visione psicosomatica nel proprio percorso personale o professionale.',
           alt: "Foto di un rapace che vola verso l'orizzonte"
         },
         cristallo: {
@@ -178,8 +179,8 @@ export default {
           alt: "Foto di un rapace che vola verso l'orizzonte"
         },
         aroma: {
-          date: '2026',
-          duration: '15 incontri, 33 ore',
+          date: 'Videocorso',
+          duration: '4 videolezioni di 2ore',
           h3: 'Aromaterapia',
           p: 'Un videocorso completo per comprendere come gli oli essenziali agiscono sul corpo e sulla mente, e come utilizzarli in modo sicuro ed efficace.',
           subtitle: 'L’Aromaterapia ci riconnette al respiro della natura: gli oli essenziali diventano strumenti di riequilibrio, energia e presenza interiore.',
@@ -188,7 +189,8 @@ export default {
         },
         ennea: {
           date: '2026',
-          duration: '15 incontri, 33 ore',
+          duration: '18 moduli di 16ore, online',
+          price: '€ 120/modulo',
           h3: 'Enneagramma',
           p: 'Comprendere i propri schemi, riconoscere i talenti e migliorare le relazioni attraverso la conoscenza delle nove tipologie dell’Enneagramma.',
           subtitle: 'Un modello universale per conoscere la propria natura, migliorare le relazioni e crescere in consapevolezza.',
@@ -264,8 +266,8 @@ export default {
       },
       vita:  {
         h1: 'Luminosa Vita',
-        subtitle: '',
-        description: '',
+        subtitle: 'Ritrova serenità e comprensione nelle relazioni che contano davvero.',
+        description: "Questo progetto nasce dalla collaborazione tra Monica Giglio e Prisca Zocca, che uniscono le loro competenze per aiutare le famiglie a superare difficoltà legate alla comunicazione, alla gestione delle emozioni e ai conflitti relazionali.\n\nAttraverso video consulenze online, vi accompagniamo nell'esplorare nuove prospettive e nel trovare soluzioni che risuonano con la vostra realtà. L'obiettivo è creare relazioni più consapevoli e armoniose, restituendo a ciascuno le chiavi per affrontare con serenità le sfide quotidiane e riscoprire il benessere familiare.\n\nUn percorso su misura per ritrovare connessione, fiducia e leggerezza nelle relazioni familiari.",
         alt: 'Un percorso in legno che si avventura nella natura'
       },
       meta:  {

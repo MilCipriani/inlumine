@@ -28,7 +28,7 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
     }`}>
       <div className='w-full h-[100dvh] flex flex-col items-center justify-center gap-12 text-2xl font-serif px-12'>
         <button
-          onClick={() => setIsMenuOpen(false)}
+          onClick={handleLinkClick}
         >
           <X aria-hidden className="size-5"/>
         </button>

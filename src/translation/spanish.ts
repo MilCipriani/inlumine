@@ -143,7 +143,7 @@ export default {
         },
         meta: {
           date: '2026',
-          duration: '4 horas',
+          duration: '8 horas',
           h3: 'Curso de Técnica Metamórfica',
           p: 'La Técnica Metamórfica es un toque suave y consciente que favorece la transformación interior liberando la energía vital y devolviendo equilibrio y ligereza.',
           subtitle: 'Un toque gentil y delicado que libera las energías retenidas y te conduce con ligereza hacia tu metamorfosis.',
@@ -151,7 +151,7 @@ export default {
           alt: 'Imagen de un bebé envuelto por las manos de la madre y por alas de mariposa azul'
         },
         oli33: {
-          date: '2026',
+          date: 'Curso en vídeo',
           duration: '15 encuentros, 33 horas',
           h3: '33 Aceites Esenciales',
           p: 'Descubre el lenguaje sutil de los aceites esenciales y su poder para armonizar cuerpo, mente y espíritu.',
@@ -160,17 +160,18 @@ export default {
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
         },
         organi: {
-          date: '2026',
-          duration: '15 encuentros, 33 horas',
-          h3: 'Órganos y las Enfermedades Psicosomáticas',
+          date: 'Curso en vídeo',
+          duration: '14 módulos opcionales',
+          price: '€ 120 / módulo,\n € 1500 por el curso completo',
+          h3: 'Lenguaje de los Órganos en Psicosomática',
           p: 'El cuerpo habla a través de las emociones: aprende a leer sus señales para recuperar armonía y consciencia.',
           subtitle: 'Cada experiencia que vivimos deja una huella profunda en el cuerpo y en la mente. Nuestra historia personal, las emociones, el ambiente en el que vivimos y el bagaje genético que heredamos se entrelazan continuamente, dando forma a nuestro estado de salud y equilibrio interior.',
-          description: 'En este curso exploraremos cómo las vivencias emocionales y las memorias familiares pueden influir en el origen y la evolución de los trastornos físicos. Comprender el significado profundo de la enfermedad permite transformarla de obstáculo a oportunidad: un lenguaje a través del cual el cuerpo nos invita al cambio.\n\nEl programa se articula en módulos temáticos, cada uno dedicado a un aparato o a un distrito corporal:\n• Corazón\n• Pulmones y árbol bronquial\n• Ojos y oídos\n• Estómago\n• Intestino\n• Glándulas endocrinas\n• Riñones\n• Vejiga\n• Pecho\n• Órganos genitales\n• Columna vertebral\n• Hígado y vesícula biliar\n• Circulación sanguínea\n• Pies\n• Brazos\n• Piel\n\nCada módulo profundiza la relación entre órgano y vivencia emocional, proporcionando claves de lectura simbólicas y herramientas de comprensión para quien desea integrar una visión psicosomática en su recorrido personal o profesional.',
+          description: 'En este curso exploraremos cómo las vivencias emocionales y las memorias familiares pueden influir en el origen y la evolución de los trastornos físicos. Comprender el significado profundo de la enfermedad permite transformarla de obstáculo a oportunidad: un lenguaje a través del cual el cuerpo nos invita al cambio.\n\nEl programa se articula en módulos temáticos, cada uno dedicado a un aparato o a un distrito corporal:\n• Corazón\n• Pulmones y árbol bronquial\n• Ojos y oídos\n• Estómago\n• Intestino\n• Glándulas endocrinas\n• Riñones\n• Vejiga\n• Pecho\n• Órganos genitales\n• Columna vertebral\n• Hígado y vesícula biliar\n• Circulación sanguínea\n• Pies\n• Brazos\n• Piel\n\nCada módulo, de 4 horas de duración, profundiza la relación entre órgano y vivencia emocional, proporcionando claves de lectura simbólicas y herramientas de comprensión para quien desea integrar una visión psicosomática en su recorrido personal o profesional.',
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
         },
         cristallo: {
           date: '2026',
-          duration: '15 encuentros, 33 horas',
+          duration: '14 ',
           h3: 'Cristaloterapia',
           p: 'Aprende a conocer y utilizar la energía de los cristales para restablecer equilibrio, vitalidad y bienestar. Una práctica antigua que une ciencia, naturaleza y espiritualidad.',
           subtitle: 'Los cristales son antiguos maestros de luz: contienen la memoria de la Tierra y vibran en resonancia con nuestras frecuencias más auténticas.',
@@ -178,8 +179,8 @@ export default {
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
         },
         aroma: {
-          date: '2026',
-          duration: '15 encuentros, 33 horas',
+          date: 'Curso en vídeo',
+          duration: '4 videolecciones de 2 horas',
           h3: 'Aromaterapia',
           p: 'Un videocurso completo para comprender cómo los aceites esenciales actúan sobre el cuerpo y la mente, y cómo utilizarlos de manera segura y eficaz.',
           subtitle: 'La Aromaterapia nos reconecta con el aliento de la naturaleza: los aceites esenciales se convierten en herramientas de reequilibrio, energía y presencia interior.',
@@ -188,7 +189,8 @@ export default {
         },
         ennea: {
           date: '2026',
-          duration: '15 encuentros, 33 horas',
+          duration: '18 módulos de 16horas, online',
+          price: '€ 120/módulo',
           h3: 'Eneagrama',
           p: 'Comprender los propios esquemas, reconocer los talentos y mejorar las relaciones a través del conocimiento de las nueve tipologías del Eneagrama.',
           subtitle: 'Un modelo universal para conocer la propia naturaleza, mejorar las relaciones y crecer en consciencia.',
@@ -263,8 +265,8 @@ export default {
       },
       vita:  {
         h1: 'Luminosa Vida',
-        subtitle: '',
-        description: '',
+        subtitle: 'Recupera serenidad y comprensión en las relaciones que realmente importan.',
+        description: 'Este proyecto nace de la colaboración entre Monica Giglio y Prisca Zocca, que unen sus competencias para ayudar a las familias a superar dificultades relacionadas con la comunicación, la gestión de las emociones y los conflictos relacionales.\n\nA través de video consultas online, os acompañamos en la exploración de nuevas perspectivas y en el encuentro de soluciones que resuenen con vuestra realidad. El objetivo es crear relaciones más conscientes y armoniosas, devolviendo a cada uno las claves para afrontar con serenidad los desafíos cotidianos y redescubrir el bienestar familiar.\n\nUn camino a medida para recuperar conexión, confianza y ligereza en las relaciones',
         alt: 'Un sendero de madera que se adentra en la naturaleza'
       },
       meta:  {

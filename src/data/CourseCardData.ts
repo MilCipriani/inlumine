@@ -3,7 +3,7 @@ import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
 import meta from '../assets/metamorfica.jpg'
 import oli from '../assets/Corsi/oli.png'
 import organi from '../assets/Corsi/organi.jpg'
-import cristallo from '../assets/Corsi/cristallo.jpg'
+//import cristallo from '../assets/Corsi/cristallo.jpg'
 import aroma from '../assets/Corsi/aroma.jpg'
 import ennea from '../assets/Corsi/ennea.jpg'
 
@@ -46,7 +46,7 @@ export const cardsData: CourseCardData[] = [
     id: "TecnicaMetamorfica",
     type: 'edu',
     date: "sections.courses.cards.meta.date",
-    price: "€ 250",
+    price: "€ 280",
     duration: "sections.courses.cards.meta.duration",
     h3: "sections.courses.cards.meta.h3",
     p: "sections.courses.cards.meta.p",
@@ -72,7 +72,7 @@ export const cardsData: CourseCardData[] = [
     id: "OrganiPsicosomatica",
     type: 'edu',
     date: "sections.courses.cards.organi.date",
-    price: "€ 450",
+    price: "sections.courses.cards.organi.price",
     duration: "sections.courses.cards.organi.duration",
     h3: "sections.courses.cards.organi.h3",
     p: "sections.courses.cards.organi.p",
@@ -80,25 +80,25 @@ export const cardsData: CourseCardData[] = [
     subtitle: "sections.courses.cards.organi.subtitle",
     description: "sections.courses.cards.organi.description"
   },
-  {
+  /*{
     //Cristalloterapia
     id: "Cristalloterapia",
     type: 'edu',
     date: "sections.courses.cards.cristallo.date",
-    price: "€ 450",
+    price: "€ --",
     duration: "sections.courses.cards.cristallo.duration",
     h3: "sections.courses.cards.cristallo.h3",
     p: "sections.courses.cards.cristallo.p",
     img: cristallo,
     subtitle: "sections.courses.cards.cristallo.subtitle",
     description: "sections.courses.cards.cristallo.description"
-  },
+  },*/
   {
     //Aromaterapia
     id: "Aromaterapia",
     type: 'edu',
     date: "sections.courses.cards.aroma.date",
-    price: "€ 450",
+    price: "€ 280",
     duration: "sections.courses.cards.aroma.duration",
     h3: "sections.courses.cards.aroma.h3",
     p: "sections.courses.cards.aroma.p",
@@ -111,7 +111,7 @@ export const cardsData: CourseCardData[] = [
     id: "Enneagramma",
     type: 'edu',
     date: "sections.courses.cards.ennea.date",
-    price: "€ 450",
+    price: "sections.courses.cards.ennea.price",
     duration: "sections.courses.cards.ennea.duration",
     h3: "sections.courses.cards.ennea.h3",
     p: "sections.courses.cards.ennea.p",
@@ -137,7 +137,7 @@ export const cardsData: CourseCardData[] = [
     subtitle: "sections.courses.cards.alto.subtitle",
     description: "sections.courses.cards.alto.description"
   }, 
-  {
+  /*{
     //Decodifica Albero Genealogico
     id: "DecodificaAlberoGenealogico",
     type: 'transf',
@@ -149,7 +149,7 @@ export const cardsData: CourseCardData[] = [
     img: vo,
     subtitle: "sections.courses.cards.albero.subtitle",
     description: "sections.courses.cards.albero.description"
-  },
+  },*/
 
   //SEMINARS -----------------------------------------------------------------------
 
@@ -166,7 +166,7 @@ export const cardsData: CourseCardData[] = [
     subtitle: "sections.courses.cards.volare.subtitle",
     description: "sections.courses.cards.volare.description"
   },
-  {
+  /*{
     //Costellazioni Familiari
     id: "CostellazioniFamiliari",
     type: 'sem',
@@ -178,5 +178,5 @@ export const cardsData: CourseCardData[] = [
     img: vo,
     subtitle: "sections.courses.cards.costellazioni.subtitle",
     description: "sections.courses.cards.costellazioni.description"
-  },
+  },*/
 ];

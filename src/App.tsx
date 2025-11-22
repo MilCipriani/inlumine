@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop />
-      <div className='relative mt-16 lg:mt-25 px-8 py-8 lg:px-16 xl:px-70 bg-[#f3ebdb]'>
+      <div className='relative mt-16 lg:mt-25 px-8 py-8 lg:px-16 xl:px-70 bg-[#f3ebdb] min-h-full'>
         <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         

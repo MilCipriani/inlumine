@@ -20,27 +20,27 @@ function CoursePage() {
   }
   
   return (
-    <div className="flex flex-col sm:flex-row gap-8 mt-8 pb-16 sm:pb-32">
+    <div className="flex flex-col lg:flex-row gap-8 mt-8 pb-16 lg:pb-32">
       
-      <article className='w-full sm:w-4/5 flex flex-col gap-8'>
+      <article className='w-full lg:w-4/5 flex flex-col gap-8'>
         <h1>{t(course.h3)}</h1>
         <img src={course.img} alt={t(`sections.courses.cards.card${course.id}.alt` as TranslationKey)} className='w-full sm:max-h-80 object-cover rounded-3xl' />
         <h3>{t(course.subtitle)}</h3>
         <p className='text-justify whitespace-pre-line text-[var(--text-light)]'>{t(course.description)}</p>
       </article>
       
-      <aside aria-label={t('sections.courses.aria.details')} className='flex flex-col justify-center gap-4 w-full sm:w-1/5 h-fit p-8 bg-white rounded-3xl'>
-        <div className='flex xs:flex-col md:flex-row gap-2 items-center'>
-          <Calendar aria-hidden="true"/>
+      <aside aria-label={t('sections.courses.aria.details')} className='flex flex-col justify-center gap-4 w-full lg:w-1/5 h-fit p-8 bg-white rounded-3xl'>
+        <div className='flex xs:flex-col lg:flex-row gap-2 items-center'>
+          <Calendar aria-hidden="true" className='flex-none'/>
           <p className='text-start'>{t(course.date)}</p>
         </div>
-        <div className='flex xs:flex-col md:flex-row gap-2 items-center'>
+        <div className='flex xs:flex-col lg:flex-row gap-2 items-center'>
           <Timer aria-hidden="true" className='flex-none'/>
           <p className='text-start'>{t(course.duration)}</p>
         </div>
-        <div className='flex xs:flex-col md:flex-row gap-2 items-center'>
-          <Price aria-hidden="true" className='w-6 h-6 text-[var(--text-highlight)]'/>
-          <p className='text-start'>{course.price}</p>
+        <div className='flex xs:flex-col lg:flex-row gap-2 items-center'>
+          <Price aria-hidden="true" className='flex-none w-6 h-6 text-[var(--text-highlight)]'/>
+          <p className='text-start whitespace-pre-line'>{course.price ? t(course.price as TranslationKey) : course.price}</p>
         </div>
         
       </aside>
