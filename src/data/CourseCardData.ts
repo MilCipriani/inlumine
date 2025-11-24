@@ -8,6 +8,7 @@ import aroma from '../assets/Corsi/aroma.jpg'
 import ennea from '../assets/Corsi/ennea.jpg'
 
 import alto from '../assets/Corsi/alto.jpeg'
+//import albero from '../assets/Corsi/albero.jpg'
 
 import vo from '../assets/volareOltre.jpg'
 
@@ -146,7 +147,7 @@ export const cardsData: CourseCardData[] = [
     duration: "sections.courses.cards.albero.duration",
     h3: "sections.courses.cards.albero.h3",
     p: "sections.courses.cards.albero.p",
-    img: vo,
+    img: albero,
     subtitle: "sections.courses.cards.albero.subtitle",
     description: "sections.courses.cards.albero.description"
   },*/

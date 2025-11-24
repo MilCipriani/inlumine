@@ -82,7 +82,7 @@ export default {
         websiteAria: 'Visita il sito personale',
         card0: {
           name: 'Monica Giglio',
-          details: '..........................',
+          details: 'Fondatrice di In Lumine, Naturopata, si occupa di discipline olistiche da 25 anni.',
         },
         card1: {
           name: 'Dott.ssa Alessia Fignon',
