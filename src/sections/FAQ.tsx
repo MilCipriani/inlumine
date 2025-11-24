@@ -14,7 +14,7 @@ export default function FAQ() {
   const [open4, setOpen4] = useState(false)
   const [open5, setOpen5] = useState(false)
   return (
-    <section id='FAQ' className="scroll-mt-24 lg:scroll-mt-37 flex flex-col w-full gap-8 sm:gap-16 items-center justify-center mt-16 lg:mt-37 rounded-3x min-h-150">
+    <section id='FAQ' className="scroll-mt-24 lg:scroll-mt-37 flex flex-col w-full gap-8 sm:gap-16 items-center justify-center mt-28 lg:mt-37 rounded-3x min-h-150">
       <Qmarks aria-hidden="true" focusable="false" className='sm:hidden block w-40 h-auto'/>
       <h2>FAQ</h2>
 
