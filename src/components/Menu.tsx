@@ -1,6 +1,6 @@
 import { useLanguage } from '../translation/index'
-
-//import LanguageToggle from './LanguageToggle'
+import { HashLink } from 'react-router-hash-link'
+import LanguageToggle from './LanguageToggle'
 
 import X from '../assets/X.svg?react'
 
@@ -11,71 +11,79 @@ interface FullScreenMenuProps {
 
 export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreenMenuProps) {
   const handleLinkClick = () => {
-    setIsMenuOpen(false)
+    setIsMenuOpen(false);
+    document.body.style.overflow = "auto";
+    document.body.style.position = "";
+    document.body.style.width = "";
   }
 
   const { t } = useLanguage()
 
   return (
     <div
-        className={`fixed inset-0 bg-white z-[100] transition-all duration-800 ease-in-out flex items-center justify-center ${
+        className={`h-[130dvh] pb-[30dvh] fixed inset-0 bg-[#f3ebdb] z-[100] transition-all duration-200 ease-in-out flex items-center justify-center ${
         isMenuOpen 
           ? 'opacity-100 visible' 
           : 'opacity-0 invisible'
     }`}>
-      <div className='w-full h-full flex flex-col items-center justify-center gap-8 text-2xl font-serif px-12'>
+      <div className='w-full h-[100dvh] flex flex-col items-center justify-center gap-12 text-2xl font-serif px-12'>
         <button
-          onClick={() => setIsMenuOpen(false)}
+          onClick={handleLinkClick}
         >
           <X aria-hidden className="size-5"/>
         </button>
 
-        <a onClick={handleLinkClick} >In Lumine</a>
+        <HashLink to="/#about" onClick={handleLinkClick}>In Lumine</HashLink>
 
         <nav>
-          <ul className="flex flex-col items-center gap-4 uppercase text-base">
+          <ul className="flex flex-col items-center gap-4 text-base">
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
+              <HashLink 
+                to="/about" 
                 onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.about')}
-              </a>
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a  
+              <HashLink  
+                to="/#FAQ"
                 onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
-                {t('nav.history')}
-              </a>
+                {t('nav.faq')}
+              </HashLink>
             </li>
             <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
-                onClick={handleLinkClick}
-                className="hover:opacity-70 transition-opacity"
-              >
-                {t('nav.team')}
-              </a>
-            </li>
-            <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
+              <HashLink 
+                to="/#paths"
                 onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
                 {t('nav.courses')}
-              </a>
+              </HashLink>
             </li>
-            <li className="transform transition-transform duration-300 hover:scale-110">
-              <a 
+            {/*<li className="transform transition-transform duration-300 hover:scale-110">
+              <HashLink 
+                to="/#calendar"
                 onClick={handleLinkClick}
                 className="hover:opacity-70 transition-opacity"
               >
-                {t('nav.services')}
-              </a>
+                {t('nav.calendar')}
+              </HashLink>
+            </li>*/}
+            <li className="transform transition-transform duration-300 hover:scale-110"><LanguageToggle /></li>
+            <li className="transform transition-transform duration-300 hover:scale-110 button-phone mt-12">
+              <HashLink 
+                to="/#contacts"
+                onClick={handleLinkClick}
+                className="hover:opacity-70 transition-opacity"
+              >
+                {t('nav.button.contacts')}
+              </HashLink>
             </li>
-            <li className="transform transition-transform duration-300 hover:scale-110" onClick={handleLinkClick}><span>LanguageToggle here</span></li>
-            <li className='mt-16 transform transition-transform duration-300 normal-case'>© In Lumine</li>
+            <li className='mt-12 transform transition-transform duration-300 normal-case'>© In Lumine</li>
           </ul>
         </nav>
       </div>
