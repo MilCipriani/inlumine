@@ -60,276 +60,276 @@ export interface TranslationStructure {
         slide3: string
       }
     }
-  }
-  founderQuote: {
-    h2: string
-    p: string
-    alt: string
-  }
-  history: {
-    h2: string
-    2004: string
-    2014: string
-    2018: string
-    2023: string
-    alt: string
-  }
-  team: {
-    h2: string
-    dots: string
-    cards: {
+    founderQuote: {
+      h2: string
+      p: string
       alt: string
-      websiteAria: string
-      card0: {
-        name: string
-        details: string
-      }
-      card1: {
-        name: string
-        details: string
-      }
-      card2: {
-        name: string
-        details: string
-      }
-      card3: {
-        name: string
-        details: string
-      }
-      card4: {
-        name: string
-        details: string
-      }
-      card5: {
-        name: string
-        details: string
-      }
-      card6: {
-        name: string
-        details: string
-      }
-      card7: {
-        name: string
-        details: string
-      }
-      card8: {
-        name: string
-        details: string
-      }
-      card9: {
-        name: string
-        details: string
+    }
+    history: {
+      h2: string
+      2004: string
+      2014: string
+      2018: string
+      2023: string
+      alt: string
+    }
+    team: {
+      h2: string
+      dots: string
+      cards: {
+        alt: string
+        websiteAria: string
+        card0: {
+          name: string
+          details: string
+        }
+        card1: {
+          name: string
+          details: string
+        }
+        card2: {
+          name: string
+          details: string
+        }
+        card3: {
+          name: string
+          details: string
+        }
+        card4: {
+          name: string
+          details: string
+        }
+        card5: {
+          name: string
+          details: string
+        }
+        card6: {
+          name: string
+          details: string
+        }
+        card7: {
+          name: string
+          details: string
+        }
+        card8: {
+          name: string
+          details: string
+        }
+        card9: {
+          name: string
+          details: string
+        }
       }
     }
-  }
-  courses: {
-    h2:string
-    moreInfo: string
-    aria: {
-      details: string
+    courses: {
+      h2:string
+      moreInfo: string
+      aria: {
+        details: string
+      }
+      cards: {
+        //Education
+        riflex: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        meta: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        oli33: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        organi: {
+          date: string
+          duration: string
+          price: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        cristallo: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        aroma: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        ennea: {
+          date: string
+          duration: string
+          price: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+
+        //Transformation
+        alto: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        albero: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        //Seminars
+        volare: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+        costellazioni: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
+      }
     }
-    cards: {
-      //Education
-      riflex: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
+    seminars: {
+      h2: string
+    }
+    education: {
+      h1: string
+    }
+    transformation: {
+      h1: string
+    }
+    services: {
+      h2: string
+      soul: {
+        h1: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      essenza: {
+        h1: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      vita: {
+        h1: string
         subtitle: string
         description: string
         alt: string
       }
       meta: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      oli33: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      organi: {
-        date: string
-        duartion: string
-        price: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      cristallo: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      aroma: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      ennea: {
-        date: string
-        duartion: string
-        price: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-
-      //Transformation
-      alto: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
+        h1: string
         subtitle: string
         description: string
         alt: string
       }
       albero: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
+        h1: string
         subtitle: string
         description: string
         alt: string
       }
-      //Seminars
-      volare: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
-        subtitle: string
-        description: string
-        alt: string
-      }
-      costellazioni: {
-        date: string
-        duartion: string
-        h3: string
-        p: string
+      riflex: {
+        h1: string
         subtitle: string
         description: string
         alt: string
       }
     }
-  }
-  seminars: {
-    h2: string
-  }
-  education: {
-    h1: string
-  }
-  transformation: {
-    h1: string
-  }
-  services: {
-    h2: string
-    soul: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-    essenza: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-    vita: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-    meta: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-    albero: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-    riflex: {
-      h1: string
-      subtitle: string
-      description: string
-      alt: string
-    }
-  }
-  ad: {
-    h2: string
-    cards: {
-      card1: {
-        date: string
-        h2: string
-        p: string
+    ad: {
+      h2: string
+      cards: {
+        card1: {
+          date: string
+          h2: string
+          p: string
+        }
       }
     }
-  }
-  contacts: {
-    h2: string
-    form: {
-      title: string
-      name: {
-        inputName: string
-        placeholder: string
-        warning: string
+    contacts: {
+      h2: string
+      form: {
+        title: string
+        name: {
+          inputName: string
+          placeholder: string
+          warning: string
+        }
+        surname: {
+          inputName: string
+          placeholder: string
+          warning: string
+        }
+        mail: {
+          inputName: string
+          placeholder: string
+          warning: string
+        }
+        phone: {
+          inputName: string
+          placeholder: string
+        }
+        message: {
+          inputName: string
+          placeholder: string
+          warning: string
+        }
+        loading: string
+        submitted: string
+        failed: string
+        submit: string
       }
-      surname: {
-        inputName: string
-        placeholder: string
-        warning: string
-      }
-      mail: {
-        inputName: string
-        placeholder: string
-        warning: string
-      }
-      phone: {
-        inputName: string
-        placeholder: string
-      }
-      message: {
-        inputName: string
-        placeholder: string
-        warning: string
-      }
-      loading: string
-      submitted: string
-      failed: string
-      submit: string
+      callToAction1: string
+      callToAction2: string
+      allRightsReserved: string
     }
-    callToAction1: string
-    callToAction2: string
-    allRightsReserved: string
   }
 }
 

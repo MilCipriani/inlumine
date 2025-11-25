@@ -1,7 +1,7 @@
-import { useLanguage } from '../translation/index.ts'
+//import { useLanguage } from '../translation/index.ts'
 
 export default function SocialProof() {
-  const { t } = useLanguage()
+  //const { t } = useLanguage()
   return (
     <section className="flex flex-col-reverse md-plus:flex-row w-full items-center justify-center mt-28 lg:mt-37 rounded-3xl bg-white max-h-[100vh]">
       social proof
