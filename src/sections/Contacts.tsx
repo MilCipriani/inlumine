@@ -105,7 +105,7 @@ export default function Contacts() {
           </div>
           {/*action and method here on the form element are fallback options. preventDefaults() in the form submission logic (handleSubmit function) stops them from being used */}
           <form ref={formRef} action="https://api.web3forms.com/submit" method="POST" id="form" className="needs-validation" noValidate>
-            <input type="hidden" name="access_key" value="NEW-KEY-WITH-CORRECT-MAIL-HERE" />
+            <input type="hidden" name="access_key" value="51ade6f0-76e3-497b-9591-262c3d43eaef" />
             <input type="hidden" name="subject" value="New Submission from Web3Forms" />
             <input type="checkbox" name="botcheck" id="" style={{ display: 'none' }} />
   {/*Name*/}
@@ -200,7 +200,7 @@ export default function Contacts() {
               </div>
             </div>
             <button type="submit" 
-                    className="px-8 py-4 text-white bg-[var(--blue-highlight)] rounded-3xl focus:bg-[var(--blue-highlight)] focus:outline-none"
+                    className="uppercase px-8 py-4 text-white bg-[var(--blue-highlight)] rounded-3xl focus:bg-[var(--blue-highlight)] focus:outline-none"
                     >
                 {t('sections.contacts.form.submit')}
             </button>
@@ -268,5 +268,3 @@ export default function Contacts() {
 
   );
 }
-
-//TODO generate new API key with correct mail
