@@ -8,29 +8,35 @@ export function useInView(options?: IntersectionObserverInit) {
     const el = ref.current;
     if (!el) return;
 
-    //check on mount if the element is already in the DOM
-    const rect = el.getBoundingClientRect();
-    const alreadyVisible =
-      rect.top < window.innerHeight && rect.bottom > 0; //I check basically that margin top is < than the viewport height so the element is not at out of the viewport,
-                                                        // and at the same time that margin top + element height(rect.bottom) is >0, so I know the element is
-                                                        // at least partially in the viewport (not over it, not at the bottom)
+    //ensure layout has settled after navigation
+    requestAnimationFrame(() => {
+      const rect = el.getBoundingClientRect();
+      const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+      
+      //check if element is in viewport (with threshold consideration)
+      const threshold = (options?.threshold as number) || 0;
+      const visibleHeight = Math.min(rect.bottom, viewportHeight) - Math.max(rect.top, 0);
+      const elementHeight = rect.height;
+      const visibleRatio = elementHeight > 0 ? visibleHeight / elementHeight : 0;
+      
+      const alreadyVisible = visibleRatio >= threshold && rect.top < viewportHeight && rect.bottom > 0;
 
-    if (alreadyVisible) {
-      setIsVisible(true);
-      return; //no need to observe if already visible
-    }
-
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
+      if (alreadyVisible) {
         setIsVisible(true);
-        observer.disconnect(); //only do the animation when first rendering the element, not every time it gets into view
-                              // it will still show between routes
+        return;
       }
-    }, options);
 
-    observer.observe(el);
+      const observer = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      }, options);
 
-    return () => observer.disconnect(); //clean-up, no memory leak if component unmounts for any reason
+      observer.observe(el);
+
+      return () => observer.disconnect();
+    });
   }, [options]);
 
   return { ref, isVisible };

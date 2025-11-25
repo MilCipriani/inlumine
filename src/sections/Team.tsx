@@ -51,11 +51,12 @@ export default function Team() {
 
         {/*Navigation dots*/}
           {loaded && instanceRef.current && (
-            <div className="dots">
+            <div className="dots" role='group' aria-label={t('sections.team.dots')}>
             {[...Array(instanceRef.current.track.details.slides.length).keys()].map((idx) => {
                 return (
                 <button
                   key={idx}
+                  aria-label={`${idx}`}
                   onClick={() => {instanceRef.current?.moveToIdx(idx)}}
                   className={"dot" + (currentSlide === idx ? " active" : "")}
                 ></button>

@@ -1,29 +1,70 @@
 export interface TranslationStructure {
   nav: {
     about: string
-    history: string
-    team: string
+    faq: string
     courses: string
-    services: string
+    education: string
+    transformation: string
+    calendar: string
     button: {
       contacts: string
+    }
+    aria: {
+      logo: string
+      hamburger: string
     }
   }
   sections: {
     hero: {
-      h1: string
-      h3: string
+      h4: string
+      explore: string
+      paths: string
+      alt: string
     },
+    faq: {
+      questions: {
+        question1: string
+        question2: string
+        question3: string
+        question4: string
+        question5: string
+      }
+      answers: {
+        answer1: string
+        answer2: string
+        answer3: string
+        answer4: string
+        answer5: string
+      }
+      contact: string
+      path: string
+    }
+    apenb: {
+      h2: string
+      p: string
+    }
     features: {
       h2: string
       feature1: string
       feature2: string
       feature3: string
+      alt: {
+        alt1: string
+        alt2:string
+        alt3: string
+      }
+      aria: {
+        carousel: string
+        slide1: string
+        slide2: string
+        slide3: string
+      }
     }
   }
   founderQuote: {
     h2: string
     p: string
+    alt: string
   }
   history: {
     h2: string
@@ -31,10 +72,14 @@ export interface TranslationStructure {
     2014: string
     2018: string
     2023: string
+    alt: string
   }
   team: {
     h2: string
+    dots: string
     cards: {
+      alt: string
+      websiteAria: string
       card0: {
         name: string
         details: string
@@ -80,32 +125,125 @@ export interface TranslationStructure {
   courses: {
     h2:string
     moreInfo: string
+    aria: {
+      details: string
+    }
     cards: {
-      card1: {
+      //Education
+      riflex: {
         date: string
         duartion: string
         h3: string
         p: string
         subtitle: string
         description: string
+        alt: string
       }
-      card2: {
+      meta: {
         date: string
         duartion: string
         h3: string
         p: string
         subtitle: string
         description: string
+        alt: string
       }
-      card3: {
+      oli33: {
         date: string
         duartion: string
         h3: string
         p: string
         subtitle: string
         description: string
+        alt: string
+      }
+      organi: {
+        date: string
+        duartion: string
+        price: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      cristallo: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      aroma: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      ennea: {
+        date: string
+        duartion: string
+        price: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+
+      //Transformation
+      alto: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      albero: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      //Seminars
+      volare: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
+      }
+      costellazioni: {
+        date: string
+        duartion: string
+        h3: string
+        p: string
+        subtitle: string
+        description: string
+        alt: string
       }
     }
+  }
+  seminars: {
+    h2: string
+  }
+  education: {
+    h1: string
+  }
+  transformation: {
+    h1: string
   }
   services: {
     h2: string
@@ -113,31 +251,37 @@ export interface TranslationStructure {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
     essenza: {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
     vita: {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
     meta: {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
     albero: {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
     riflex: {
       h1: string
       subtitle: string
       description: string
+      alt: string
     }
   }
   ad: {
@@ -193,30 +337,64 @@ export type SupportedLanguages = 'es' | 'it';
 
 export type TranslationKey =
   | 'nav.about'
-  | 'nav.history'
-  | 'nav.team'
+  | 'nav.faq'
   | 'nav.courses'
-  | 'nav.services'
+  | 'nav.education'
+  | 'nav.transformation'
+  | 'nav.calendar'
   | 'nav.button.contacts'
+  | 'nav.aria.logo'
+  | 'nav.aria.hamburger'
 
-  | 'sections.hero.h1'
-  | 'sections.hero.h3'
+  | 'sections.hero.h4'
+  | 'sections.hero.explore'
+  | 'sections.hero.paths'
+  | 'sections.hero.alt'
+
+  | 'sections.faq.questions.question1'
+  | 'sections.faq.questions.question2'
+  | 'sections.faq.questions.question3'
+  | 'sections.faq.questions.question4'
+  | 'sections.faq.questions.question5'
+  | 'sections.faq.answers.answer1'
+  | 'sections.faq.answers.answer2'
+  | 'sections.faq.answers.answer3'
+  | 'sections.faq.answers.answer4'
+  | 'sections.faq.answers.answer5'
+  | 'sections.faq.contact'
+  | 'sections.faq.path'
+
+  | 'sections.apenb.h2'
+  | 'sections.apenb.p'
+  | 'sections.apenb.p2'
 
   | 'sections.features.h2'
   | 'sections.features.feature1'
   | 'sections.features.feature2'
   | 'sections.features.feature3'
+  | 'sections.features.alt.alt1'
+  | 'sections.features.alt.alt2'
+  | 'sections.features.alt.alt3'
+  | 'sections.features.aria.carousel'
+  | 'sections.features.aria.slide1'
+  | 'sections.features.aria.slide2'
+  | 'sections.features.aria.slide3'
 
   | 'sections.founderQuote.h2'
   | 'sections.founderQuote.p'
+  | 'sections.founderQuote.alt'
 
   | 'sections.history.h2'
   | 'sections.history.2004'
   | 'sections.history.2014'
   | 'sections.history.2018'
   | 'sections.history.2023'
+  | 'sections.history.alt'
 
   | 'sections.team.h2'
+  | 'sections.team.dots'
+  | 'sections.team.cards.alt'
+  | 'sections.team.cards.websiteAria'
   | 'sections.team.cards.card0.name'
   | 'sections.team.cards.card0.details' 
   | 'sections.team.cards.card1.name'
@@ -240,51 +418,132 @@ export type TranslationKey =
 
   | 'sections.courses.moreInfo'
   | 'sections.courses.h2'
-  | 'sections.courses.cards.card1.date'
-  | 'sections.courses.cards.card1.duration' 
-  | 'sections.courses.cards.card1.h3'
-  | 'sections.courses.cards.card1.p'
-  | 'sections.courses.cards.card1.subtitle'
-  | 'sections.courses.cards.card1.description'
-  | 'sections.courses.cards.card2.date'
-  | 'sections.courses.cards.card2.duration' 
-  | 'sections.courses.cards.card2.h3'
-  | 'sections.courses.cards.card2.p'
-  | 'sections.courses.cards.card2.subtitle'
-  | 'sections.courses.cards.card2.description'
-  | 'sections.courses.cards.card3.date'
-  | 'sections.courses.cards.card3.duration'
-  | 'sections.courses.cards.card3.h3'
-  | 'sections.courses.cards.card3.p'
-  | 'sections.courses.cards.card3.subtitle'
-  | 'sections.courses.cards.card3.description'
+  | 'sections.courses.aria.details'
+  //Educational
+  | 'sections.courses.cards.riflex.date'
+  | 'sections.courses.cards.riflex.duration' 
+  | 'sections.courses.cards.riflex.h3'
+  | 'sections.courses.cards.riflex.p'
+  | 'sections.courses.cards.riflex.subtitle'
+  | 'sections.courses.cards.riflex.description'
+  | 'sections.courses.cards.riflex.alt'
+
+  | 'sections.courses.cards.meta.date'
+  | 'sections.courses.cards.meta.duration' 
+  | 'sections.courses.cards.meta.h3'
+  | 'sections.courses.cards.meta.p'
+  | 'sections.courses.cards.meta.subtitle'
+  | 'sections.courses.cards.meta.description'
+  | 'sections.courses.cards.meta.alt'
+
+  | 'sections.courses.cards.oli33.date'
+  | 'sections.courses.cards.oli33.duration'
+  | 'sections.courses.cards.oli33.h3'
+  | 'sections.courses.cards.oli33.p'
+  | 'sections.courses.cards.oli33.subtitle'
+  | 'sections.courses.cards.oli33.description'
+  | 'sections.courses.cards.oli33.alt'
+
+  | 'sections.courses.cards.organi.date'
+  | 'sections.courses.cards.organi.duration'
+  | 'sections.courses.cards.organi.price'
+  | 'sections.courses.cards.organi.h3'
+  | 'sections.courses.cards.organi.p'
+  | 'sections.courses.cards.organi.subtitle'
+  | 'sections.courses.cards.organi.description'
+  | 'sections.courses.cards.organi.alt'
+
+  | 'sections.courses.cards.cristallo.date'
+  | 'sections.courses.cards.cristallo.duration'
+  | 'sections.courses.cards.cristallo.h3'
+  | 'sections.courses.cards.cristallo.p'
+  | 'sections.courses.cards.cristallo.subtitle'
+  | 'sections.courses.cards.cristallo.description'
+  | 'sections.courses.cards.cristallo.alt'
+
+  | 'sections.courses.cards.aroma.date'
+  | 'sections.courses.cards.aroma.duration'
+  | 'sections.courses.cards.aroma.h3'
+  | 'sections.courses.cards.aroma.p'
+  | 'sections.courses.cards.aroma.subtitle'
+  | 'sections.courses.cards.aroma.description'
+  | 'sections.courses.cards.aroma.alt'
+
+  | 'sections.courses.cards.ennea.date'
+  | 'sections.courses.cards.ennea.duration'
+  | 'sections.courses.cards.ennea.price'
+  | 'sections.courses.cards.ennea.h3'
+  | 'sections.courses.cards.ennea.p'
+  | 'sections.courses.cards.ennea.subtitle'
+  | 'sections.courses.cards.ennea.description'
+  | 'sections.courses.cards.ennea.alt'
+  //Transformation
+  | 'sections.courses.cards.alto.date'
+  | 'sections.courses.cards.alto.duration'
+  | 'sections.courses.cards.alto.h3'
+  | 'sections.courses.cards.alto.p'
+  | 'sections.courses.cards.alto.subtitle'
+  | 'sections.courses.cards.alto.description'
+  | 'sections.courses.cards.alto.alt'
+
+  | 'sections.courses.cards.albero.date'
+  | 'sections.courses.cards.albero.duration'
+  | 'sections.courses.cards.albero.h3'
+  | 'sections.courses.cards.albero.p'
+  | 'sections.courses.cards.albero.subtitle'
+  | 'sections.courses.cards.albero.description'
+  | 'sections.courses.cards.albero.alt'
+  //Seminars
+  | 'sections.seminars.h2'
+  | 'sections.courses.cards.volare.date'
+  | 'sections.courses.cards.volare.duration'
+  | 'sections.courses.cards.volare.h3'
+  | 'sections.courses.cards.volare.p'
+  | 'sections.courses.cards.volare.subtitle'
+  | 'sections.courses.cards.volare.description'
+  | 'sections.courses.cards.volare.alt'
+
+  | 'sections.courses.cards.costellazioni.date'
+  | 'sections.courses.cards.costellazioni.duration'
+  | 'sections.courses.cards.costellazioni.h3'
+  | 'sections.courses.cards.costellazioni.p'
+  | 'sections.courses.cards.costellazioni.subtitle'
+  | 'sections.courses.cards.costellazioni.description'
+  | 'sections.courses.cards.costellazioni.alt'
+
+  | 'sections.education.h1'
+  | 'sections.transformation.h1'
 
   | 'sections.services.h2'
   | 'sections.services.soul.h1'
   | 'sections.services.soul.subtitle'
   | 'sections.services.soul.description'
+  | 'sections.services.soul.alt'
   | 'sections.services.essenza.h1'
   | 'sections.services.essenza.subtitle'
   | 'sections.services.essenza.description'
+  | 'sections.services.essenza.alt'
   | 'sections.services.vita.h1'
   | 'sections.services.vita.subtitle'
   | 'sections.services.vita.description'
+  | 'sections.services.vita.alt'
   | 'sections.services.meta.h1'
   | 'sections.services.meta.subtitle'
   | 'sections.services.meta.description'
+  | 'sections.services.meta.alt'
   | 'sections.services.albero.h1'
   | 'sections.services.albero.subtitle'
   | 'sections.services.albero.description'
+  | 'sections.services.albero.alt'
   | 'sections.services.riflex.h1'
   | 'sections.services.riflex.subtitle'
   | 'sections.services.riflex.description'
+  | 'sections.services.riflex.alt'
 
   | 'sections.ad.h2' 
   | 'sections.ad.cards.card1.h2'
   | 'sections.ad.cards.card1.p'
   | 'sections.ad.cards.card1.date'
-
-
 
   | 'sections.contacts.h2'
   | 'sections.contacts.form.title'

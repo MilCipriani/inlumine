@@ -37,7 +37,7 @@ export default function History() {
         </div>
         
 
-        <img src={gigliofioriImg} className='rounded-3xl md:max-w-[40%]'></img>
+        <img src={gigliofioriImg} alt={t('sections.history.alt')} className='rounded-3xl md:max-w-[40%]'></img>
     </section>
 
   );

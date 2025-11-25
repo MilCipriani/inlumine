@@ -4,6 +4,7 @@ import Facebook from '../assets/facebook.svg?react'
 import Instagram from '../assets/instagram.svg?react'
 import ExMark from '../assets/exMark.svg?react'
 import CheckMark from '../assets/checkMark.svg?react'
+import Logo from '../assets/logo.svg?react'
 
 
 export default function Contacts() {
@@ -121,7 +122,7 @@ export default function Contacts() {
                       required 
                       className="w-full px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" 
                 />
-                <div className="empty-feedback invalid-feedback text-white text-sm mt-2">
+                <div className="empty-feedback invalid-feedback text-white text-sm mt-2" aria-live='polite'>
                   <ExMark className="inline-block aspect-square mr-1" />
                   {t('sections.contacts.form.name.warning')}
                 </div>
@@ -138,7 +139,7 @@ export default function Contacts() {
                       required 
                       className="w-full px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" 
                 />
-                <div className="empty-feedback invalid-feedback text-white text-sm mt-2">
+                <div className="empty-feedback invalid-feedback text-white text-sm mt-2" aria-live='polite'>
                   <ExMark className="inline-block aspect-square mr-1" />
                   {t('sections.contacts.form.surname.warning')}
                 </div>
@@ -156,11 +157,11 @@ export default function Contacts() {
                       required 
                       className="w-full px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                  />
-                <div className="empty-feedback text-white text-sm mt-2">
+                <div className="empty-feedback text-white text-sm mt-2" aria-live='polite'>
                   <ExMark className="inline-block aspect-square mr-1" />
                   {t('sections.contacts.form.mail.warning')}
                 </div>
-                <div className="invalid-feedback text-white text-sm mt-2">
+                <div className="invalid-feedback text-white text-sm mt-2" aria-live='polite'>
                   <ExMark className="inline-block aspect-square mr-1" />
                   {t('sections.contacts.form.mail.warning')}
                 </div>
@@ -193,7 +194,7 @@ export default function Contacts() {
                         className="w-full min-h-40 px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" 
                         required>
               </textarea>
-              <div className="empty-feedback invalid-feedback text-white text-sm mt-1">
+              <div className="empty-feedback invalid-feedback text-white text-sm mt-1" aria-live='polite'>
                 <ExMark className="inline-block aspect-square mr-1" />
                 {t('sections.contacts.form.message.warning')}
               </div>
@@ -204,7 +205,7 @@ export default function Contacts() {
                 {t('sections.contacts.form.submit')}
             </button>
             {result && (
-              <p className={`mt-8 mb-4 text-base text-center ${resultClass}`} id="result">
+              <p className={`mt-8 mb-4 text-base text-center ${resultClass}`} id="result" aria-live='polite'>
                 {resultClass === 'text-white check' && (
                   <CheckMark className="inline-block aspect-square mr-2" />
                 )}
@@ -219,7 +220,9 @@ export default function Contacts() {
 
 
         
-        <div className='w-full flex flex-col gap-8 flex-1'>
+        <div className='w-full flex flex-col items-center gap-8 flex-1'>
+          <Logo className='w-25 h-25 border-4 border-white rounded-full'/>
+
           <div className='w-full'>
             <p className='text-center text-white mb-2'>{t('sections.contacts.callToAction1')}</p>
             <p className='text-[var(--text-highlight)] text-center text-[18px]'>naturopatagiglio@gmail.com</p>
@@ -233,6 +236,7 @@ export default function Contacts() {
                 href='https://www.instagram.com/naturopata.monica.giglio/' 
                 target="_blank" 
                 rel="noopener noreferrer" 
+                aria-label='Instagram'
                 className='bg-[var(--blue-highlight)] p-2 rounded-full inline-block'
               >
                 <Instagram 
@@ -244,6 +248,7 @@ export default function Contacts() {
                 href='https://www.facebook.com/monica.giglio.7' 
                 target="_blank" 
                 rel="noopener noreferrer" 
+                aria-label='Facebook'
                 className='bg-[var(--blue-highlight)] p-2 rounded-full inline-block'
               >
                 <Facebook 

@@ -1,0 +1,65 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} #Only 1 job at the time, if a new run starts old jobs are cancelled
+    runs-on: ubuntu-latest #runner environment
+    
+    steps:
+    - name: Checkout #Clone repo into runner
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build
+
+    - name: Create SPA fallback and static routes
+      run: |
+        #404 fallback - if a route doesn't exist take me to my html, react router will think of it client side
+        cp dist/index.html dist/404.html
+
+        #Main page static routes
+        MAIN_ROUTES=("about" "education" "transformation")
+        for route in "${MAIN_ROUTES[@]}"; do
+          mkdir -p "dist/$route"
+          cp dist/index.html "dist/$route/index.html"
+        done
+
+        #Course page static routes
+        COURSE_ROUTES=("RiflessologiaPlantare" "TecnicaMetamorfica" "33oliEssenziali" "OrganiPsicosomatica" "Aromaterapia" "Enneagramma" "AltoContatto" "VolareOltre")
+        mkdir -p "dist/courses"
+        for course in "${COURSE_ROUTES[@]}"; do
+          mkdir -p "dist/courses/$course"
+          cp dist/index.html "dist/courses/$course/index.html"
+        done
+
+        #Service page static routes
+        SERVICE_ROUTES=("soul" "essenza" "vita" "meta" "albero" "riflex")
+        mkdir -p "dist/services"
+        for service in "${SERVICE_ROUTES[@]}"; do
+          mkdir -p "dist/services/$service"
+          cp dist/index.html "dist/services/$service/index.html"
+        done
+
+        #Prevent GitHub Pages from ignoring files starting with _
+        touch dist/.nojekyll
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main' #only on main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        cname: inlumine.es

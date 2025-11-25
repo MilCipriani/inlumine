@@ -7,16 +7,12 @@
   --breakpoint-md-plus: 57rem; /*912px*/
   --breakpoint-xl: 86rem; /*standard is 80*/
 
-  --feather-blue: #0F86C6;
-  --hover-blue: #f0faff;
-
+  --feather-blue: #00356f; /*006DA8*/
   --blue-highlight: #16CBEB;
-
   --text-color: #145189;
   --text-light: #145189CC; /*80% opacity*/
   --text-highlight: #16CBEB;
-
-  --white: #f3f3f3;
+  --white: #FFFFFF;
 
 }
 
@@ -62,24 +58,44 @@ h3 {
   font-size: 1.3rem;
 }
 
+h4 {
+  font-size: 1.15rem;
+}
+
 .button {
-  padding: 1.5rem 2rem;
+  padding: 1rem 1rem;
   background-color: var(--feather-blue);
-  border-radius: 1rem;
+  border-radius: 50rem;
   text-transform: uppercase;
   color: var(--white);
 }
 
+/*Contact-us*/
 .button:hover {
   background-color: var(--blue-highlight);
 }
 
+/*Contact-us on phone Menu*/
 .button-phone {
   padding: 1rem 1.5rem;
-  background-color: var(--blue-highlight);
-  border-radius: 1rem;
+  background-color: var(--feather-blue);
+  border-radius: 50rem;
   text-transform: uppercase;
   color: var(--white);
+}
+
+.button-secondary {
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+  color: var(--feather-blue);
+  border: 1px solid var(--feather-blue);
+  border-radius: 50rem;;
+}
+
+/*Contact-us*/
+.button-secondary:hover {
+  color: var(--blue-highlight);
+  border: 1px solid var(--blue-highlight);
 }
 
 /*Features Slider ----------------------------------------*/
