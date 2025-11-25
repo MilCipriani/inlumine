@@ -42,7 +42,7 @@ export default {
     apenb: {
       h2: 'Evolución personal, competencia profesional certificada',
       p: 'Nuestros caminos están reconocidos por APENB (Asociación Profesional Española de Naturopatía y Bioterapia), garantizando la calidad profesional de la formación. Ya seas un operador del sector wellness deseoso de ampliar tus competencias, o una persona en busca de crecimiento personal, aquí encontrarás un ambiente donde rigor profesional y transformación interior se encuentran.',
-      p2: 'Las horas de formación obtenidas en In Lumine están reconocidas y pueden contribuir al total de horas necesario para la certificación profesional en naturopatía.'
+      //p2: 'Las horas de formación obtenidas en In Lumine están reconocidas y pueden contribuir al total de horas necesario para la certificación profesional en naturopatía.'
     },
     features: {
       h2: 'Nuestros caminos',
