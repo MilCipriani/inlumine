@@ -13,8 +13,8 @@ export default function Hero() {
       </div>
       
       <div className='w-full flex items-center justify-center gap-4 sm:gap-8'>
-        <HashLink to='/#FAQ' className='button flex items-center'>{t('sections.hero.explore')}</HashLink>
-        <HashLink to='/#paths' className='button-secondary'>{t('sections.hero.paths')}</HashLink>
+        <HashLink to='/#FAQ' className='button flex items-center text-center'>{t('sections.hero.explore')}</HashLink>
+        <HashLink to='/#paths' className='button-secondary text-center'>{t('sections.hero.paths')}</HashLink>
       </div>
       
       <img src={featherImage} alt={t('sections.hero.alt')} className='w-full aspect-square md:aspect-[32/11] object-cover rounded-3xl'/>
