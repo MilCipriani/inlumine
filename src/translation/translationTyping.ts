@@ -324,6 +324,10 @@ export interface TranslationStructure {
         loading: string
         submitted: string
         failed: string
+        privacy: string
+        privacyPolicy: string
+        privacyFile: string
+        privacyMessage: string
         submit: string
       }
       callToAction1: string
@@ -564,6 +568,10 @@ export type TranslationKey =
   | 'sections.contacts.form.loading'
   | 'sections.contacts.form.submitted'
   | 'sections.contacts.form.failed'
+  | 'sections.contacts.form.privacy'
+  | 'sections.contacts.form.privacyPolicy'
+  | 'sections.contacts.form.privacyFile'
+  | 'sections.contacts.form.privacyMessage'
   | 'sections.contacts.form.submit'
   | 'sections.contacts.callToAction1'
   | 'sections.contacts.callToAction2'
