@@ -198,7 +198,23 @@ export default function Contacts() {
                 <ExMark className="inline-block aspect-square mr-1" />
                 {t('sections.contacts.form.message.warning')}
               </div>
+              <div className='mt-8 w-full flex gap-2 justify-start items-start'>
+                <input type="checkbox" 
+                      name="privacyConsent" 
+                      id="privacy" 
+                      required 
+                      className="accent-green-300 w-5 h-5"
+                  />
+                <p className='text-white'>{t('sections.contacts.form.privacy')}<a className='text-[var(--text-highlight)]' href={t('sections.contacts.form.privacyFile')} download>{t('sections.contacts.form.privacyPolicy')}</a></p>
+              </div>
+              <div className="empty-feedback invalid-feedback text-white text-sm mt-1" aria-live='polite'>
+                <ExMark className="inline-block aspect-square mr-1" />
+                {t('sections.contacts.form.privacyMessage')}
+              </div>
             </div>
+
+            
+
             <button type="submit" 
                     className="uppercase px-8 py-4 text-white bg-[var(--blue-highlight)] rounded-3xl focus:bg-[var(--blue-highlight)] focus:outline-none"
                     >
@@ -225,7 +241,7 @@ export default function Contacts() {
 
           <div className='w-full'>
             <p className='text-center text-white mb-2'>{t('sections.contacts.callToAction1')}</p>
-            <p className='text-[var(--text-highlight)] text-center text-[18px]'>naturopatagiglio@gmail.com</p>
+            <p className='text-[var(--text-highlight)] text-center text-[18px]'>info@inlumine.es</p>
           </div>
 
           <div className='flex flex-col gap-4 w-full'>
