@@ -94,15 +94,11 @@ export default function Contacts() {
       <h2 className='text-center whitespace-pre-line mb-8 sm:mb-16'>{t('sections.contacts.h2')}</h2>
 
 
-
-
       <div className="bg-[var(--feather-blue)] rounded-3xl flex flex-col lg:flex-row items-center justify-center p-8 gap-8">
         <div className="flex flex-col gap-4 flex-2 lg:max-w-[60%]">
-          <div className="text-center">
-            <h3 className="text-3xl text-white mb-4">
+            <h3 className="text-center text-3xl text-white mb-4">
               {t('sections.contacts.form.title')}
             </h3>
-          </div>
           {/*action and method here on the form element are fallback options. preventDefaults() in the form submission logic (handleSubmit function) stops them from being used */}
           <form ref={formRef} action="https://api.web3forms.com/submit" method="POST" id="form" className="needs-validation" noValidate>
             <input type="hidden" name="access_key" value="51ade6f0-76e3-497b-9591-262c3d43eaef" />
@@ -156,7 +152,7 @@ export default function Contacts() {
                       placeholder={t('sections.contacts.form.mail.placeholder')} 
                       required 
                       className="w-full px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
-                 />
+                />
                 <div className="empty-feedback text-white text-sm mt-2" aria-live='polite'>
                   <ExMark className="inline-block aspect-square mr-1" />
                   {t('sections.contacts.form.mail.warning')}
@@ -177,7 +173,7 @@ export default function Contacts() {
                       id="phone" 
                       placeholder={t('sections.contacts.form.phone.placeholder')}  
                       className="w-full px-3 py-2 placeholder-[var(--text-light)] border-2 border-white bg-white rounded-2xl focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
-                 />
+                />
               </div>
             </div>
     {/*Message*/}
@@ -198,22 +194,23 @@ export default function Contacts() {
                 <ExMark className="inline-block aspect-square mr-1" />
                 {t('sections.contacts.form.message.warning')}
               </div>
-              <div className='mt-8 w-full flex gap-2 justify-start items-start'>
+
+    {/*Privacy checkbox*/}
+              <div className='flex-wrap mt-8 w-full flex gap-2 justify-start items-start'>
                 <input type="checkbox" 
                       name="privacyConsent" 
                       id="privacy" 
                       required 
                       className="accent-green-300 w-5 h-5"
                   />
-                <p className='text-white'>{t('sections.contacts.form.privacy')}<a className='text-[var(--text-highlight)]' href={t('sections.contacts.form.privacyFile')} download>{t('sections.contacts.form.privacyPolicy')}</a></p>
-              </div>
-              <div className="empty-feedback invalid-feedback text-white text-sm mt-1" aria-live='polite'>
-                <ExMark className="inline-block aspect-square mr-1" />
-                {t('sections.contacts.form.privacyMessage')}
+                <p className='flex-1 text-white'>{t('sections.contacts.form.privacy')}<a className='text-[var(--text-highlight)]' href={t('sections.contacts.form.privacyFile')} download>{t('sections.contacts.form.privacyPolicy')}</a></p>
+
+                <div className="w-full empty-feedback invalid-feedback text-white text-sm mt-1" aria-live='polite'>
+                  <ExMark className="inline-block aspect-square mr-1" />
+                  {t('sections.contacts.form.privacyMessage')}
+                </div>
               </div>
             </div>
-
-            
 
             <button type="submit" 
                     className="uppercase px-8 py-4 text-white bg-[var(--blue-highlight)] rounded-3xl focus:bg-[var(--blue-highlight)] focus:outline-none"
@@ -233,8 +230,6 @@ export default function Contacts() {
             )}
           </form>
         </div>
-
-
         
         <div className='w-full flex flex-col items-center gap-8 flex-1'>
           <Logo className='w-25 h-25 border-4 border-white rounded-full'/>
