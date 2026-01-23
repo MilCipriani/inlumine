@@ -147,6 +147,15 @@ export interface TranslationStructure {
           description: string
           alt: string
         }
+        shiro: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
         oli33: {
           date: string
           duration: string
@@ -439,6 +448,14 @@ export type TranslationKey =
   | 'sections.courses.cards.meta.subtitle'
   | 'sections.courses.cards.meta.description'
   | 'sections.courses.cards.meta.alt'
+
+  | 'sections.courses.cards.shiro.date'
+  | 'sections.courses.cards.shiro.duration' 
+  | 'sections.courses.cards.shiro.h3'
+  | 'sections.courses.cards.shiro.p'
+  | 'sections.courses.cards.shiro.subtitle'
+  | 'sections.courses.cards.shiro.description'
+  | 'sections.courses.cards.shiro.alt'
 
   | 'sections.courses.cards.oli33.date'
   | 'sections.courses.cards.oli33.duration'

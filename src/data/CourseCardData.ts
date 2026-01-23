@@ -1,6 +1,7 @@
 import type { TranslationKey } from '../translation/translationTyping'
 import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
 import meta from '../assets/metamorfica.jpg'
+import shiro from '../assets/Corsi/shiro.webp'
 import oli from '../assets/Corsi/oli.png'
 import organi from '../assets/Corsi/organi.jpg'
 //import cristallo from '../assets/Corsi/cristallo.jpg'
@@ -34,7 +35,7 @@ export const cardsData: CourseCardData[] = [
     id: "RiflessologiaPlantare",
     type: 'edu',
     date: "sections.courses.cards.riflex.date",
-    price: "€ 500",
+    price: "€ 600",
     duration: "sections.courses.cards.riflex.duration",
     h3: "sections.courses.cards.riflex.h3",
     p: "sections.courses.cards.riflex.p",
@@ -47,13 +48,26 @@ export const cardsData: CourseCardData[] = [
     id: "TecnicaMetamorfica",
     type: 'edu',
     date: "sections.courses.cards.meta.date",
-    price: "€ 280",
+    price: "€ 300",
     duration: "sections.courses.cards.meta.duration",
     h3: "sections.courses.cards.meta.h3",
     p: "sections.courses.cards.meta.p",
     img: meta,
     subtitle: "sections.courses.cards.meta.subtitle",
     description: "sections.courses.cards.meta.description"
+  },
+  {
+    //Shiro Abhyangam
+    id: "ShiroAbhyangam",
+    type: 'edu',
+    date: "sections.courses.cards.shiro.date",
+    price: "€ 300",
+    duration: "sections.courses.cards.shiro.duration",
+    h3: "sections.courses.cards.shiro.h3",
+    p: "sections.courses.cards.shiro.p",
+    img: shiro,
+    subtitle: "sections.courses.cards.shiro.subtitle",
+    description: "sections.courses.cards.shiro.description"
   },
   {
     //33 Oli essenziali

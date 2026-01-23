@@ -142,13 +142,22 @@ export default {
           alt: 'Simpatica foto di una famiglia che ha disegnato delle faccine sulla pianta dei piedi'
         },
         meta: {
-          date: '2026',
+          date: '15 Mar 2026',
           duration: '8 ore',
           h3: 'Corso di Tecnica Metamorfica',
           p: 'La Tecnica Metamorfica è un tocco dolce e consapevole che favorisce la trasformazione interiore liberando l’energia vitale e riportando equilibrio e leggerezza.',
           subtitle: 'Un tocco gentile e delicato che libera le energie trattenute e ti conduce con leggerezza verso la tua metamorfosi.',
           description: 'La Tecnica Metamorfica è un approccio delicato ma profondamente trasformativo, pensato per chi percepisce blocchi interiori difficili da comprendere e desidera ritrovare fluidità, leggerezza e libertà.\n\nSi basa su un tocco leggero e consapevole che agisce su punti specifici di piedi, mani e testa, seguendo un percorso che richiama le esperienze vissute dal concepimento alla nascita.\nQuesti punti corrispondono ai riflessi della spina dorsale, dove si imprimono le nostre prime esperienze emotive e si formano molti dei nostri schemi interiori.\n\nAttraverso sfioramenti lenti e delicati, si libera l’energia vitale bloccata durante la gestazione, permettendo all’intelligenza innata del corpo di guidare il processo di trasformazione.\n\nÈ una tecnica dolce ma potente, che non agisce sui sintomi ma sulle radici, accompagnando la persona verso un naturale riequilibrio a livello fisico, emotivo ed energetico.\nLa forza della trasformazione nasce dall’interno: la persona ricevente attiva spontaneamente la propria capacità di rigenerarsi, lasciando che l’energia trovi la direzione giusta.\nQuesto rende la Tecnica Metamorfica uno strumento semplice, accessibile e adatto a tutti — adulti e bambini — e facilmente integrabile con qualsiasi percorso terapeutico, sia di medicina tradizionale che complementare.\n\nChiunque può impararla: chi è in cammino verso la crescita personale, chi desidera portare più armonia e serenità in famiglia, chi lavora nella relazione d’aiuto, operatori del benessere e professionisti sanitari.\n\nÈ un invito a entrare in contatto con la forza originaria della vita e permettere alla trasformazione di accadere con naturalezza.',
           alt: 'Immagine di un bimbo avvolto dalle mani della madre a da ali di farfalla blu'
+        },
+        shiro: {
+          date: '14 Mar 2026',
+          duration: '6 ore',
+          h3: 'Corso di Shiro Abhyangam',
+          p: "Lo Shiro Abhyangam è un antico massaggio ayurvedico della testa che porta calma profonda al sistema nervoso, riducendo l'iperstimolazione e riportando il corpo a uno stato di radicamento e sicurezza.",
+          subtitle: 'Un tocco caldo e ritmato che calma la mente, riequilibra il sistema nervoso e riporta il corpo a uno stato di quiete e presenza.',
+          description: "Lo Shiro Abhyangam è una pratica millenaria dell'Ayurveda pensata per chi vive in uno stato di costante attivazione, sovrastimolazione o disconnessione dal proprio corpo, e desidera ritrovare calma, centratura e un senso di sicurezza interiore.\n\nSi basa su un massaggio lento, ritmico e avvolgente di testa, collo e spalle con olio di sesamo tiepido, che agisce su zone ricche di terminazioni nervose direttamente collegate ai centri di regolazione dello stress e delle emozioni.\nQueste aree, secondo l'Ayurveda, sono la sede dei sensi e della mente (manas), il luogo dove si raccolgono le tensioni mentali ed emotive che impediscono il riposo profondo e la chiarezza.\nAttraverso movimenti lenti, continui e consapevoli, il tocco caldo dell'olio stimola il sistema nervoso parasimpatico, quello responsabile del rilassamento, del recupero e della sensazione di essere al sicuro.\n\nIl corpo riceve un messaggio chiaro: può abbassare le difese, può riposare, può tornare a sé.\n\nÈ una pratica delicata ma potente, che non si limita a rilassare i muscoli, ma lavora in profondità sul sistema neuro-emotivo, favorendo il riequilibrio dall'interno.\nLa forza del trattamento sta nella sua capacità di portare presenza: la persona ricevente torna ad abitare il proprio corpo con fiducia, riducendo l'iperstimolazione sensoriale e ritrovando un senso di radicamento.\n\nLo Shiro Abhyangam è particolarmente indicato in contesti di neurodivergenza, dove il sistema nervoso può essere più reattivo e sensibile agli stimoli esterni. Praticato con sensibilità, gradualità e rispetto dei ritmi individuali, può diventare un prezioso alleato per migliorare la qualità del sonno, dell'attenzione e del benessere quotidiano.\n\nChiunque può impararlo: chi desidera prendersi cura di sé e dei propri cari, chi lavora nell'accompagnamento e nella relazione d'aiuto, operatori olistici, educatori e professionisti che operano con persone neurodivergenti.\n\nÈ un invito a rallentare, ad ascoltare e a permettere al sistema nervoso di ritrovare il suo ritmo naturale.",
+          alt: 'Immagine di mani che massaggiano delicatamente la testa di una persona in stato di rilassamento profondo'
         },
         oli33: {
           date: 'Videocorso',
@@ -223,7 +232,7 @@ export default {
         
         volare: {
           date: '2026',
-          duration: '2 incontri',
+          duration: 'Corso intensivo di 2 giornate',
           h3: 'Corso Volare Oltre',
           p: 'Due giorni di seminario intensivo nella profondità di te stesso per ri-conoscerti e trasformare il tuo vissuto in ali per volare oltre.',
           subtitle: 'Un percorso per lasciar andare il peso delle ferite, dei vecchi ruoli e delle storie che ti trattengono, aprendoti al cammino che davvero ti appartiene.',
