@@ -1,17 +1,16 @@
 import { useLanguage } from '../translation'
 
-import Courses from '../sections/Courses'
+import ServicesSection from '../sections/ServicesSection'
 import Footer from '../sections/Footer'
 
 
-function Transformation() {
+function Services() {
   const { t } = useLanguage()
 
   return (
     <div className="flex flex-col gap-24 mt-16">
-      <h1>{t('sections.transformation.h1')}</h1>
-      <Courses filter='sem' />
-      <Courses filter='transf'/>
+      <h1>{t('sections.services.h2')}</h1>
+      <ServicesSection />
 
       <Footer className='mt-16 sm:mt-32'/>
      
@@ -19,4 +18,4 @@ function Transformation() {
   )
 }
 
-export default Transformation
+export default Services

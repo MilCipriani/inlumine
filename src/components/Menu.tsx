@@ -64,6 +64,15 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
                 {t('nav.courses')}
               </HashLink>
             </li>
+            <li className="transform transition-transform duration-300 hover:scale-110">
+              <HashLink 
+                to="/services"
+                onClick={handleLinkClick}
+                className="hover:opacity-70 transition-opacity"
+              >
+                {t('nav.services')}
+              </HashLink>
+            </li>
             {/*<li className="transform transition-transform duration-300 hover:scale-110">
               <HashLink 
                 to="/#calendar"

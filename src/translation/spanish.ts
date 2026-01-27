@@ -5,6 +5,7 @@ export default {
     courses: "Cursos",
     education: 'Formación',
     transformation: 'Transformación del ser',
+    services: 'Servicios',
     calendar: 'Calendario',
     button: {
       contacts: "Contáctanos"
@@ -49,10 +50,11 @@ export default {
       feature1: 'Formación',
       feature2: 'Transformación del ser',
       feature3: 'Evolución y consciencia',
+      feature4: 'Servicios',
       alt: {
         alt1: 'Imagen de un libro abierto rodeado de coloridas flores secas',
         alt2: 'Imagen de una gaviota que despliega las alas sobre el mar',
-        alt3: 'Imagen de una persona que medita con un cálido atardecer de fondo',
+        alt3: 'Escultura de rocas donde el cuerpo sostiene la mente y el alma',
       },
       aria: {
         carousel: 'Carrusel de propuestas formativas',
@@ -82,7 +84,7 @@ export default {
         websiteAria: 'Visita el sitio personal',
         card0: {
           name: 'Monica Giglio',
-          details: 'Fundadora de In Lumine, Naturópata, se dedica a las disciplinas holísticas desde hace 25 años.',
+          details: 'Fundadora de In Lumine, naturópata y soul coach. Operadora ayurvédica y docente de naturopatía y medicina ayurvédica. Profesional del equipo A.M.A «Nutre tu terreno». Experta en reflexología podal y técnica metamórfica, facilitadora en constelaciones familiares y sistémicas.',
         },
         card1: {
           name: 'Dra. Alessia Fignon',
@@ -119,7 +121,11 @@ export default {
         card9: {
           name: 'Dr. Maurizio Cusani',
           details: "Oculista milanés, ha publicado ensayos sobre psicosomática, simbología y eneagrama, disciplinas que enseña en el Instituto Riza. Estudioso del sufismo, fue alumno de Laleh Bakhtiar y Gabriele Mandel. En 2009 publicó con Nuova Ipsa 'Habitar con el Eneagrama', junto a Z. Youssef.",
-        }
+        },
+        card10: {
+          name: 'Alessandra Locarini',
+          details: 'Mental Coach Profesional y Facilitadora en Constelaciones Familiares. Formada en Counseling Relacional y Coaching basado en la Programación Neurolingüística. Enfoque integrado y multidisciplinar orientado al crecimiento personal, la autoconciencia y la evolución emocional.',
+        },
       },
     },
     courses: {
@@ -264,36 +270,42 @@ export default {
         h1: 'Soul Coaching',
         subtitle: 'Un apoyo para aclarar, reencontrar el equilibrio y vivir con autenticidad.',
         description: "Este recorrido de acompañamiento te ofrece la oportunidad de mirarte a ti mismo y a tu vida con una mirada sincera y consciente. Te ayuda a reconocer y afrontar tus sombras, los miedos y todo aquello que te impide vivir en plenitud.\n\nA través de un trabajo profundo, podrás tomar conciencia de tu linaje familiar y liberarte de patrones y condicionamientos que ya no te pertenecen.\nEs una invitación a reflejarte con valentía, para aclarar la confusión mental y emocional y aprender a escuchar la voz auténtica que proviene desde dentro de ti.\n\nEste proceso te guía al descubrimiento de tu propósito y te sostiene en modelar tu vida para que pueda favorecerlo. Remover los \"escombros\" interiores significa reconectarte con la sabiduría y la luz de tu alma.\n\nNadie puede decirte quién eres: solo tú eres el verdadero maestro de ti mismo.\nYo soy simplemente un instrumento, una guía que ilumina lo que aún no logras ver con claridad.\n\nCuando alcanzas la fuente de tu esencia, la verdad del alma emerge espontáneamente. El cansancio profundo que a menudo percibimos nace de no ser plenamente honestos con nosotros mismos. Ser auténticos, en cambio, permite que el alma florezca.\n\nDecir la verdad a uno mismo no es como decírsela a los demás: significa abrir la puerta de la conciencia.\nDurante este camino descubrirás que eventos sincrónicos y coincidencias significativas comenzarán a multiplicarse en tu vida, acompañándote paso a paso en tu evolución interior.",
+        info: 'Info y precios\n\nPrimer encuentro: 90 €\nEncuentros posteriores: 60 € cada uno',
         alt: 'Imagen de la silueta de una mujer que abre los brazos con gesto liberador, sobre fondo de un atardecer'
       },
       essenza: {
         h1: 'Luminosa Esencia',
         subtitle: 'Transforma tus emociones con un enfoque combinado de aromaterapia y soul coaching.',
         description: '¿Te sientes abrumado por las emociones o deseas profundizar la conexión contigo mismo? Luminosa Esencia es un recorrido pensado para quien quiere explorar y transformar su propia dimensión interior a través de un enfoque sinérgico que integra la Aromaterapia del Terreno® y el Soul Coaching.\n\nDos herramientas para un único camino de conciencia.\n\nAromaterapia del Terreno®: un método que actúa en profundidad sobre el equilibrio psico-físico y emocional. Los aceites esenciales se seleccionan de forma personalizada, sosteniendo la liberación de tensiones y favoreciendo el bienestar global.\n\nSoul Coaching: un recorrido de escucha profunda y conciencia para disolver bloqueos emocionales, acoger las propias verdades interiores y activar un auténtico proceso de transformación.',
+        info: 'Info y precios\n\nEstructura: 3 encuentros de 150 € cada uno\nPosibilidad de continuar con encuentros adicionales si es necesario o solicitado',
         alt: 'Imagen de un cielo dorado con la silueta de un ave que vuela'      
       },
       vita:  {
         h1: 'Luminosa Vida',
         subtitle: 'Recupera serenidad y comprensión en las relaciones que realmente importan.',
         description: 'Este proyecto nace de la colaboración entre Monica Giglio y Prisca Zocca, que unen sus competencias para ayudar a las familias a superar dificultades relacionadas con la comunicación, la gestión de las emociones y los conflictos relacionales.\n\nA través de video consultas online, os acompañamos en la exploración de nuevas perspectivas y en el encuentro de soluciones que resuenen con vuestra realidad. El objetivo es crear relaciones más conscientes y armoniosas, devolviendo a cada uno las claves para afrontar con serenidad los desafíos cotidianos y redescubrir el bienestar familiar.\n\nUn camino a medida para recuperar conexión, confianza y ligereza en las relaciones',
+        info: 'Info y precios\n\nEstructura: 3 encuentros de 150 € cada uno\nPosibilidad de continuar con encuentros adicionales si es necesario o solicitado',
         alt: 'Un sendero de madera que se adentra en la naturaleza'
       },
       meta:  {
         h1: 'Técnica Metamórfica',
         subtitle: 'Una experiencia de reequilibrio profundo que favorece la liberación de las tensiones y el reencuentro consigo mismo.',
         description: 'El masaje metamórfico es un tratamiento delicado y profundo, pensado para quien percibe bloqueos interiores difíciles de comprender y desea transformarlos en nuevas posibilidades de bienestar. Se basa en la Técnica Metamórfica, un enfoque suave pero potente que actúa a través de ligeros roces de puntos específicos en pies, manos y cabeza. Estos puntos corresponden al mapa reflejado de la columna vertebral, donde están impresas las memorias emocionales y las experiencias desarrolladas durante la fase prenatal.\n\nCada toque acompaña a la persona en un viaje simbólico que recorre las experiencias desde la concepción hasta el nacimiento, estimulando la energía vital y despertando la capacidad natural de autocuración del cuerpo.\nCuando estas energías se liberan, los patrones limitantes se disuelven y se activa un proceso de transformación profunda que puede reflejarse en todos los aspectos de la vida.\n\nEl masaje metamórfico no es una terapia médica, sino una herramienta de crecimiento personal y reequilibrio energético.\nEs adecuado para personas de cualquier edad, adultos y niños, y puede integrarse con tratamientos tradicionales o complementarios.\nPuede ser aprendido por cualquiera que desee favorecer su propio bienestar o el de los demás, desde operadores y terapeutas hasta quien simplemente tiene a corazón la serenidad personal y familiar.\n\nCon esta técnica no se actúa sobre los síntomas, sino sobre la esencia de la persona, facilitando un cambio natural, profundo y duradero.',
+        info: 'Info y precios\n\nNiños: 60 €\nAdultos: 80 €',
         alt: 'Imagen de un bebé envuelto por las manos de la madre y por alas de mariposa azul'
       },
       albero:  {
         h1: "Epigenética del Árbol Genealógico",
         subtitle: 'Saca a la luz las raíces de tu historia y reescribe conscientemente tu presente.',
         description: 'Conocer y comprender el propio árbol genealógico significa acceder a capas profundas del inconsciente, allí donde se custodian programas, pactos, creencias y nudos ancestrales que a menudo actúan silenciosamente en nuestra vida. A través del estudio del árbol, es posible sacar a la luz estos vínculos invisibles y disolverlos, creando así el espacio para reescribir la propia historia y liberar el potencial personal.\n\nEn muchas familias, transmitir un nombre se considera un honor y una tradición. Sin embargo, llevar el nombre de un antepasado puede significar, a nivel inconsciente, heredar también parte de su historia, de sus emociones y de sus asuntos pendientes. Los nombres que recibimos son como "contratos" invisibles que nos vinculan al clan familiar, influenciando nuestras elecciones y nuestro destino. También las fechas significativas, las enfermedades, los eventos traumáticos y los secretos no dichos pueden tener un impacto profundo en el presente, condicionando inconscientemente nuestra vida.\n\nReconocer estos patrones y llevarlos a la consciencia es un acto de libertad. A través de un trabajo dirigido sobre el árbol genealógico, es posible comprender y transformar estos vínculos, liberando la energía vital y abriendo el camino a nuevas posibilidades. Si sientes que repites historias que no te pertenecen, si percibes pesos invisibles o deseas comprender mejor las raíces de tu experiencia, este recorrido puede ayudarte a reencontrar claridad, ligereza y autonomía interior.',
+        info: 'Info y precios\n\nEstructura: 3 encuentros de 80 € cada uno',
         alt: 'Foto de un majestuoso árbol verde'
       },
       riflex:  {
         h1: 'Reflexología Plantar Orgánica',
         subtitle: 'El pie es la base de nuestro andar en el mundo y contiene, en miniatura, el organismo humano entero.',
         description: 'El pie es la base de nuestro caminar en el mundo y contiene, en miniatura, el organismo humano entero. La reflexología plantar es una técnica natural que actúa a través de la estimulación de áreas específicas de la planta del pie para favorecer el reequilibrio energético y funcional de todo el cuerpo. Cada zona reflejada corresponde a un órgano, una articulación, una glándula o una estructura nerviosa: a través de una presión dirigida, es posible activar los procesos naturales de autorregulación y favorecer un estado de bienestar global.\n\nLa reflexología plantar orgánica trabaja por aparatos, ofreciendo una visión clara y estructurada de las conexiones entre pie y cuerpo. Este enfoque permite actuar de forma dirigida sobre molestias específicas, sosteniendo el reequilibrio general del organismo. El tratamiento favorece una profunda sensación de ligereza, relajación y armonía, contribuyendo a disolver tensiones, mejorar la circulación y restituir energía vital.\n\nEs una experiencia adecuada para quien desea cuidarse de forma natural y no invasiva, reencontrando bienestar y equilibrio a partir de los pies.',
+        info: 'Info y precios\n\nSesión individual: 80 €',
         alt: 'Simpática foto de una familia que ha dibujado caritas en la planta de los pies'
       },
     },
@@ -346,7 +358,8 @@ export default {
       },
       callToAction1: 'O si prefieres, contáctanos al correo',
       callToAction2: 'Síguenos en las redes sociales',
-      allRightsReserved: '© 2025 In Lumine | NIF Y3464812Z | Todos los derechos reservados.',
+      allRightsReserved: '© 2026 In Lumine | NIF Y3464812Z | Todos los derechos reservados.',
+      disclaimer: 'La información presente en este sitio se refiere a disciplinas holísticas, prácticas no convencionales y profesiones orientadas al bienestar y a la mejora de la calidad de vida. Estos contenidos no sustituyen en ningún caso el consejo médico ni la orientación de otros profesionales de la salud legalmente habilitados. Las prácticas descritas no tienen fines diagnósticos ni terapéuticos y no se encuentran dentro del ámbito de la medicina convencional.'
     }
     
   }

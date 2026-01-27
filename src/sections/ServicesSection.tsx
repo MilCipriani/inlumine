@@ -1,5 +1,5 @@
 import { useLanguage } from '../translation/index.ts'
-import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView.ts'
 import { Link } from 'react-router-dom'
 
 import soul from '../assets/soulCoach.jpg'
@@ -23,7 +23,6 @@ export default function Services() {
 
   return (
     <section id='services' className="flex flex-col gap-8">
-      <h2 className='text-start mb-8 sm:mb-16'>{t('sections.services.h2')}</h2>
 
       <div className='w-full flex flex-col md:flex-row justify-start items-center gap-8'>
         <Link to={'/services/soul'}
