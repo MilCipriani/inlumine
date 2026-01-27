@@ -5,6 +5,7 @@ import Instagram from '../assets/instagram.svg?react'
 import ExMark from '../assets/exMark.svg?react'
 import CheckMark from '../assets/checkMark.svg?react'
 import Logo from '../assets/logo.svg?react'
+import Footer from './Footer.tsx'
 
 
 export default function Contacts() {
@@ -273,7 +274,7 @@ export default function Contacts() {
         
     </div>
 
-    <p className='text-center'>{t('sections.contacts.allRightsReserved')}</p>
+    <Footer />
 
     </section>
 

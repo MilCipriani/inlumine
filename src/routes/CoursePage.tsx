@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 import { useLanguage } from '../translation'
 import { cardsData } from '../data/CourseCardData'
 import Calendar from '../assets/calendar.svg?react'
+import GPS from '../assets/gps.svg?react'
 import Timer from '../assets/timer.svg?react'
 import Price from '../assets/price.svg?react'
 import type { TranslationKey } from '../translation/translationTyping'
@@ -20,7 +21,7 @@ function CoursePage() {
   }
   
   return (
-    <div className="flex flex-col lg:flex-row gap-8 mt-8 pb-16 lg:pb-32">
+    <div className="flex flex-col lg:flex-row gap-8 mt-8 sm:mb-32 lg:mb-48">
       
       <article className='w-full lg:w-4/5 flex flex-col gap-8'>
         <h1>{t(course.h3)}</h1>
@@ -34,6 +35,12 @@ function CoursePage() {
           <Calendar aria-hidden="true" className='flex-none'/>
           <p className='text-start'>{t(course.date)}</p>
         </div>
+        {course.location && ( 
+          <div className='flex xs:flex-col lg:flex-row gap-2 items-center'>
+            <GPS aria-hidden="true" className='flex-none'/>
+            <p className='text-start'>{course.location}</p>
+          </div>
+        )}
         <div className='flex xs:flex-col lg:flex-row gap-2 items-center'>
           <Timer aria-hidden="true" className='flex-none'/>
           <p className='text-start'>{t(course.duration)}</p>

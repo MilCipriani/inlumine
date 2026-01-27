@@ -9,6 +9,7 @@ import ileniacasano from '../assets/team/IleniaCasano.jpg'
 import priscazocca from '../assets/team/PriscaZocca.jpg'
 import danielebianchini from '../assets/team/DanieleBianchini.jpeg'
 import mauriziocusani from '../assets/team/MaurizioCusani.jpg'
+import alessandralocarini from '../assets/team/AlessandraLocarini.jpg'
 
 export interface TeamCardData {
   id: string
@@ -70,6 +71,12 @@ export const cardsData: TeamCardData[] = [
     img: priscazocca,
     h3: "sections.team.cards.card7.name",
     p: "sections.team.cards.card7.details",
+  },
+  {
+    id: "locarini",
+    img: alessandralocarini,
+    h3: "sections.team.cards.card10.name",
+    p: "sections.team.cards.card10.details",
   },
   {
     id: "bianchini",

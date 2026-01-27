@@ -5,6 +5,7 @@ export interface TranslationStructure {
     courses: string
     education: string
     transformation: string
+    services: string
     calendar: string
     button: {
       contacts: string
@@ -48,6 +49,7 @@ export interface TranslationStructure {
       feature1: string
       feature2: string
       feature3: string
+      feature4: string
       alt: {
         alt1: string
         alt2:string
@@ -116,6 +118,10 @@ export interface TranslationStructure {
           details: string
         }
         card9: {
+          name: string
+          details: string
+        }
+        card10: {
           name: string
           details: string
         }
@@ -259,36 +265,42 @@ export interface TranslationStructure {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
       essenza: {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
       vita: {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
       meta: {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
       albero: {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
       riflex: {
         h1: string
         subtitle: string
         description: string
+        info: string
         alt: string
       }
     }
@@ -342,6 +354,7 @@ export interface TranslationStructure {
       callToAction1: string
       callToAction2: string
       allRightsReserved: string
+      disclaimer: string
     }
   }
 }
@@ -354,6 +367,7 @@ export type TranslationKey =
   | 'nav.courses'
   | 'nav.education'
   | 'nav.transformation'
+  | 'nav.services'
   | 'nav.calendar'
   | 'nav.button.contacts'
   | 'nav.aria.logo'
@@ -385,6 +399,7 @@ export type TranslationKey =
   | 'sections.features.feature1'
   | 'sections.features.feature2'
   | 'sections.features.feature3'
+  | 'sections.features.feature4'
   | 'sections.features.alt.alt1'
   | 'sections.features.alt.alt2'
   | 'sections.features.alt.alt3'
@@ -428,6 +443,8 @@ export type TranslationKey =
   | 'sections.team.cards.card8.details'
   | 'sections.team.cards.card9.name'
   | 'sections.team.cards.card9.details'
+  | 'sections.team.cards.card10.name'
+  | 'sections.team.cards.card10.details'
 
   | 'sections.courses.moreInfo'
   | 'sections.courses.h2'
@@ -539,26 +556,32 @@ export type TranslationKey =
   | 'sections.services.soul.h1'
   | 'sections.services.soul.subtitle'
   | 'sections.services.soul.description'
+  | 'sections.services.soul.info'
   | 'sections.services.soul.alt'
   | 'sections.services.essenza.h1'
   | 'sections.services.essenza.subtitle'
   | 'sections.services.essenza.description'
+  | 'sections.services.essenza.info'
   | 'sections.services.essenza.alt'
   | 'sections.services.vita.h1'
   | 'sections.services.vita.subtitle'
   | 'sections.services.vita.description'
+  | 'sections.services.vita.info'
   | 'sections.services.vita.alt'
   | 'sections.services.meta.h1'
   | 'sections.services.meta.subtitle'
   | 'sections.services.meta.description'
+  | 'sections.services.meta.info'
   | 'sections.services.meta.alt'
   | 'sections.services.albero.h1'
   | 'sections.services.albero.subtitle'
   | 'sections.services.albero.description'
+  | 'sections.services.albero.info'
   | 'sections.services.albero.alt'
   | 'sections.services.riflex.h1'
   | 'sections.services.riflex.subtitle'
   | 'sections.services.riflex.description'
+  | 'sections.services.riflex.info'
   | 'sections.services.riflex.alt'
 
   | 'sections.ad.h2' 
@@ -593,3 +616,4 @@ export type TranslationKey =
   | 'sections.contacts.callToAction1'
   | 'sections.contacts.callToAction2'
   | 'sections.contacts.allRightsReserved'
+  | 'sections.contacts.disclaimer'

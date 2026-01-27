@@ -31,8 +31,9 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
   return (
     <nav className="w-screen fixed top-0 left-0 z-50 flex items-center justify-between px-8 py-4 lg:px-16 xl:px-70 bg-[#f3ebdb]">
       {/*The logo dictates the height of the whole Nav (plus padding)*/}
-      <HashLink smooth to="/#about" aria-label={t('nav.aria.logo')}>
+      <HashLink smooth to="/#about" aria-label={t('nav.aria.logo')} className='flex items-center justify-center gap-4'>
         <Logo className='w-16 h-16 lg:w-25 lg:h-25 border-4 border-white rounded-full'/>
+        <p>IN LUMINE</p>
       </HashLink>
       <ul className='hidden md-plus:flex gap-8 text-base items-center'>
         <li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/about">{t('nav.about')}</HashLink></li>
@@ -44,6 +45,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
             <HashLink smooth to="/transformation" className='hover:text-[var(--text-highlight)]'>{t('nav.transformation')}</HashLink>
           </div>
         </li>
+        <li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/services">{t('nav.services')}</HashLink></li>
         {/*<li className='hover:text-[var(--text-highlight)]'><HashLink smooth to="/calendar">{t('nav.calendar')}</HashLink></li>*/}
         <li className='w-6 h-2.5 flex justify-center items-center hover:text-[var(--text-highlight)]'><LanguageToggle /></li>
       </ul>

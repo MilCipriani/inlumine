@@ -19,6 +19,7 @@ export interface CourseCardData {
   type: 'edu' | 'transf' | 'sem'
   date: TranslationKey
   price: string
+  location: string
   duration: TranslationKey
   h3: TranslationKey
   p: TranslationKey
@@ -35,6 +36,7 @@ export const cardsData: CourseCardData[] = [
     id: "RiflessologiaPlantare",
     type: 'edu',
     date: "sections.courses.cards.riflex.date",
+    location: '',
     price: "€ 600",
     duration: "sections.courses.cards.riflex.duration",
     h3: "sections.courses.cards.riflex.h3",
@@ -48,6 +50,7 @@ export const cardsData: CourseCardData[] = [
     id: "TecnicaMetamorfica",
     type: 'edu',
     date: "sections.courses.cards.meta.date",
+    location: 'Rivalta di Torino',
     price: "€ 300",
     duration: "sections.courses.cards.meta.duration",
     h3: "sections.courses.cards.meta.h3",
@@ -61,6 +64,7 @@ export const cardsData: CourseCardData[] = [
     id: "ShiroAbhyangam",
     type: 'edu',
     date: "sections.courses.cards.shiro.date",
+    location: 'Rivalta di Torino',
     price: "€ 300",
     duration: "sections.courses.cards.shiro.duration",
     h3: "sections.courses.cards.shiro.h3",
@@ -74,6 +78,7 @@ export const cardsData: CourseCardData[] = [
     id: "33oliEssenziali",
     type: 'edu',
     date: "sections.courses.cards.oli33.date",
+    location: '',
     price: "€ 450",
     duration: "sections.courses.cards.oli33.duration",
     h3: "sections.courses.cards.oli33.h3",
@@ -87,6 +92,7 @@ export const cardsData: CourseCardData[] = [
     id: "OrganiPsicosomatica",
     type: 'edu',
     date: "sections.courses.cards.organi.date",
+    location: '',
     price: "sections.courses.cards.organi.price",
     duration: "sections.courses.cards.organi.duration",
     h3: "sections.courses.cards.organi.h3",
@@ -100,6 +106,7 @@ export const cardsData: CourseCardData[] = [
     id: "Cristalloterapia",
     type: 'edu',
     date: "sections.courses.cards.cristallo.date",
+    location: '',
     price: "€ --",
     duration: "sections.courses.cards.cristallo.duration",
     h3: "sections.courses.cards.cristallo.h3",
@@ -113,6 +120,7 @@ export const cardsData: CourseCardData[] = [
     id: "Aromaterapia",
     type: 'edu',
     date: "sections.courses.cards.aroma.date",
+    location: '',
     price: "€ 280",
     duration: "sections.courses.cards.aroma.duration",
     h3: "sections.courses.cards.aroma.h3",
@@ -126,6 +134,7 @@ export const cardsData: CourseCardData[] = [
     id: "Enneagramma",
     type: 'edu',
     date: "sections.courses.cards.ennea.date",
+    location: '',
     price: "sections.courses.cards.ennea.price",
     duration: "sections.courses.cards.ennea.duration",
     h3: "sections.courses.cards.ennea.h3",
@@ -144,6 +153,7 @@ export const cardsData: CourseCardData[] = [
     id: "AltoContatto",
     type: 'transf',
     date: "sections.courses.cards.alto.date",
+    location: '',
     price: "€ 450",
     duration: "sections.courses.cards.alto.duration",
     h3: "sections.courses.cards.alto.h3",
@@ -157,6 +167,7 @@ export const cardsData: CourseCardData[] = [
     id: "DecodificaAlberoGenealogico",
     type: 'transf',
     date: "sections.courses.cards.albero.date",
+    location: '',
     price: "€ 480",
     duration: "sections.courses.cards.albero.duration",
     h3: "sections.courses.cards.albero.h3",
@@ -173,6 +184,7 @@ export const cardsData: CourseCardData[] = [
     id: "VolareOltre",
     type: 'sem',
     date: "sections.courses.cards.volare.date",
+    location: '',
     price: "€ 480",
     duration: "sections.courses.cards.volare.duration",
     h3: "sections.courses.cards.volare.h3",
@@ -186,6 +198,7 @@ export const cardsData: CourseCardData[] = [
     id: "CostellazioniFamiliari",
     type: 'sem',
     date: "sections.courses.cards.costellazioni.date",
+    location: '',
     price: "€ 480",
     duration: "sections.courses.cards.costellazioni.duration",
     h3: "sections.courses.cards.costellazioni.h3",

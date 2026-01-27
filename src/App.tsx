@@ -8,9 +8,10 @@ import Menu from './components/Menu'
 import HomePage from './routes/HomePage'
 import AboutPage from './routes/AboutPage'
 import CoursePage from './routes/CoursePage'
-import ServicePage from './routes/ServicePage'
+import Services from './routes/Services'
 import Education from './routes/Education'
 import Transformation from './routes/Transformation'
+import ServicePage from './routes/ServicePage'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop />
-      <div className='relative mt-16 lg:mt-25 px-8 py-8 lg:px-16 xl:px-70 bg-[#f3ebdb] min-h-full'>
+      <div className='relative mt-16 lg:mt-25 px-8 py-8 lg:px-16 xl:px-70 bg-[#f3ebdb] min-h-screen'>
         <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <Menu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path='/education' element={<Education />} />
           <Route path='/transformation' element={<Transformation />} />
+          <Route path='/services' element={<Services />} />
 
           <Route path="/courses/:id" element={<CoursePage />} />
           <Route path="/services/:id" element={<ServicePage />} />
