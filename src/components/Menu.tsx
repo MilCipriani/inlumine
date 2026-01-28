@@ -21,12 +21,12 @@ export default function FullScreenMenu({ isMenuOpen, setIsMenuOpen }: FullScreen
 
   return (
     <div
-        className={`h-[130dvh] pb-[30dvh] fixed inset-0 bg-[#f3ebdb] z-[100] transition-all duration-200 ease-in-out flex items-center justify-center ${
+        className={`h-[130dvh] pb-[30dvh] fixed inset-0 bg-[#f3ebdb] z-100 transition-all duration-200 ease-in-out flex items-center justify-center ${
         isMenuOpen 
           ? 'opacity-100 visible' 
           : 'opacity-0 invisible'
     }`}>
-      <div className='w-full h-[100dvh] flex flex-col items-center justify-center gap-12 text-2xl font-serif px-12'>
+      <div className='w-full h-dvh flex flex-col items-center justify-center gap-12 text-2xl font-serif px-12'>
         <button
           onClick={handleLinkClick}
         >
