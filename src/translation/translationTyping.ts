@@ -220,6 +220,15 @@ export interface TranslationStructure {
           description: string
           alt: string
         }
+        costellaz: {
+          date: string
+          duration: string
+          h3: string
+          p: string
+          subtitle: string
+          description: string
+          alt: string
+        }
         albero: {
           date: string
           duration: string
@@ -231,15 +240,6 @@ export interface TranslationStructure {
         }
         //Seminars
         volare: {
-          date: string
-          duration: string
-          h3: string
-          p: string
-          subtitle: string
-          description: string
-          alt: string
-        }
-        costellazioni: {
           date: string
           duration: string
           h3: string
@@ -297,6 +297,13 @@ export interface TranslationStructure {
         alt: string
       }
       riflex: {
+        h1: string
+        subtitle: string
+        description: string
+        info: string
+        alt: string
+      }
+      costellaz: {
         h1: string
         subtitle: string
         description: string
@@ -524,6 +531,14 @@ export type TranslationKey =
   | 'sections.courses.cards.alto.description'
   | 'sections.courses.cards.alto.alt'
 
+  | 'sections.courses.cards.costellaz.date'
+  | 'sections.courses.cards.costellaz.duration'
+  | 'sections.courses.cards.costellaz.h3'
+  | 'sections.courses.cards.costellaz.p'
+  | 'sections.courses.cards.costellaz.subtitle'
+  | 'sections.courses.cards.costellaz.description'
+  | 'sections.courses.cards.costellaz.alt'
+
   | 'sections.courses.cards.albero.date'
   | 'sections.courses.cards.albero.duration'
   | 'sections.courses.cards.albero.h3'
@@ -540,14 +555,6 @@ export type TranslationKey =
   | 'sections.courses.cards.volare.subtitle'
   | 'sections.courses.cards.volare.description'
   | 'sections.courses.cards.volare.alt'
-
-  | 'sections.courses.cards.costellazioni.date'
-  | 'sections.courses.cards.costellazioni.duration'
-  | 'sections.courses.cards.costellazioni.h3'
-  | 'sections.courses.cards.costellazioni.p'
-  | 'sections.courses.cards.costellazioni.subtitle'
-  | 'sections.courses.cards.costellazioni.description'
-  | 'sections.courses.cards.costellazioni.alt'
 
   | 'sections.education.h1'
   | 'sections.transformation.h1'
@@ -583,6 +590,11 @@ export type TranslationKey =
   | 'sections.services.riflex.description'
   | 'sections.services.riflex.info'
   | 'sections.services.riflex.alt'
+  | 'sections.services.costellaz.h1'
+  | 'sections.services.costellaz.subtitle'
+  | 'sections.services.costellaz.description'
+  | 'sections.services.costellaz.info'
+  | 'sections.services.costellaz.alt'
 
   | 'sections.ad.h2' 
   | 'sections.ad.cards.card1.h2'

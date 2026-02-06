@@ -7,6 +7,8 @@ import organi from '../assets/Corsi/organi.jpg'
 //import cristallo from '../assets/Corsi/cristallo.jpg'
 import aroma from '../assets/Corsi/aroma.jpg'
 import ennea from '../assets/Corsi/ennea.jpg'
+import costellaz from '../assets/costellazioni.jpg'
+
 
 import alto from '../assets/Corsi/alto.jpeg'
 //import albero from '../assets/Corsi/albero.jpg'
@@ -162,6 +164,20 @@ export const cardsData: CourseCardData[] = [
     subtitle: "sections.courses.cards.alto.subtitle",
     description: "sections.courses.cards.alto.description"
   }, 
+  {
+    //Costellazioni Familiari di Gruppo
+    id: "Costellazioni",
+    type: 'transf',
+    date: "sections.courses.cards.costellaz.date",
+    location: '',
+    price: "€ 120",
+    duration: "sections.courses.cards.costellaz.duration",
+    h3: "sections.courses.cards.costellaz.h3",
+    p: "sections.courses.cards.costellaz.p",
+    img: costellaz,
+    subtitle: "sections.courses.cards.costellaz.subtitle",
+    description: "sections.courses.cards.costellaz.description"
+  },
   /*{
     //Decodifica Albero Genealogico
     id: "DecodificaAlberoGenealogico",
@@ -185,7 +201,7 @@ export const cardsData: CourseCardData[] = [
     type: 'sem',
     date: "sections.courses.cards.volare.date",
     location: '',
-    price: "€ 480",
+    price: "€ 1480",
     duration: "sections.courses.cards.volare.duration",
     h3: "sections.courses.cards.volare.h3",
     p: "sections.courses.cards.volare.p",
@@ -194,7 +210,7 @@ export const cardsData: CourseCardData[] = [
     description: "sections.courses.cards.volare.description"
   },
   /*{
-    //Costellazioni Familiari
+    //Costellazioni Familiari seminario Professionale
     id: "CostellazioniFamiliari",
     type: 'sem',
     date: "sections.courses.cards.costellazioni.date",
