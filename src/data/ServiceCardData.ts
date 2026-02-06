@@ -6,6 +6,7 @@ import vita from '../assets/luminosaVita.jpg'
 import meta from '../assets/metamorfica.jpg'
 import albero from '../assets/albero.jpg'
 import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
+import costellaz from '../assets/costellazioni.jpg'
 
 export interface ServiceCardData {
   id: string
@@ -66,5 +67,13 @@ export const cardsData: ServiceCardData[] = [
     subtitle: "sections.services.riflex.subtitle",
     description: "sections.services.riflex.description",
     info: "sections.services.riflex.info"
+  },
+  {
+    id: 'costellaz',
+    h1: "sections.services.costellaz.h1",
+    img: costellaz,
+    subtitle: "sections.services.costellaz.subtitle",
+    description: "sections.services.costellaz.description",
+    info: "sections.services.costellaz.info"
   },
 ];

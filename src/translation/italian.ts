@@ -104,7 +104,7 @@ export default {
         },
         card5: {
           name: 'Gloria Damaschi',
-          details: "Aromaterapeuta e ideatrice dell'Aromaterapeuta del Terreno®, Docente e Vicepresidente per l'Italia della Asociación Profesional Española de Naturopatía y Bioterapia (APENB).",
+          details: "Aromaterapeuta e ideatrice dell'Aromaterapia del Terreno®, Docente e Vicepresidente per l'Italia della Asociación Profesional Española de Naturopatía y Bioterapia (APENB).",
         },
         card6: {
           name: 'Ilenia Casano',
@@ -224,6 +224,15 @@ export default {
           description: 'Nella società contemporanea, tuttavia, le famiglie si trovano spesso prive di riferimenti concreti e di pratiche condivise per accompagnare in modo equilibrato la nascita e la crescita dei figli.\nL’alto contatto, riscoperto dalle tradizioni più antiche e dalle culture comunitarie, rappresenta un insieme di approcci e strumenti che sostengono il legame genitore–bambino, favorendo una relazione più profonda, empatica e armoniosa.\n\nQuesto corso propone un viaggio tra teoria e pratica, per esplorare le dinamiche del contatto, del legame e dell’equilibrio familiare. Attraverso l’approfondimento di conoscenze scientifiche, antropologiche e corporee, i partecipanti potranno sviluppare maggiore consapevolezza del proprio ruolo genitoriale e individuare strategie funzionali per una quotidianità più serena ed efficace.\n\nTematiche del corso:\n• Microchimerismo fetale: le cellule dei nostri avi\n• Aptonomia: dalla parola al contatto\n• Babywearing: tecniche, tipologie di fasce e strumenti\n• Bonding: il cordone ombelicale tra gestazione ed esogestazione\n• Allattamento: attaccamento e nutrimento\n• Co-sleeping: sicurezza e benefici\n• Stretching dei meridiani: teoria e pratica\n• Le ferite dell’anima\n\nUn percorso dedicato a chi desidera comprendere in profondità la dimensione relazionale della nascita, riscoprendo il valore del contatto come strumento educativo, affettivo e di crescita reciproca.',
           alt: "Foto di un rapace che vola verso l'orizzonte"
         },
+        costellaz: {
+          date: 'Maggio 2026',
+          duration: '1 giornata',
+          h3: 'Costellazioni Familiari',
+          p: 'Un corso per entrare in contatto con le dinamiche invisibili che influenzano la tua vita e ritrovare armonia nelle relazioni.',
+          subtitle: 'Ogni famiglia ha una storia che chiede di essere alscoltata.',
+          description: "Le costellazioni familiari rappresentano un percorso di consapevolezza profondo e delicato, pensato per chi desidera conoscersi meglio, sciogliere blocchi interiori e ritrovare equilibrio nelle relazioni e nella propria vita.\n\nAttraverso il lavoro sul campo sistemico, questo corso permette di entrare in contatto con dinamiche invisibili ma attive, spesso radicate nella storia familiare, che influenzano emozioni, scelte e comportamenti.\n\nNel lavoro di gruppo, i partecipanti diventano rappresentanti di elementi significativi del sistema, offrendo uno specchio potente e trasformativo delle dinamiche interiori. La partecipazione è attiva: anche chi viene chiamato nel ruolo di rappresentante svolge un lavoro profondo su di sé, diventando risorsa per l'intero gruppo.\n\nIl seminario si svolge in un clima di assoluta riservatezza e apertura, dove ogni persona è invitata ad accogliere con amore gli altri membri. Non è garantito che tutti i partecipanti siano oggetto di costellazione in prima persona rispetto alla loro tematica: questo può variare in base al numero e alla volontà dei partecipanti presenti.\n\nObbiettivi del seminario:\n• Favorire maggiore armonia e centratura interiore\n• Sostenere il rilascio di pesi emotivi ereditati\n• Recuperare le proprie risorse e la libertà interiore\n• Sviluppare un nuovo modo di stare in relazione con se stessi e con gli altri\n• Aprire la strada a un benessere più autentico e duraturo\n\nUn'opportunità di trasformazione condivisa, dove il gruppo diventa medicina e ogni presenza è preziosa per il viaggio di tutti.",
+          alt: 'Immagine di un gruppo di persone che si tengono la mano entrando in contatto con la corteccia di un albero'
+        },
         albero: {
           date: '2026',
           duration: '8ore divise in 2 incontri',
@@ -237,7 +246,7 @@ export default {
         //Seminars -----------------------------------------------------------
         
         volare: {
-          date: '2026',
+          date: 'Ottobre 2026',
           duration: 'Corso intensivo di 2 giornate',
           h3: 'Corso Volare Oltre',
           p: 'Due giorni di seminario intensivo nella profondità di te stesso per ri-conoscerti e trasformare il tuo vissuto in ali per volare oltre.',
@@ -245,7 +254,7 @@ export default {
           description: 'Due giorni di seminario intensivo durante il quale costruiremo uno spazio di pace e accoglienza, dove poter intraprendere un vero viaggio interiore, ritrovare equilibrio e connetterti alla tua parte più autentica.\nL’esperienza ti aiuterà a potenziare il tuo benessere emozionale e a riscoprire la tua dimensione spirituale restando radicato nella realtà quotidiana.\n\n\n\nIl percorso alterna momenti individuali e di gruppo per esplorare condizionamenti inconsci, ferite emotive e legami profondi con la propria storia.\nAttraverso tecniche transpersonali, esercizi simbolici e pratiche corporee, potrai lasciare andare maschere e ruoli limitanti, riconoscendo chi sei davvero e quali risorse porti dentro di te. Vivere pienamente nel presente permette di percepire emozioni e momenti con maggiore intensità, di accogliere luci e ombre e di attingere ai propri strumenti interiori di guarigione e trasformazione.\n\nLa prima giornata è dedicata al lavoro sulle radici, sulle ferite e sui condizionamenti che chiedono di essere riconosciuti e liberati.\nLa seconda si concentra sulla parte animica e spirituale: con maggiore leggerezza e presenza, ci si apre ai propri doni interiori e alla voce dell’anima, imparando ad ascoltarla e sostenerla nel suo percorso.\n\nQuesto seminario è un invito a ritrovare la tua verità interiore, lasciare andare ciò che non serve più e vivere con maggiore presenza, autenticità e fiducia.',
           alt: "Foto di un rapace che vola verso l'orizzonte"
         },
-        costellazioni: {
+        /*costellazioni: {
           date: '2026',
           duration: '2 incontri',
           h3: 'Costellazioni Familiari',
@@ -253,7 +262,7 @@ export default {
           subtitle: 'Un percorso per lasciar andare il peso delle ferite, dei vecchi ruoli e delle storie che ti trattengono, aprendoti al cammino che davvero ti appartiene.',
           description: 'Due giorni di seminario intensivo durante il quale costruiremo uno spazio di pace e accoglienza, dove poter intraprendere un vero viaggio interiore, ritrovare equilibrio e connetterti alla tua parte più autentica.\nL’esperienza ti aiuterà a potenziare il tuo benessere emozionale e a riscoprire la tua dimensione spirituale restando radicato nella realtà quotidiana.\n\n\n\nIl percorso alterna momenti individuali e di gruppo per esplorare condizionamenti inconsci, ferite emotive e legami profondi con la propria storia.\nAttraverso tecniche transpersonali, esercizi simbolici e pratiche corporee, potrai lasciare andare maschere e ruoli limitanti, riconoscendo chi sei davvero e quali risorse porti dentro di te. Vivere pienamente nel presente permette di percepire emozioni e momenti con maggiore intensità, di accogliere luci e ombre e di attingere ai propri strumenti interiori di guarigione e trasformazione.\n\nLa prima giornata è dedicata al lavoro sulle radici, sulle ferite e sui condizionamenti che chiedono di essere riconosciuti e liberati.\nLa seconda si concentra sulla parte animica e spirituale: con maggiore leggerezza e presenza, ci si apre ai propri doni interiori e alla voce dell’anima, imparando ad ascoltarla e sostenerla nel suo percorso.\n\nQuesto seminario è un invito a ritrovare la tua verità interiore, lasciare andare ciò che non serve più e vivere con maggiore presenza, autenticità e fiducia.',
           alt: "Foto di un rapace che vola verso l'orizzonte"
-        },
+        },*/
       }
     },
     seminars: {
@@ -309,6 +318,13 @@ export default {
         info: 'Info e costi\n\nSeduta singola: 80 €',
         alt: 'Simpatica foto di una famiglia che ha disegnato delle faccine sulla pianta dei piedi'
       },
+      costellaz: {
+        h1: 'Costellazioni Familiari Individuali',
+        subtitle: 'Sciogliere i nodi del passato per ritrovare la tua autenticità.',
+        description: "Le costellazioni familiari individuali ti offrono uno spazio intimo e protetto per esplorare le dinamiche invisibili che influenzano la tua vita, le tue emozioni e le tue scelte.\n\nQuesto lavoro sistemico ti permette di entrare in contatto con ciò che è radicato nella tua storia familiare e che continua ad agire nel presente, spesso senza che tu ne sia consapevole. Attraverso strumenti simbolici e visualizzazioni guidate, potrai portare alla luce schemi ereditati, pesi emotivi e blocchi che limitano la tua libertà interiore.\n\nIl percorso individuale rispetta i tuoi tempi e la tua sensibilità, offrendoti la possibilità di lavorare in modo personalizzato su ciò che senti più urgente o significativo per te in questo momento.\n\nNon si tratta di trovare risposte dall'esterno, ma di permettere a ciò che già sta dentro di te di emergere con chiarezza. Le costellazioni agiscono come uno specchio che rivela connessioni nascoste, restituendoti una visione più ampia e profonda del tuo sistema familiare.\n\nQuesto lavoro favorisce il rilascio di dinamiche che non ti appartengono più, aiutandoti a recuperare le tue risorse autentiche e a sviluppare un nuovo modo di stare in relazione con te stesso e con gli altri.\n\nOgni sessione è un atto di cura verso la tua anima e verso le generazioni che ti hanno preceduto. Riconoscere ciò che è stato ti permette di trasformarlo, liberando energia vitale per il tuo presente e il tuo futuro.\n\nPotrai ritrovare maggiore armonia, centratura e quella libertà interiore che nasce dal fare pace con la tua storia.",
+        info: 'Info e costi\n\n80 € per sessione',
+        alt: 'Immagine di un gruppo di persone che si tengono la mano entrando in contatto con la corteccia di un albero'
+      }
     },
     ad: {
       h2: 'Se vuoi conoscere da vicino i membri del nostro team trovi qui le loro iniziative',

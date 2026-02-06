@@ -8,6 +8,8 @@ import vita from '../assets/luminosaVita.jpg'
 import meta from '../assets/metamorfica.jpg'
 import albero from '../assets/albero.jpg'
 import riflex from '../assets/riflessologiaPlantareOrganica.jpg'
+import costellaz from '../assets/costellazioni.jpg'
+
 import SmallArrow from '../assets/smallArrow.svg?react'
 
 export default function Services() {
@@ -20,6 +22,7 @@ export default function Services() {
   const { ref: metaRef, isVisible: metaVisible } = useInView({ threshold: 0.2 });
   const { ref: alberoRef, isVisible: alberoVisible } = useInView({ threshold: 0.2 });
   const { ref: riflexRef, isVisible: riflexVisible } = useInView({ threshold: 0.2 });
+  const { ref: costellazRef, isVisible: costellazVisible } = useInView({ threshold: 0.2 });
 
   return (
     <section id='services' className="flex flex-col gap-8">
@@ -77,7 +80,7 @@ export default function Services() {
             className={`relativew-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${metaVisible ? 'fade-in-right' : 'fade-hidden'}`}
             style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%), url(${meta})` }}
           >
-            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-[var(--feather-blue)]"/>
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-(--feather-blue)"/>
             <p>{t('sections.services.meta.h1')}</p>
             <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
           </div>
@@ -111,6 +114,24 @@ export default function Services() {
           </div>
         </Link>
       </div>
+
+      <div className='w-full flex flex-col md:flex-row justify-start items-center gap-8'>
+        <Link to={'/services/costellaz'}
+        className='w-[80%] md:w-[30%] ml-[-20%] md:m-0 h-80'>
+          <div
+            ref={costellazRef}
+            aria-label={t('sections.services.costellaz.alt')}
+            className={`relative w-full h-full rounded-3xl bg-center bg-cover flex flex-col items-center justify-end text-white text-2xl p-4 ${costellazVisible ? 'fade-in-right' : 'fade-hidden'}`}
+            style={{ backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 40%), url(${costellaz})` }}
+          >
+            <SmallArrow className="w-8 h-8 ml-auto mb-auto text-white"/>
+            <p>{t('sections.services.costellaz.h1')}</p>
+            <div className='w-full h-full absolute top-0 right-0 hover:bg-gray-200/15 rounded-3xl'></div>
+          </div>
+        </Link>
+        
+      </div>
+
     </section>
   );
 }

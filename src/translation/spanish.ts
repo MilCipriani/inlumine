@@ -223,6 +223,15 @@ export default {
           description: 'En la sociedad contemporánea, sin embargo, las familias se encuentran a menudo sin referencias concretas y prácticas compartidas para acompañar de forma equilibrada el nacimiento y el crecimiento de los hijos.\nEl alto contacto, redescubierto de las tradiciones más antiguas y de las culturas comunitarias, representa un conjunto de enfoques y herramientas que sostienen el vínculo padre-hijo, favoreciendo una relación más profunda, empática y armoniosa.\n\nEste curso propone un viaje entre teoría y práctica, para explorar las dinámicas del contacto, del vínculo y del equilibrio familiar. A través de la profundización de conocimientos científicos, antropológicos y corporales, los participantes podrán desarrollar mayor conciencia de su propio rol parental e identificar estrategias funcionales para una cotidianidad más serena y eficaz.\n\nTemáticas del curso:\n• Microquimerismo fetal: las células de nuestros ancestros\n• Haptonomía: de la palabra al contacto\n• Babywearing: técnicas, tipologías de portabebés y herramientas\n• Bonding: el cordón umbilical entre gestación y exogestación\n• Lactancia: apego y nutrición\n• Colecho: seguridad y beneficios\n• Estiramiento de meridianos: teoría y práctica\n• Las heridas del alma\n\nUn recorrido dedicado a quienes desean comprender en profundidad la dimensión relacional del nacimiento, redescubriendo el valor del contacto como instrumento educativo, afectivo y de crecimiento recíproco.',
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
         },
+        costellaz: {
+          date: 'Mayo 2026',
+          duration: '1 jornada',
+          h3: 'Constelaciones Familiares',
+          p: 'Un curso para entrar en contacto con las dinámicas invisibles que influyen en tu vida y recuperar la armonía en las relaciones.',
+          subtitle: 'Cada familia tiene una historia que pide ser escuchada.',
+          description: "Las constelaciones familiares representan un camino de conciencia profundo y delicado, pensado para quien desea conocerse mejor, deshacer bloqueos internos y recuperar el equilibrio en las relaciones y en la propia vida.\n\nA través del trabajo en el campo sistémico, este curso permite entrar en contacto con dinámicas invisibles pero activas, a menudo enraizadas en la historia familiar, que influyen en emociones, decisiones y comportamientos.\n\nEn el trabajo grupal, los participantes se convierten en representantes de elementos significativos del sistema, ofreciendo un espejo potente y transformador de las dinámicas interiores. La participación es activa: también quien es llamado en el rol de representante realiza un trabajo profundo sobre sí mismo, convirtiéndose en recurso para todo el grupo.\n\nEl seminario se desarrolla en un clima de absoluta confidencialidad y apertura, donde cada persona es invitada a acoger con amor a los demás miembros. No está garantizado que todos los participantes sean objeto de constelación en primera persona respecto a su temática: esto puede variar según el número y la voluntad de los participantes presentes.\n\nObjetivos del seminario:\n• Favorecer mayor armonía y centramiento interior\n• Sostener la liberación de pesos emocionales heredados\n• Recuperar los propios recursos y la libertad interior\n• Desarrollar una nueva forma de estar en relación consigo mismo y con los demás\n• Abrir el camino hacia un bienestar más auténtico y duradero\n\nUna oportunidad de transformación compartida, donde el grupo se convierte en medicina y cada presencia es preciosa para el viaje de todos.",
+          alt: 'Imagen de un grupo de personas tomadas de la mano entrando en contacto con la corteza de un árbol'
+        },
         albero: {
           date: '2026',
           duration: '8 horas divididas en 2 encuentros',
@@ -236,7 +245,7 @@ export default {
         //Seminars -----------------------------------------------------------
         
         volare: {
-          date: '2026',
+          date: 'Octubre 2026',
           duration: 'Curso intensivo de 2 jornadas',
           h3: 'Curso Volar Más Allá',
           p: 'Dos días de seminario intensivo en la profundidad de ti mismo para reconocerte y transformar tu experiencia en alas para volar más allá.',
@@ -244,7 +253,7 @@ export default {
           description: 'Dos días de seminario intensivo durante los cuales construiremos un espacio de paz y acogida, donde poder emprender un verdadero viaje interior, reencontrar el equilibrio y conectarte con tu parte más auténtica.\nLa experiencia te ayudará a potenciar tu bienestar emocional y a redescubrir tu dimensión espiritual manteniéndote enraizado en la realidad cotidiana.\n\n\n\nEl recorrido alterna momentos individuales y grupales para explorar condicionamientos inconscientes, heridas emocionales y vínculos profundos con tu propia historia.\nA través de técnicas transpersonales, ejercicios simbólicos y prácticas corporales, podrás soltar máscaras y roles limitantes, reconociendo quién eres realmente y qué recursos llevas dentro de ti. Vivir plenamente en el presente permite percibir emociones y momentos con mayor intensidad, acoger luces y sombras y acceder a tus propias herramientas interiores de sanación y transformación.\n\nLa primera jornada está dedicada al trabajo sobre las raíces, las heridas y los condicionamientos que piden ser reconocidos y liberados.\nLa segunda se concentra en la parte anímica y espiritual: con mayor ligereza y presencia, nos abrimos a los propios dones interiores y a la voz del alma, aprendiendo a escucharla y sostenerla en su recorrido.\n\nEste seminario es una invitación a reencontrar tu verdad interior, soltar lo que ya no sirve y vivir con mayor presencia, autenticidad y confianza.',
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
         },
-        costellazioni: {
+        /*costellazioni: {
           date: '2026',
           duration: '2 encuentros',
           h3: 'Constelaciones Familiares',
@@ -252,7 +261,7 @@ export default {
           subtitle: 'Un recorrido para soltar el peso de las heridas, de los viejos roles y de las historias que te retienen, abriéndote al camino que verdaderamente te pertenece.',
           description: 'Dos días de seminario intensivo durante los cuales construiremos un espacio de paz y acogida, donde poder emprender un verdadero viaje interior, reencontrar el equilibrio y conectarte con tu parte más auténtica.\nLa experiencia te ayudará a potenciar tu bienestar emocional y a redescubrir tu dimensión espiritual manteniéndote enraizado en la realidad cotidiana.\n\n\n\nEl recorrido alterna momentos individuales y grupales para explorar condicionamientos inconscientes, heridas emocionales y vínculos profundos con tu propia historia.\nA través de técnicas transpersonales, ejercicios simbólicos y prácticas corporales, podrás soltar máscaras y roles limitantes, reconociendo quién eres realmente y qué recursos llevas dentro de ti. Vivir plenamente en el presente permite percibir emociones y momentos con mayor intensidad, acoger luces y sombras y acceder a tus propias herramientas interiores de sanación y transformación.\n\nLa primera jornada está dedicada al trabajo sobre las raíces, las heridas y los condicionamientos que piden ser reconocidos y liberados.\nLa segunda se concentra en la parte anímica y espiritual: con mayor ligereza y presencia, nos abrimos a los propios dones interiores y a la voz del alma, aprendiendo a escucharla y sostenerla en su recorrido.\n\nEste seminario es una invitación a reencontrar tu verdad interior, soltar lo que ya no sirve y vivir con mayor presencia, autenticidad y confianza.',
           alt: "Foto de un ave rapaz que vuela hacia el horizonte"
-        },
+        },*/
       }
     },
     seminars: {
@@ -307,6 +316,13 @@ export default {
         description: 'El pie es la base de nuestro caminar en el mundo y contiene, en miniatura, el organismo humano entero. La reflexología plantar es una técnica natural que actúa a través de la estimulación de áreas específicas de la planta del pie para favorecer el reequilibrio energético y funcional de todo el cuerpo. Cada zona reflejada corresponde a un órgano, una articulación, una glándula o una estructura nerviosa: a través de una presión dirigida, es posible activar los procesos naturales de autorregulación y favorecer un estado de bienestar global.\n\nLa reflexología plantar orgánica trabaja por aparatos, ofreciendo una visión clara y estructurada de las conexiones entre pie y cuerpo. Este enfoque permite actuar de forma dirigida sobre molestias específicas, sosteniendo el reequilibrio general del organismo. El tratamiento favorece una profunda sensación de ligereza, relajación y armonía, contribuyendo a disolver tensiones, mejorar la circulación y restituir energía vital.\n\nEs una experiencia adecuada para quien desea cuidarse de forma natural y no invasiva, reencontrando bienestar y equilibrio a partir de los pies.',
         info: 'Info y precios\n\nSesión individual: 80 €',
         alt: 'Simpática foto de una familia que ha dibujado caritas en la planta de los pies'
+      },
+      costellaz: {
+        h1: 'Constelaciones Familiares Individuales',
+        subtitle: 'Deshacer los nudos del pasado para recuperar tu autenticidad.',
+        description: "Las constelaciones familiares individuales te ofrecen un espacio íntimo y protegido para explorar las dinámicas invisibles que influyen en tu vida, tus emociones y tus decisiones.\n\nEste trabajo sistémico te permite entrar en contacto con lo que está enraizado en tu historia familiar y que continúa actuando en el presente, a menudo sin que seas consciente de ello. A través de herramientas simbólicas y visualizaciones guiadas, podrás sacar a la luz patrones heredados, pesos emocionales y bloqueos que limitan tu libertad interior.\n\nEl camino individual respeta tus tiempos y tu sensibilidad, ofreciéndote la posibilidad de trabajar de manera personalizada sobre lo que sientes más urgente o significativo para ti en este momento.\n\nNo se trata de encontrar respuestas desde fuera, sino de permitir que lo que ya está dentro de ti emerja con claridad. Las constelaciones actúan como un espejo que revela conexiones ocultas, devolviéndote una visión más amplia y profunda de tu sistema familiar.\n\nEste trabajo favorece la liberación de dinámicas que ya no te pertenecen, ayudándote a recuperar tus recursos auténticos y a desarrollar una nueva forma de estar en relación contigo mismo y con los demás.\n\nCada sesión es un acto de cuidado hacia tu alma y hacia las generaciones que te han precedido. Reconocer lo que ha sido te permite transformarlo, liberando energía vital para tu presente y tu futuro.\n\nPodrás recuperar mayor armonía, centramiento y esa libertad interior que nace de hacer las paces con tu historia.",
+        info: 'Información y costes\n\n80 € por sesión',
+        alt: 'Imagen de un grupo de personas tomadas de la mano entrando en contacto con la corteza de un árbol'
       },
     },
     ad: {
