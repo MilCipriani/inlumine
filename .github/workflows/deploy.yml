@@ -6,15 +6,17 @@ on:
 
 jobs:
   build-and-deploy:
+    permissions:
+      contents: write
     concurrency: ci-${{ github.ref }} #Only 1 job at the time, if a new run starts old jobs are cancelled
     runs-on: ubuntu-latest #runner environment
     
     steps:
     - name: Checkout #Clone repo into runner
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: '20'
         cache: 'npm'
@@ -53,13 +55,13 @@ jobs:
           cp dist/index.html "dist/services/$service/index.html"
         done
 
+        #Manually add CNAME file
+        echo "inlumine.es" > dist/CNAME
+
         #Prevent GitHub Pages from ignoring files starting with _
         touch dist/.nojekyll
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main' #only on main
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        cname: inlumine.es
+      uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
