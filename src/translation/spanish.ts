@@ -245,7 +245,7 @@ export default {
         //Seminars -----------------------------------------------------------
         
         volare: {
-          date: 'Octubre 2026',
+          date: '2027',
           duration: 'Curso intensivo de 2 jornadas',
           h3: 'Curso Volar Más Allá',
           p: 'Dos días de seminario intensivo en la profundidad de ti mismo para reconocerte y transformar tu experiencia en alas para volar más allá.',
