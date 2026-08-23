@@ -148,7 +148,7 @@ export default {
           alt: 'Simpática foto de una familia que ha dibujado caritas en la planta de los pies'
         },
         meta: {
-          date: '15 Mar 2026',
+          date: '25 Sept 2026',
           duration: '8 horas',
           h3: 'Curso de Técnica Metamórfica',
           p: 'La Técnica Metamórfica es un toque suave y consciente que favorece la transformación interior liberando la energía vital y devolviendo equilibrio y ligereza.',
