@@ -52,7 +52,7 @@ export const cardsData: CourseCardData[] = [
     id: "TecnicaMetamorfica",
     type: 'edu',
     date: "sections.courses.cards.meta.date",
-    location: 'Rivalta di Torino',
+    location: 'Verona',
     price: "€ 300",
     duration: "sections.courses.cards.meta.duration",
     h3: "sections.courses.cards.meta.h3",

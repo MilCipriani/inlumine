@@ -148,7 +148,7 @@ export default {
           alt: 'Simpatica foto di una famiglia che ha disegnato delle faccine sulla pianta dei piedi'
         },
         meta: {
-          date: '15 Mar 2026',
+          date: '25 Set 2026',
           duration: '8 ore',
           h3: 'Corso di Tecnica Metamorfica',
           p: 'La Tecnica Metamorfica è un tocco dolce e consapevole che favorisce la trasformazione interiore liberando l’energia vitale e riportando equilibrio e leggerezza.',
